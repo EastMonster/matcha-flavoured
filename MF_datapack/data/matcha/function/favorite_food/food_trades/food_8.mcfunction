@@ -1,16 +1,34 @@
-data modify entity @s Offers.Recipes append value {maxUses:1, sell:{count:1,id:"minecraft:emerald"}, \
-        buy:{count:1, "id": "minecraft:poisonous_potato",\
+data modify entity @s Offers.Recipes append value \
+{\
+	"max_uses": 1,\
+	"sell": {\
+		"count": 1,\
+		"id": "minecraft:emerald"\
+	},\
+	"buy": {\
+		"count": 1,\
+		"id": "minecraft:poisonous_potato",\
 		"components": {\
 			"minecraft:item_model": "matcha:cheese_pizza",\
 			"minecraft:item_name": {\
 				"translate": "item.kleispack.cheese_pizza"\
 			},\
-			"minecraft:food": {\
-				"nutrition": 0,\
-				"saturation": 0,\
-				"can_always_eat": true\
-			},\
+			"minecraft:lore": [\
+				{\
+					"text": "\uE030\uE030\uE030\uE030\uE032",\
+					"color": "red",\
+					"italic": false\
+				},\
+				{\
+					"translate": "effect.kleispack.strength",\
+					"with": ["3:00"],\
+					"color": "#e65f33",\
+					"italic": false\
+				}\
+			],\
+			"!minecraft:food": {},\
 			"minecraft:consumable": {\
+				"consume_seconds": 1.6,\
 				"has_consume_particles": true,\
 				"on_consume_effects": [\
 					{\
@@ -33,24 +51,10 @@ data modify entity @s Offers.Recipes append value {maxUses:1, sell:{count:1,id:"
 						]\
 					}\
 				]\
-			},\
-			"minecraft:max_stack_size": 64,\
-			"minecraft:lore": [\
-				{\
-					"text": "❤❤❤❤❣",\
-					"color": "red",\
-					"italic": false\
-				},\
-				{\
-					"translate": "effect.kleispack.strength",\
-					"with": [\
-						"3:00"\
-					],\
-					"color": "#e65f33",\
-					"italic": false\
-				}\
-			]\
-		}}}
+			}\
+		}\
+	}\
+}\
 
 
 tag @s add foodChecked

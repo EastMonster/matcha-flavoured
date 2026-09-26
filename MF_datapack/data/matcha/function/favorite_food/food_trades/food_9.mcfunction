@@ -1,23 +1,35 @@
-data modify entity @s Offers.Recipes append value {maxUses:1, sell:{count:1,id:"minecraft:emerald"}, \
-        buy:{count:1, "id": "minecraft:poisonous_potato",\
+data modify entity @s Offers.Recipes append value \
+{\
+	"max_uses": 1,\
+	"sell": {\
+		"count": 1,\
+		"id": "minecraft:emerald"\
+	},\
+	"buy": {\
+		"count": 1,\
+		"id": "minecraft:poisonous_potato",\
 		"components": {\
+			"minecraft:item_model": "matcha:chocolate_chip_cookie",\
+			"minecraft:item_name": {\
+				"translate": "item.kleispack.chocolate_chip_cookie"\
+			},\
 			"minecraft:lore": [\
 				{\
-					"text": "❤❤",\
+					"text": "\uE030\uE030",\
 					"color": "red",\
 					"italic": false\
 				},\
 				{\
 					"translate": "effect.kleispack.haste",\
-					"with": [\
-						"5:00"\
-					],\
+					"with": ["5:00"],\
 					"color": "yellow",\
 					"italic": false\
 				}\
 			],\
+			"!minecraft:food": {},\
 			"minecraft:consumable": {\
 				"consume_seconds": 0.8,\
+				"has_consume_particles": true,\
 				"on_consume_effects": [\
 					{\
 						"type": "minecraft:apply_effects",\
@@ -36,21 +48,13 @@ data modify entity @s Offers.Recipes append value {maxUses:1, sell:{count:1,id:"
 								"show_particles": false,\
 								"show_icon": true\
 							}\
-						],\
-						"probability": 1\
+						]\
 					}\
 				]\
-			},\
-			"minecraft:item_model": "matcha:chocolate_chip_cookie",\
-			"minecraft:item_name": {\
-				"translate": "item.kleispack.chocolate_chip_cookie"\
-			},\
-			"minecraft:food": {\
-				"nutrition": 0,\
-				"saturation": 0,\
-				"can_always_eat": true\
 			}\
-		}}}
+		}\
+	}\
+}\
 
 
 tag @s add foodChecked
