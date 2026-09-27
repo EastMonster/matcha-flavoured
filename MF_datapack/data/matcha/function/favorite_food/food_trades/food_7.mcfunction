@@ -1,54 +1,60 @@
-data modify entity @s Offers.Recipes append value {maxUses:1, sell:{count:1,id:"minecraft:emerald"}, \
-        buy:{count:1, "id": "minecraft:poisonous_potato",\
+data modify entity @s Offers.Recipes append value \
+{\
+	"max_uses": 1,\
+	"sell": {\
+		"count": 1,\
+		"id": "minecraft:emerald"\
+	},\
+	"buy": {\
+		"count": 1,\
+		"id": "minecraft:poisonous_potato",\
 		"components": {\
 			"minecraft:item_model": "matcha:carrot_cupcake",\
 			"minecraft:item_name": {\
 				"translate": "item.kleispack.carrot_cupcake"\
 			},\
-			"minecraft:food": {\
-				"nutrition": 0,\
-				"saturation": 0,\
-				"can_always_eat": true\
-			},\
+			"minecraft:lore": [\
+				{\
+					"text": "\uE030\uE030\uE030\uE030",\
+					"color": "red",\
+					"italic": false\
+				},\
+				{\
+					"translate": "effect.kleispack.night_vision",\
+					"with": ["10:00"],\
+					"color": "green",\
+					"italic": false\
+				}\
+			],\
+			"!minecraft:food": {},\
 			"minecraft:consumable": {\
+				"consume_seconds": 1.6,\
+				"has_consume_particles": true,\
 				"on_consume_effects": [\
 					{\
 						"type": "minecraft:apply_effects",\
 						"effects": [\
-							{\
-								"id": "minecraft:night_vision",\
-								"duration": 12000,\
-								"show_particles": false,\
-								"show_icon": true\
-							},\
 							{\
 								"id": "minecraft:regeneration",\
 								"amplifier": 2,\
 								"duration": 96,\
 								"show_particles": false,\
 								"show_icon": false\
+							},\
+							{\
+								"id": "minecraft:night_vision",\
+								"amplifier": 0,\
+								"duration": 12000,\
+								"show_particles": false,\
+								"show_icon": true\
 							}\
 						]\
 					}\
 				]\
-			},\
-			"minecraft:max_stack_size": 64,\
-			"minecraft:lore": [\
-				{\
-					"text": "❤❤❤❤",\
-					"color": "red",\
-					"italic": false\
-				},\
-				{\
-					"translate": "effect.kleispack.night_vision",\
-					"with": [\
-						"10:00"\
-					],\
-					"color": "green",\
-					"italic": false\
-				}\
-			]\
-		}}}
+			}\
+		}\
+	}\
+}\
 
 
 tag @s add foodChecked

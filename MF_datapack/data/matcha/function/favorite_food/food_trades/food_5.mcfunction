@@ -1,6 +1,32 @@
-data modify entity @s Offers.Recipes append value {maxUses:1, sell:{count:1,id:"minecraft:emerald"}, \
-        buy:{count:1, "id": "minecraft:splash_potion",\
+data modify entity @s Offers.Recipes append value \
+{\
+	"max_uses": 1,\
+	"sell": {\
+		"count": 1,\
+		"id": "minecraft:emerald"\
+	},\
+	"buy": {\
+		"count": 1,\
+		"id": "minecraft:splash_potion",\
 		"components": {\
+			"minecraft:item_model": "matcha:bubbling_mead",\
+			"minecraft:custom_name": {\
+				"translate": "item.kleispack.bubbling_mead",\
+				"italic": false\
+			},\
+			"minecraft:lore": [\
+				{\
+					"translate": "desc.kleispack.throwable",\
+					"color": "gray",\
+					"italic": false\
+				},\
+				{\
+					"translate": "effect.kleispack.speed_2",\
+					"with":["5:00"],\
+					"color": "#37cafb",\
+					"italic": false\
+				}\
+			],\
 			"minecraft:max_stack_size": 64,\
 			"minecraft:potion_contents": {\
 				"custom_color": 15978319,\
@@ -17,24 +43,10 @@ data modify entity @s Offers.Recipes append value {maxUses:1, sell:{count:1,id:"
 				"hidden_components": [\
 					"minecraft:potion_contents"\
 				]\
-			},\
-			"minecraft:lore": [\
-				{\
-					"translate": "desc.kleispack.throwable",\
-					"color": "gray",\
-					"italic": false\
-				},\
-				{\
-					"text": "🏃 +40% (5:00)",\
-					"color": "#37cafb",\
-					"italic": false\
-				}\
-			],\
-			"minecraft:custom_name": {\
-				"translate": "item.kleispack.bubbling_mead",\
-				"italic": false\
-			},\
-			"minecraft:item_model": "matcha:bubbling_mead"}}}
+			}\
+		}\
+	}\
+}\
 
 
 tag @s add foodChecked
