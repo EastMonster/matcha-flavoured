@@ -57,7 +57,7 @@
 				},
 				{
 					"type": "minecraft:loot_table",
-					"value": "matcha:food/carrot"
+					"value": "matcha:food/minecraft/carrot"
 				},
 				{
 					"type": "minecraft:item",

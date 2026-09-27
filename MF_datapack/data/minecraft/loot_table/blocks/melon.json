@@ -1,79 +1,75 @@
 {
 	"type": "minecraft:block",
+	"random_sequence": "minecraft:blocks/melon",
 	"pools": [
 		{
-			"bonus_rolls": 0,
+			"rolls": 1,
 			"entries": [
 				{
 					"type": "minecraft:alternatives",
 					"children": [
 						{
 							"type": "minecraft:item",
-							"condition": {
-								"type": "minecraft:match_tool",
-								"predicate": {
-									"predicates": {
-										"minecraft:enchantments": [
-											{
-												"enchantments": "minecraft:silk_touch",
-												"levels": {
-													"min": 1
+							"name": "minecraft:melon",
+							"conditions": [
+								{
+									"condition": "minecraft:match_tool",
+									"predicate": {
+										"predicates": {
+											"minecraft:enchantments": [
+												{
+													"enchantments": "minecraft:silk_touch",
+													"levels": {
+														"min": 1
+													}
 												}
-											}
-										]
+											]
+										}
 									}
 								}
-							},
-							"name": "minecraft:melon"
+							]
 						},
 						{
 							"type": "minecraft:loot_table",
-							"value": "matcha:food/melon_slice",
-							"modifier": {
-								"type": "minecraft:sequence",
-								"functions": [
-									{
-										"add": false,
-										"count": {
-											"type": "minecraft:uniform",
-											"max": 7,
-											"min": 3
-										},
-										"type": "minecraft:set_count"
-									},
-									{
-										"enchantment": "minecraft:fortune",
-										"formula": "minecraft:uniform_bonus_count",
-										"type": "minecraft:apply_bonus",
-										"parameters": {
-											"bonusMultiplier": 1
-										}
-									},
-									{
-										"type": "minecraft:apply_bonus",
-										"enchantment": "matcha:electrum_tool",
-										"formula": "minecraft:uniform_bonus_count",
-										"parameters": {
-											"bonusMultiplier": 1
-										}
-									},
-									{
-										"type": "minecraft:limit_count",
-										"limit": {
-											"max": 9
-										}
-									},
-									{
-										"type": "minecraft:explosion_decay"
+							"value": "matcha:food/minecraft/melon_slice",
+							"functions": [
+								{
+									"function": "minecraft:explosion_decay"
+								},
+								{
+									"function": "minecraft:set_count",
+									"count": {
+										"max": 7,
+										"min": 3
 									}
-								]
-							  }
+								},
+								{
+									"enchantment": "minecraft:fortune",
+									"formula": "minecraft:uniform_bonus_count",
+									"function": "minecraft:apply_bonus",
+									"parameters": {
+										"bonusMultiplier": 1
+									}
+								},
+								{
+									"function": "minecraft:apply_bonus",
+									"enchantment": "matcha:electrum_tool",
+									"formula": "minecraft:uniform_bonus_count",
+									"parameters": {
+										"bonusMultiplier": 1
+									}
+								},
+								{
+									"function": "minecraft:limit_count",
+									"limit": {
+										"max": 9
+									}
+								}
+							]
 						}
 					]
 				}
-			],
-			"rolls": 1
+			]
 		}
-	],
-	"random_sequence": "minecraft:blocks/melon"
+	]
 }
