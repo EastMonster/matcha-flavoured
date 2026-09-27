@@ -3,12 +3,7 @@
 	"category": "food",
 	"cookingtime": 100,
 	"experience": 0.35,
-	"ingredient": [
-		"minecraft:tropical_fish",
-		"minecraft:pufferfish",
-		"minecraft:cod",
-		"minecraft:salmon"
-	],
+	"ingredient": "#minecraft:fishes",
 	"result": {
 		"id": "minecraft:poisonous_potato",
 		"components": {
