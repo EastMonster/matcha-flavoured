@@ -1,1 +1,0 @@
-execute if data entity @s {variant:"matcha:bobwhite"} run function matcha:environmental/chicken/set_bird_settings/set_bobwhite_settings
