@@ -1,9 +1,7 @@
 {
 	"type": "minecraft:chest",
-	"random_sequence": "minecraft:spawners/trial_chamber/consumables",
 	"pools": [
 		{
-			"rolls": 1,
 			"entries": [
 				{
 					"type": "minecraft:loot_table",
@@ -35,7 +33,9 @@
 					"value": "matcha:food/matcha/pumpkin_empanada",
 					"weight": 2
 				}
-			]
+			],
+			"rolls": 1
 		}
-	]
+	],
+	"random_sequence": "minecraft:spawners/trial_chamber/consumables"
 }
