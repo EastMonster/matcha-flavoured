@@ -1,0 +1,17 @@
+{
+  "criteria": {
+    "consume_amnestic": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "components": {
+            "minecraft:item_model": "matcha:amnestic_wrapped"
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "matcha:mechanics/amnestic/player_consumed"
+  }
+}
