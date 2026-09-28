@@ -8,24 +8,7 @@
 				{
 					"type": "minecraft:loot_table",
 					"value": "matcha:food/minecraft/glow_berries",
-					"functions": [
-						{
-							"function": "minecraft:apply_bonus",
-							"enchantment": "minecraft:fortune",
-							"formula": "minecraft:uniform_bonus_count",
-							"parameters": {
-								"bonusMultiplier": 1
-							}
-						},
-						{
-							"function": "minecraft:apply_bonus",
-							"enchantment": "matcha:electrum_tool",
-							"formula": "minecraft:uniform_bonus_count",
-							"parameters": {
-								"bonusMultiplier": 1
-							}
-						}
-					]
+					"functions": []
 				}
 			]
 		}

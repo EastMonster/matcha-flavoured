@@ -363,7 +363,7 @@
 				},
 				{
 					"type": "minecraft:loot_table",
-					"value": "matcha:chests/equipment/gold/any",
+					"value": "matcha:equipment/gold/any",
 					"weight": 20
 				}
 			],
