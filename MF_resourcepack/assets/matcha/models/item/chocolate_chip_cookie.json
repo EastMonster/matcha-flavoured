@@ -1,6 +1,7 @@
 {
-  "parent": "minecraft:item/generated",
-  "textures": {
-    "layer0": "matcha:item/chocolate_chip_cookie"
-  }
+	"parent": "matcha:item/template/cookie",
+	"textures": {
+		"0": "matcha:item/models/cookie",
+		"particle": "matcha:item/chocolate_chip_cookie"
+	}
 }

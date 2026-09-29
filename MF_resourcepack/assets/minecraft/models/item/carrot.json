@@ -1,0 +1,7 @@
+{
+	"parent": "matcha:item/template/carrot",
+	"textures": {
+		"0": "matcha:item/models/carrot",
+		"particle": "item/carrot"
+	}
+}

@@ -1,6 +1,7 @@
 {
-  "parent": "minecraft:item/generated",
-  "textures": {
-    "layer0": "matcha:item/brownie"
-  }
+	"parent": "matcha:item/template/brownie",
+	"textures": {
+		"0": "matcha:item/models/cookie",
+		"particle": "matcha:item/brownie"
+	}
 }
