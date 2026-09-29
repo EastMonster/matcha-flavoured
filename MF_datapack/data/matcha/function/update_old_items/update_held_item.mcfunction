@@ -245,6 +245,10 @@ execute if data storage matcha:update_item {translate:"item.kleispack.mournful_c
 execute if data storage matcha:update_item {translate:"item.kleispack.porkchop_classic"} run item modify entity @s weapon.mainhand matcha:porkchop_classic
 execute if data storage matcha:update_item {translate:"item.kleispack.rose_classic"} run item modify entity @s weapon.mainhand matcha:rose_classic
 execute if data storage matcha:update_item {translate:"item.kleispack.tallow"} run item modify entity @s weapon.mainhand matcha:tallow
+execute if data storage matcha:update_item {translate:"item.kleispack.opal"} run item modify entity @s weapon.mainhand matcha:opal
+execute if data storage matcha:update_item {translate:"item.kleispack.amber"} run item modify entity @s weapon.mainhand matcha:amber
+execute if data storage matcha:update_item {translate:"item.kleispack.topaz"} run item modify entity @s weapon.mainhand matcha:topaz
+execute if data storage matcha:update_item {translate:"item.kleispack.ruby"} run item modify entity @s weapon.mainhand matcha:ruby
 execute unless data storage matcha:update_item item run tellraw @s {"text":"The held item cannot be updated.","color":"red"}
 execute unless data storage matcha:update_item item run return fail
 
