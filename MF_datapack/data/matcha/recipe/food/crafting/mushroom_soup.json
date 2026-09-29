@@ -2,20 +2,21 @@
 	"type": "minecraft:crafting_shapeless",
 	"category": "misc",
 	"ingredients": [
-		"minecraft:baked_potato",
-		"minecraft:brown_mushroom",
-		"minecraft:glass_bottle"
+		"minecraft:dried_kelp",
+		"minecraft:carrot",
+		"minecraft:rabbit_foot",
+		"minecraft:bowl"
 	],
 	"result": {
 		"id": "minecraft:poisonous_potato",
 		"components": {
-			"minecraft:item_model": "matcha:pickled_potatoes",
+			"minecraft:item_model": "matcha:mushroom_soup",
 			"minecraft:item_name": {
-				"translate": "item.kleispack.pickled_potatoes"
+				"translate": "item.kleispack.mushroom_soup"
 			},
 			"minecraft:lore": [
 				{
-					"text": "\uE030\uE030\uE030\uE030",
+					"text": "\uE030\uE030\uE030\uE030\uE030",
 					"color": "red",
 					"italic": false
 				}
@@ -23,7 +24,8 @@
 			"!minecraft:food": {},
 			"minecraft:consumable": {
 				"consume_seconds": 1.6,
-				"has_consume_particles": false,
+				"sound": "minecraft:entity.generic.drink",
+				"has_consume_particles": true,
 				"on_consume_effects": [
 					{
 						"type": "minecraft:apply_effects",
@@ -31,7 +33,7 @@
 							{
 								"id": "minecraft:regeneration",
 								"amplifier": 2,
-								"duration": 96,
+								"duration": 120,
 								"show_particles": false,
 								"show_icon": false
 							}
@@ -40,7 +42,7 @@
 				]
 			},
 			"minecraft:use_remainder": {
-				"id": "minecraft:glass_bottle"
+				"id": "minecraft:bowl"
 			}
 		},
 		"count": 1
