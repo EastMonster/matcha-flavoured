@@ -81,6 +81,11 @@ function matcha:mechanics/intrinsic_enchants/select_higher_level {"enchantment_i
 function matcha:mechanics/intrinsic_enchants/select_higher_level {"enchantment_id": "minecraft:vanishing_curse"}
 function matcha:mechanics/intrinsic_enchants/select_higher_level {"enchantment_id": "minecraft:wind_burst"}
 
+#Remove Mutx enchants
+execute if data storage minecraft:intrinsic_enchants item.components.minecraft:stored_enchantments.matcha:electrum_tool run data remove storage minecraft:intrinsic_enchants enchantments.minecraft:silk_touch
+execute if data storage minecraft:intrinsic_enchants item.components.minecraft:stored_enchantments.minecraft:smite run data remove storage minecraft:intrinsic_enchants enchantments.minecraft:sharpness
+execute if data storage minecraft:intrinsic_enchants item.components.minecraft:stored_enchantments.minecraft:silk_touch run data remove storage minecraft:intrinsic_enchants enchantments.minecraft:fortune
+
 scoreboard players reset current intrinsic_enchants_levels
 scoreboard players reset intrinsic intrinsic_enchants_levels
 data remove storage minecraft:intrinsic_enchants item

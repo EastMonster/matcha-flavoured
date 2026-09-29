@@ -1,23 +1,29 @@
 {
 	"parent": "matcha:imm_revoke",
 	"criteria": {
-		"interacted_using_seeds": {
+		"milked": {
 			"trigger": "minecraft:player_interacted_with_entity",
 			"conditions": {
 				"item": {
-					"items": "#chicken_food"
+					"items": "minecraft:bowl"
 				},
 				"entity": {
 					"type": "minecraft:entity_properties",
 					"entity": "this",
 					"predicate": {
-						"minecraft:entity_type": "minecraft:chicken"
+						"minecraft:entity_type": "minecraft:mooshroom"
 					}
 				}
 			}
 		}
 	},
+	"requirements": [
+		[
+			"milked"
+		]
+	],
 	"rewards": {
-		"function": "matcha:environmental/chicken/forbid_breeding"
+		"recipes": [],
+		"function": "matcha:mechanics/mooshroom_milking/replace_chocolate_with_soup"
 	}
 }
