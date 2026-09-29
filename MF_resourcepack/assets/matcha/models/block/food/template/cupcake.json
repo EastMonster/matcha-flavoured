@@ -1,7 +1,7 @@
 {
 	"format_version": "26.3",
 	"credit": "Made with Blockbench",
-	"parent": "matcha:item/display_template/default",
+	"parent": "matcha:block/food/display_template/default",
 	"elements": [
 		{
 			"from": [7.5, 12.5, 6.5],

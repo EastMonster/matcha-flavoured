@@ -1,8 +1,0 @@
-{
-	"parent": "matcha:item/template/jar",
-	"textures": {
-		"0": "matcha:item/models/jar",
-		"1": "matcha:item/models/honey",
-		"particle": "item/honey_bottle"
-	}
-}

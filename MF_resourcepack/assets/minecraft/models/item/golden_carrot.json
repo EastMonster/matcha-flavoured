@@ -1,7 +1,6 @@
 {
-	"parent": "matcha:item/template/carrot",
-	"textures": {
-		"0": "matcha:item/models/golden_carrot",
-		"particle": "item/golden_carrot"
-	}
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "minecraft:item/golden_carrot"
+  }
 }

@@ -1,7 +1,6 @@
 {
-	"parent": "matcha:item/template/bowl",
-	"textures": {
-		"0": "matcha:item/models/bowl",
-		"particle": "item/bowl"
-	}
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "minecraft:item/bowl"
+  }
 }

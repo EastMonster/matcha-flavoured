@@ -1,7 +1,6 @@
 {
-	"parent": "matcha:item/template/apple",
-	"textures": {
-		"0": "matcha:item/models/apple",
-		"particle": "item/apple"
-	}
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "minecraft:item/apple"
+  }
 }

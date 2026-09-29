@@ -1,5 +1,5 @@
 {
-	"parent": "matcha:item/display_template/default",
+	"parent": "matcha:block/food/display_template/default",
 	"display": {
 		"gui": {
 			"rotation": [13, 148, 0],
