@@ -4,7 +4,7 @@
 		"count": 14
 	},
 	"additional_wants": {
-		"id": "minecraft:fermented_spider_eye",
+		"id": "minecraft:poisonous_potato",
 		"components": {
 			"minecraft:item_model": "matcha:topaz",
 			"minecraft:item_name": {
