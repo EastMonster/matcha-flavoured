@@ -1,5 +1,5 @@
 {
-	"parent": "matcha:item/template/potato",
+	"parent": "matcha:block/food/template/potato",
 	"textures": {
 		"0": "matcha:item/models/poisonous_potato",
 		"particle": "item/poisonous_potato"

@@ -5,7 +5,7 @@
 			{
 				"model": {
 					"type": "minecraft:model",
-					"model": "matcha:block/food/carrot_cupcake"
+					"model": "matcha:block/food/golden_carrot"
 				},
 				"when": [
 					"fixed"
@@ -14,7 +14,7 @@
 		],
 		"fallback": {
 			"type": "minecraft:model",
-			"model": "matcha:item/carrot_cupcake"
+			"model": "minecraft:item/golden_carrot"
 		},
 		"property": "minecraft:display_context"
 	}

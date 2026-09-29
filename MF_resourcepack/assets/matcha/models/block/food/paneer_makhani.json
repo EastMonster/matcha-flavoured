@@ -1,5 +1,5 @@
 {
-	"parent": "matcha:item/template/paneer_makhani",
+	"parent": "matcha:block/food/template/paneer_makhani",
 	"textures": {
 		"0": "matcha:item/models/bowl",
 		"1": "matcha:item/models/paneer_makhani",
