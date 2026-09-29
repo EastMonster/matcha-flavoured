@@ -53,6 +53,7 @@ scoreboard players set 0 divinity 0
 
 # Aura Effect
 scoreboard objectives add AuraWindup dummy
+scoreboard objectives add AuraDuration dummy
 
 
 # Electrum and Warding
