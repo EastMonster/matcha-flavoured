@@ -1,8 +1,6 @@
 {
-	"parent": "matcha:item/template/tea",
-	"textures": {
-		"0": "matcha:item/models/cup",
-		"1": "matcha:item/models/tea",
-		"particle": "matcha:item/honey_ginger_tea"
-	}
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "matcha:item/honey_ginger_tea"
+  }
 }

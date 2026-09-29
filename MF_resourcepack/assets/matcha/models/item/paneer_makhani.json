@@ -1,8 +1,6 @@
 {
-	"parent": "matcha:item/template/paneer_makhani",
-	"textures": {
-		"0": "matcha:item/models/bowl",
-		"1": "matcha:item/models/paneer_makhani",
-		"particle": "matcha:item/paneer_makhani"
-	}
+  "parent": "minecraft:item/generated",
+  "textures": {
+      "layer0": "matcha:item/paneer_makhani"
+  }
 }

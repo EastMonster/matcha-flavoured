@@ -1,8 +1,6 @@
 {
-	"parent": "matcha:item/template/jar",
-	"textures": {
-		"0": "matcha:item/models/jar",
-		"1": "matcha:item/models/molasses",
-		"particle": "matcha:item/molasses"
-	}
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "matcha:item/molasses"
+  }
 }

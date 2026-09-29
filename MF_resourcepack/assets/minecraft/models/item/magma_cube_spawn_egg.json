@@ -1,7 +1,6 @@
 {
-	"parent": "matcha:item/template/flour_bag",
-	"textures": {
-		"0": "matcha:item/models/flour_bag",
-		"particle": "matcha:item/flour_bag"
-	}
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "matcha:item/flour_bag"
+  }
 }

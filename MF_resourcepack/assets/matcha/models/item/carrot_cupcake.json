@@ -1,8 +1,6 @@
 {
-	"parent": "matcha:item/template/cupcake",
-	"textures": {
-		"0": "matcha:item/models/cupcake",
-		"1": "matcha:item/models/carrot",
-		"particle": "matcha:item/carrot_cupcake"
-	}
+	"parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "matcha:item/carrot_cupcake"
+  }
 }

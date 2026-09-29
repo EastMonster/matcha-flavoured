@@ -1,5 +1,11 @@
 {
+	"format_version": "26.3",
+	"credit": "Made with Blockbench",
 	"parent": "matcha:item/display_template/default",
+	"textures": {
+		"0": "matcha:item/models/cup",
+		"1": "matcha:item/models/tea"
+	},
 	"elements": [
 		{
 			"name": "contents",
