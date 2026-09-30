@@ -5,4 +5,4 @@ advancement revoke @s only matcha:mechanics/glow_mash_eaten
 scoreboard players set @s AuraDuration 3
 
 # Run the effect script unless an Aura effect is already charging
-execute unless score @s AuraWindup matches 0.. run function matcha:effects/soul_sight_effect
+execute unless score @s AuraWindup matches 0.. run function matcha:effects/aura/effect

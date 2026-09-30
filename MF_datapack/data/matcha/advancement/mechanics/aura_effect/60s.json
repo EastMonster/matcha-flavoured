@@ -1,14 +1,14 @@
 {
 	"criteria": {
 		"eat_glow_crumble": {
+			"trigger": "minecraft:consume_item",
 			"conditions": {
 				"item": {
 					"components": {
 						"minecraft:item_model": "matcha:glow_berry_crumble"
 					}
 				}
-			},
-			"trigger": "minecraft:consume_item"
+			}
 		}
 	},
 	"requirements": [
@@ -17,6 +17,6 @@
 		]
 	],
 	"rewards": {
-		"function": "matcha:effects/soul_sight_effect_60"
+		"function": "matcha:effects/aura/60s"
 	}
 }

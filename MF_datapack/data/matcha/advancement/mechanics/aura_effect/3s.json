@@ -1,14 +1,14 @@
 {
 	"criteria": {
 		"eat_glow_mash": {
+			"trigger": "minecraft:consume_item",
 			"conditions": {
 				"item": {
 					"components": {
 						"minecraft:item_model": "minecraft:rotten_flesh"
 					}
 				}
-			},
-			"trigger": "minecraft:consume_item"
+			}
 		}
 	},
 	"requirements": [
@@ -17,6 +17,6 @@
 		]
 	],
 	"rewards": {
-		"function": "matcha:effects/soul_sight_effect_3"
+		"function": "matcha:effects/aura/3s"
 	}
 }
