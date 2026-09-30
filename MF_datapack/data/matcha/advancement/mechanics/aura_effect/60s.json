@@ -1,0 +1,19 @@
+{
+	"criteria": {
+		"eat_aura_item": {
+			"trigger": "minecraft:consume_item",
+			"conditions": {
+				"item": {
+					"components": {
+						"minecraft:custom_data": {
+							"matcha:aura_60s": {}
+						}
+					}
+				}
+			}
+		}
+	},
+	"rewards": {
+		"function": "matcha:effects/aura/60s"
+	}
+}

@@ -23,3 +23,4 @@ function matcha:update_old_items/check_trigger
 # Reduce cooldowns by one tick
 execute as @a if score @s AnemosCooldown matches 1.. run scoreboard players remove @s AnemosCooldown 1
 execute as @a if score @s CrystalHeartCooldown matches 1.. run scoreboard players remove @s CrystalHeartCooldown 1
+execute as @a if score @s AuraWindup matches 0.. run scoreboard players remove @s AuraWindup 1

@@ -28,6 +28,9 @@
       },"\n",
       {
         "translate": "biome.minecraft.windswept_savanna"
+      },"\n",
+      {
+        "translate": "biome.minecraft.desert"
       }
     ],
     "show_toast": false,

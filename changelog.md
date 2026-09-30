@@ -15,7 +15,7 @@
 - Update current_version_number scoreboard
 - REMOVE WITH SONGS, this should only be in the in-dev version
 - Add credits for all the new commit things in github
-
+- You can attach a RP as a dependant of the DP in modrinth, so do that
 
 # DOCKET (MUST be done before next release)
   
