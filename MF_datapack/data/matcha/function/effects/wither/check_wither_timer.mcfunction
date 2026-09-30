@@ -1,3 +1,5 @@
+# This function is called once per second for every player with a score of 0 or more on the wither_timer scoreboard
+
 #IF they no longer have wither, remove them from the scoreboard
 execute if score @s wither_timer matches 0.. run execute unless predicate matcha:effects/has_wither run scoreboard players reset @s wither_timer
 
