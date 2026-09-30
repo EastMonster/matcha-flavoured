@@ -1,21 +1,18 @@
 {
 	"criteria": {
-		"eat_glow_mash": {
+		"eat_aura_item": {
 			"trigger": "minecraft:consume_item",
 			"conditions": {
 				"item": {
 					"components": {
-						"minecraft:item_model": "minecraft:rotten_flesh"
+						"minecraft:custom_data": {
+							"matcha:aura_3s": {}
+						}
 					}
 				}
 			}
 		}
 	},
-	"requirements": [
-		[
-			"eat_glow_mash"
-		]
-	],
 	"rewards": {
 		"function": "matcha:effects/aura/3s"
 	}

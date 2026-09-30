@@ -1,21 +1,18 @@
 {
 	"criteria": {
-		"eat_glow_jam": {
+		"eat_aura_item": {
 			"trigger": "minecraft:consume_item",
 			"conditions": {
 				"item": {
 					"components": {
-						"minecraft:item_model": "matcha:glow_jam"
+						"minecraft:custom_data": {
+							"matcha:aura_30s": {}
+						}
 					}
 				}
 			}
 		}
 	},
-	"requirements": [
-		[
-			"eat_glow_jam"
-		]
-	],
 	"rewards": {
 		"function": "matcha:effects/aura/30s"
 	}

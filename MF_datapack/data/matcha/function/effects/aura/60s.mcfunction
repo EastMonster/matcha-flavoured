@@ -1,5 +1,5 @@
 # Reset the trigger
-advancement revoke @s only matcha:mechanics/glow_crumble_eaten
+advancement revoke @s only matcha:mechanics/aura_effect/60s
 
 # Set the duration of the resulting Glowing Effect (in seconds)
 scoreboard players set @s AuraDuration 60

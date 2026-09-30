@@ -1,21 +1,18 @@
 {
 	"criteria": {
-		"eat_glow_crumble": {
+		"eat_aura_item": {
 			"trigger": "minecraft:consume_item",
 			"conditions": {
 				"item": {
 					"components": {
-						"minecraft:item_model": "matcha:glow_berry_crumble"
+						"minecraft:custom_data": {
+							"matcha:aura_60s": {}
+						}
 					}
 				}
 			}
 		}
 	},
-	"requirements": [
-		[
-			"eat_glow_crumble"
-		]
-	],
 	"rewards": {
 		"function": "matcha:effects/aura/60s"
 	}
