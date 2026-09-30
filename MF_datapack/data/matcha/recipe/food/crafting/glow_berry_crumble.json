@@ -45,6 +45,9 @@
 						]
 					}
 				]
+			},
+			"minecraft:custom_data": {
+				"matcha:aura_60s": {}
 			}
 		},
 		"count": 1

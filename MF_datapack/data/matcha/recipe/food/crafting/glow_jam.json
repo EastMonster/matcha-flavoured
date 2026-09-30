@@ -47,6 +47,9 @@
 					}
 				]
 			},
+			"minecraft:custom_data": {
+				"matcha:aura_30s": {}
+			},
 			"minecraft:use_remainder": {
 				"id": "minecraft:glass_bottle"
 			}
