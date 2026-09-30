@@ -1,93 +1,84 @@
 {
-  "type": "minecraft:block",
-  "random_sequence": "minecraft:blocks/deepslate_iron_ore",
-  "pools": [
-    {
-      "rolls": 1,
-      "entries": [
-        {
-          "type": "minecraft:alternatives",
-          "children": [
-            {
-              "type": "minecraft:item",
-              "name": "minecraft:deepslate_iron_ore",
-              "condition": {
-				"type": "minecraft:match_tool",
-				"predicate": {
-				  "predicates": {
-					"minecraft:enchantments": [
-					  {
-						"enchantments": "minecraft:silk_touch",
-						"levels": {
-						  "min": 1
+	"type": "minecraft:block",
+	"random_sequence": "minecraft:blocks/deepslate_iron_ore",
+	"pools": [
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:alternatives",
+					"children": [
+						{
+							"type": "minecraft:item",
+							"name": "minecraft:deepslate_iron_ore",
+							"condition": {
+								"type": "minecraft:match_tool",
+								"predicate": {
+									"predicates": {
+										"minecraft:enchantments": [
+											{
+												"enchantments": "minecraft:silk_touch"
+											}
+										]
+									}
+								}
+							}
+						},
+						{
+							"type": "minecraft:item",
+							"name": "minecraft:iron_ingot",
+							"modifier": [
+								{
+									"type": "minecraft:set_count",
+									"count": {
+										"type": "minecraft:uniform",
+										"min": 1,
+										"max": 2
+									}
+								},
+								{
+									"type": "minecraft:apply_bonus",
+									"enchantment": "minecraft:fortune",
+									"formula": "minecraft:ore_drops"
+								},
+								{
+									"type": "minecraft:apply_bonus",
+									"enchantment": "matcha:electrum_tool",
+									"formula": "minecraft:ore_drops"
+								}
+							],
+							"condition": {
+								"type": "minecraft:match_tool",
+								"predicate": {
+									"predicates": {
+										"minecraft:enchantments": [
+											{
+												"enchantments": "matcha:adamant_tool"
+											}
+										]
+									}
+								}
+							}
+						},
+						{
+							"type": "minecraft:item",
+							"name": "minecraft:raw_iron",
+							"modifier": [
+								{
+									"type": "minecraft:apply_bonus",
+									"enchantment": "minecraft:fortune",
+									"formula": "minecraft:ore_drops"
+								},
+								{
+									"type": "minecraft:apply_bonus",
+									"enchantment": "matcha:electrum_tool",
+									"formula": "minecraft:ore_drops"
+								}
+							]
 						}
-					  }
 					]
-				  }
 				}
-			  }
-            },
-            {
-              "type": "minecraft:item",
-              "name": "minecraft:iron_ingot",
-				"condition": {
-				"type": "minecraft:match_tool",
-				"predicate": {
-				  "predicates": {
-					"minecraft:enchantments": [
-					  {
-						"enchantments": "matcha:adamant_tool"
-					  }
-					]
-				  }
-				}
-			  },
-              "modifier": {
-				"type": "minecraft:sequence",
-				"functions": [
-				  {
-					"type": "minecraft:set_count",
-					"count": 2
-				  },
-				  {
-					"type": "minecraft:apply_bonus",
-					"enchantment": "matcha:electrum_tool",
-					"formula": "minecraft:ore_drops"
-				  },
-				  {
-					"type": "minecraft:apply_bonus",
-					"enchantment": "minecraft:fortune",
-					"formula": "minecraft:ore_drops"
-				  }
-				]
-			  }
-            },
-            {
-              "type": "minecraft:item",
-              "name": "minecraft:raw_iron",
-              "modifier": {
-				"type": "minecraft:sequence",
-				"functions": [
-				  {
-					"type": "minecraft:set_count",
-					"count": 2
-				  },
-				  {
-					"type": "minecraft:apply_bonus",
-					"enchantment": "minecraft:fortune",
-					"formula": "minecraft:ore_drops"
-				  },
-				  {
-					"type": "minecraft:apply_bonus",
-					"enchantment": "matcha:electrum_tool",
-					"formula": "minecraft:ore_drops"
-				  }
-				]
-			  }
-            }
-          ]
-        }
-      ]
-    }
-  ]
+			]
+		}
+	]
 }
