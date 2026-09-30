@@ -51,6 +51,11 @@ scoreboard objectives add divinity dummy
 scoreboard players set 0 divinity 0
 
 
+# Aura Effect
+scoreboard objectives add AuraWindup dummy
+scoreboard objectives add AuraDuration dummy
+
+
 # Electrum and Warding
 scoreboard objectives add WardingPower dummy
 scoreboard objectives add electrum_armour dummy
