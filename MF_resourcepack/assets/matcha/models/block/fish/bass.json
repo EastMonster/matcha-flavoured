@@ -3,8 +3,8 @@
 	"credit": "Made with Blockbench",
 	"texture_size": [32, 32],
 	"textures": {
-		"0": "bass_texutre",
-		"particle": "bass_texutre"
+		"0": "matcha:block/fish/bass",
+		"particle": "matcha:block/fish/bass"
 	},
 	"elements": [
 		{
@@ -138,6 +138,13 @@
 			}
 		}
 	],
+	"display": {
+		"fixed": {
+			"rotation": [0, -90, 0],
+			"translation": [8.75, 8, -2.5],
+			"scale": [2, 2, 2]
+		}
+	},
 	"groups": [
 		{
 			"name": "group",

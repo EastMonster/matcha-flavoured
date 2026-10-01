@@ -3,8 +3,8 @@
 	"credit": "Made with Blockbench",
 	"texture_size": [32, 32],
 	"textures": {
-		"0": "bluegill_texture",
-		"particle": "bluegill_texture"
+		"0": "matcha:block/fish/bluegill",
+		"particle": "matcha:block/fish/bluegill"
 	},
 	"elements": [
 		{
@@ -125,6 +125,13 @@
 			}
 		}
 	],
+	"display": {
+		"fixed": {
+			"rotation": [0, -90, 0],
+			"translation": [8.25, 8, -1.75],
+			"scale": [2, 2, 2]
+		}
+	},
 	"groups": [
 		{
 			"name": "Bluegill",
