@@ -1,0 +1,10 @@
+{
+	"replace": false,
+	"values": [
+		"minecraft:chest",
+		"minecraft:emerald",
+		"minecraft:goat_horn",
+		"minecraft:angler_pottery_sherd",
+		"minecraft:fishing_rod"
+	]
+}

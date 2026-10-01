@@ -1,6 +1,14 @@
 {
 	"parent": "matcha:imm_revoke",
 	"criteria": {
+		"from_tag": {
+			"trigger": "minecraft:fishing_rod_hooked",
+			"conditions": {
+				"item": {
+					"items": "#matcha:fishing_rarity/2_star"
+				}
+			}
+		},
 		"piranha": {
 			"trigger": "minecraft:fishing_rod_hooked",
 			"conditions": {
@@ -104,6 +112,7 @@
 	},
 	"requirements": [
 		[
+			"from_tag",
 			"black_seabass",
 			"carp",
 			"flying_fish",
