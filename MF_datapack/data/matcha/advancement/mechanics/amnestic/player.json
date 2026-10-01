@@ -1,4 +1,5 @@
 {
+  "parent": "matcha:imm_revoke",
   "criteria": {
     "consume_amnestic": {
       "trigger": "minecraft:consume_item",
