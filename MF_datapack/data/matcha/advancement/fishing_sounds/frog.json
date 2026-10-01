@@ -1,27 +1,18 @@
 {
 	"parent": "matcha:imm_revoke",
 	"criteria": {
-		"frog_spawn_egg": {
+		"from_tag": {
 			"trigger": "minecraft:fishing_rod_hooked",
 			"conditions": {
 				"item": {
-					"items": "minecraft:frog_spawn_egg"
-				}
-			}
-		},
-		"tadpole_spawn_egg": {
-			"trigger": "minecraft:fishing_rod_hooked",
-			"conditions": {
-				"item": {
-					"items": "minecraft:tadpole_spawn_egg"
+					"items": "#matcha:fishing_rarity/frog"
 				}
 			}
 		}
 	},
 	"requirements": [
 		[
-			"tadpole_spawn_egg",
-			"frog_spawn_egg"
+			"from_tag"
 		]
 	],
 	"rewards": {

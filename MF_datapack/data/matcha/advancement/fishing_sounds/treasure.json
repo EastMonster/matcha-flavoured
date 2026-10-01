@@ -1,6 +1,14 @@
 {
 	"parent": "matcha:imm_revoke",
 	"criteria": {
+		"from_tag": {
+			"trigger": "minecraft:fishing_rod_hooked",
+			"conditions": {
+				"item": {
+					"items": "#matcha:fishing_rarity/treasure"
+				}
+			}
+		},
 		"crystal_heart": {
 			"trigger": "minecraft:fishing_rod_hooked",
 			"conditions": {
@@ -10,56 +18,12 @@
 					}
 				}
 			}
-		},
-		"chest": {
-			"trigger": "minecraft:fishing_rod_hooked",
-			"conditions": {
-				"item": {
-					"items": "minecraft:chest"
-				}
-			}
-		},
-		"emerald": {
-			"trigger": "minecraft:fishing_rod_hooked",
-			"conditions": {
-				"item": {
-					"items": "minecraft:emerald"
-				}
-			}
-		},
-		"goat_horn": {
-			"trigger": "minecraft:fishing_rod_hooked",
-			"conditions": {
-				"item": {
-					"items": "minecraft:goat_horn"
-				}
-			}
-		},
-		"angler_pottery_sherd": {
-			"trigger": "minecraft:fishing_rod_hooked",
-			"conditions": {
-				"item": {
-					"items": "minecraft:angler_pottery_sherd"
-				}
-			}
-		},
-		"fishing_rod": {
-			"trigger": "minecraft:fishing_rod_hooked",
-			"conditions": {
-				"item": {
-					"items": "minecraft:fishing_rod"
-				}
-			}
 		}
 	},
 	"requirements": [
 		[
-			"angler_pottery_sherd",
-			"chest",
-			"crystal_heart",
-			"emerald",
-			"fishing_rod",
-			"goat_horn"
+			"from_tag",
+			"crystal_heart"
 		]
 	],
 	"rewards": {

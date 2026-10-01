@@ -1,18 +1,18 @@
 {
 	"parent": "matcha:imm_revoke",
 	"criteria": {
-		"bone": {
+		"from_tag": {
 			"trigger": "minecraft:fishing_rod_hooked",
 			"conditions": {
 				"item": {
-					"items": "minecraft:bone"
+					"items": "#matcha:fishing_rarity/fish_bones"
 				}
 			}
 		}
 	},
 	"requirements": [
 		[
-			"bone"
+			"from_tag"
 		]
 	],
 	"rewards": {

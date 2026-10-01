@@ -1,18 +1,18 @@
 {
 	"parent": "matcha:imm_revoke",
 	"criteria": {
-		"chicken_spawn_egg": {
+		"from_tag": {
 			"trigger": "minecraft:fishing_rod_hooked",
 			"conditions": {
 				"item": {
-					"items": "minecraft:chicken_spawn_egg"
+					"items": "#matcha:fishing_rarity/axolotl"
 				}
 			}
 		}
 	},
 	"requirements": [
 		[
-			"chicken_spawn_egg"
+			"from_tag"
 		]
 	],
 	"rewards": {
