@@ -1,18 +1,15 @@
 {
 	"criteria": {
 		"has_wither_effect": {
+			"trigger": "minecraft:effects_changed",
 			"conditions": {
-				"effects": {}
-			},
-			"trigger": "minecraft:effects_changed"
+				"effects": {
+					"minecraft:wither": {}
+				}
+			}
 		}
 	},
-	"requirements": [
-		[
-			"has_wither_effect"
-		]
-	],
 	"rewards": {
-		"function": "matcha:mechanics/wither_effect/has_wither"
+		"function": "matcha:effects/wither/mark_player"
 	}
 }
