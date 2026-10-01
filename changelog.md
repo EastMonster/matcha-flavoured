@@ -3,8 +3,7 @@
 ## Worldgen
 - Dappled forest's canopy moved up, and changed to be closed (Inspired by [Conure's](https://www.youtube.com/watch?v=k0_Y0RJRAPU) video of the same concept)
 - Swamps made swampier, new tree type, and shelf mushrooms can now be found here. Plus Bushies
-- Seagull roosts can now be found on beaches and stony shores
-
+    - These will be improved in the Worldgen update
 
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------
