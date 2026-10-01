@@ -10,6 +10,6 @@
 		}
 	},
 	"rewards": {
-		"function": "matcha:effects/wither/has_wither"
+		"function": "matcha:effects/wither/mark_player"
 	}
 }
