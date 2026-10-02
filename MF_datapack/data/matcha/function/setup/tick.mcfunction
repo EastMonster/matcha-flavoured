@@ -31,3 +31,5 @@ execute as @a if score @s ShakudoRegenCooldown matches 0.. run scoreboard player
 # Reset counts
 # * empties the entire scoreboard
 scoreboard players reset * shakudo_regen
+scoreboard players reset @a warding_equipment
+scoreboard players reset * electrum_armour

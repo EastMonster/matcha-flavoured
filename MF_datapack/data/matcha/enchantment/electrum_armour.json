@@ -16,12 +16,12 @@
 					"type": "minecraft:entity_properties",
 					"entity": "this",
 					"predicate": {
-						"minecraft:entity_type": "minecraft:player"
+						"minecraft:entity_type": "#matcha:can_use_warding"
 					}
 				},
 				"effect": {
 					"type": "minecraft:run_function",
-					"function": "matcha:enchantment_effects/warding/value/electrum_armour"
+					"function": "matcha:enchantment_effects/warding/add_power/electrum_armour"
 				}
 			}
 		]
