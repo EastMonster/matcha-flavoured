@@ -1,10 +1,4 @@
 
-<<<<<<< Updated upstream
-## Worldgen
-- Dappled forest's canopy moved up, and changed to be closed (Inspired by [Conure's](https://www.youtube.com/watch?v=k0_Y0RJRAPU) video of the same concept)
-- Swamps made swampier, new tree type, and shelf mushrooms can now be found here. Plus Bushies
-    - These will be improved in the Worldgen update
-=======
 ## Changelog & Devlog
 ### UX First
 This is not a content-filled, crazy update. This update is focused on UX, progression, and polishing up the death system. We had to do a lot of work to make this pack easy for other devs to change, and easy on ourselves to manage. As a result, a lot of the items in your world will appear to break (Most of the "breaking" is just item models not being updated). But we (Floofshade) managed to make a system that can update items and update the broken enchantments with it. I know this is a bit annoying, but something like this shouldn't happen again. We put a lot of work into making this datapack as easy to update in the future as a datapack can get (while retaining performance). Datapacks aren't built like mods, we can't add new items or blocks, there are a lot of resitrinction on how things work, and so, it can be really cumbersome to even change the copper pickaxe' default mining speed +/- 1. Thank you for bearing with us, and thank you so much to the people who playtested the first alpha, and especially the contributors on Github.
@@ -100,7 +94,6 @@ Im exhausted and ready to move on to other things. I want a break, and the chanc
 Thank you for playing, testing, writing, coding, and making videos about matcha! You are all so wonderful. 
 And hey, don't be afraid to help out with the project! Check out the github, make small structure datapacks you think would fit well, tell us about them. Im picky, but thats my fault not yours. Most of all have fun, and make stuff for YOU, and no one else. ❤️
 
->>>>>>> Stashed changes
 
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------
@@ -112,7 +105,7 @@ And hey, don't be afraid to help out with the project! Check out the github, mak
 - Update LANG on-load message to be the current version number
 - REMOVE WITH SONGS, this should only be in the in-dev version
 - Add credits for all the new commit things in github
-- You can attach a RP as a dependant of the DP in modrinth, so do that
+
 
 # DOCKET (MUST be done before next release)
   
@@ -120,7 +113,6 @@ And hey, don't be afraid to help out with the project! Check out the github, mak
 - Double check that the update Floof did didn't override the matcha:steel It shouldn't have but just in case
 
 ## 26.3
-- Poplar leaves crafting needs to be added to adv
 
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------
@@ -218,7 +210,6 @@ The update no one asked for!
 - Add secondary items for certain villager trades (ie empty map for map trades)
 
 ### Suggestions
-- Goat horns obtained from fishing always seem to be "Ponder". Can that be varied?
 - Fermented Spider eye secret meal
 - New paintings (with hints!)
 - Bag of Sugar!
@@ -228,7 +219,7 @@ The update no one asked for!
     - Shakudo shield: prevents you from splash potion effects being applied to you if held up (looking at witches), could also give a small amount of magic res as a bonus.
     - Hepatizon shield: removes movement speed penalty when held up.
     - Electrum shield: the same warding effects as current warding shield but blocking attacks from undead monsters deals damage to them so they will die even faster.
-    - Adamantium shield: deals a very small dmg to the attacker when blocking his dmg, it works on all types of enemies but the damage is way lower than electrum shield, could also come with increased durability/unbreaking.
+    - Adamant shield: deals a very small dmg to the attacker when blocking his dmg, it works on all types of enemies but the damage is way lower than electrum shield, could also come with increased durability/unbreaking.
 - Cold biomes (and oceans) should have better loot due to freezing water
 - Rebalance obol to be more rare in chests? Trial chambers esp...idk
 
