@@ -7,16 +7,18 @@
 				{
 					"type": "minecraft:item",
 					"name": "minecraft:poisonous_potato",
-					"modifier": {
-						"type": "minecraft:set_components",
-						"components": {
-							"minecraft:item_model": "matcha:cyan_rose_classic",
-							"minecraft:item_name": {
-								"translate": "item.kleispack.cyan_rose_classic"
-							},
-							"!minecraft:consumable": {}
+					"functions": [
+						{
+							"function": "minecraft:set_components",
+							"components": {
+								"minecraft:item_model": "matcha:cyan_rose_classic",
+								"minecraft:item_name": {
+									"translate": "item.kleispack.cyan_rose_classic"
+								},
+								"!minecraft:consumable": {}
+							}
 						}
-					}
+					]
 				}
 			]
 		}
