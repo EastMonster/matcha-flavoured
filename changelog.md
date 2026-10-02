@@ -94,7 +94,26 @@ Im exhausted and ready to move on to other things. I want a break, and the chanc
 Thank you for playing, testing, writing, coding, and making videos about matcha! You are all so wonderful. 
 And hey, don't be afraid to help out with the project! Check out the github, make small structure datapacks you think would fit well, tell us about them. Im picky, but thats my fault not yours. Most of all have fun, and make stuff for YOU, and no one else. ❤️
 
-
+#### Credits
+- Hashiru: Optimisations
+- NamlessJU: Various coding things, translations
+- Nat: Translation project lead, and other stuff
+- Imtlx: New Angler's Almanac, Fishing Sounds, Translation, and Github help
+- Vee Vaicekauskas: Background musics (Check out their bandcamp!: https://par4.bandcamp.com/)
+- DeBlezyBestie: Music Discs
+- Bingbongbooper: Food Ideas (Their YT!: https://www.youtube.com/@bingbongbooper)
+- HapppySpud: Nether World Gen Gravel Remover, Post-Smithing Enchants, Random Asylum Seekers, and much more
+- Linkershim: Optimisations, Multiplayer Support and MANY other coding things
+- Pepurion: Optimisations, Rose Models
+- Fayranchia: Bug fixes
+- ReinIsNOTaDev: Optimisations, and Github Workflow nonsese
+- Fpekal: Bug fixes, optimisations, and a TON on the 26.3 port
+- FloofShade: Item update trigger
+- EastMonster: Bug fixes
+- Voxybuns: Custom emojis and their implimentation
+- milo256: Dyanmic Multiplayer Sleep
+- All of the translation volunteers
+- Thank you so much everyone!
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------
