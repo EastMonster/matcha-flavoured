@@ -74,7 +74,10 @@ The new death system was tested and came back with very positive feedback, which
 
 #### Structures
 - The Abbey and Papal Outposts have not been moved over yet. This will happen during the structure update I'm planning to do. I wish I could tell you more, but unfortunately, thats spoilers 
-- Spawner drops have been disabled. Originally this was done because people were farming obol from spawners. But, since changing the undead to no longer provide obol, this may be reverted. I didn't make this change so I wasn't familar enough with it to undo all the work that was done there. But during the structure update, this may be changed back. Because it would feel weird for players to find a cool dungeon and kill baddies, and not get anything from said baddies. I've also had a lot of people say they like this change, so I want your opinion
+- Spawner drops have been disabled. Originally this was done because people were farming obol from spawners. But, since changing the undead to no longer provide obol, this may be reverted. I didn't make this change so I wasn't familar enough with it to undo all the work that was done there. But during the structure update, I want to change this back.
+- I don't think mobs not dropping loot in spawners is bad for gameplay, the oposite, but I do think it goes against the whole ethos of this pack. My goal wasn't--was never--to take away mob farms, my goal was to make it viable for people who didn't want to make mob farms, to still make mega builds. You should have the OPTION of raising seagulls, automating moss reproduction, OR YES, even grinding skeletons. 
+- Isn't that the point of this pack? To show you the alternative, right? Not to force you into my playstyle.
+- Except for the wither, no, you can't grind him, thats lame and boring
 
 #### Overwritten assets (ie. Spawn Eggs)
 - I want to eventually take all non-vanilla items and put them in the matcha namespace, using item models to overwrite vanilla items. I've done this a bit with the spawn eggs but haven't with the alloys and things. I eventually want to move all the alloys to being spawn eggs (to clear up more room for foods)
