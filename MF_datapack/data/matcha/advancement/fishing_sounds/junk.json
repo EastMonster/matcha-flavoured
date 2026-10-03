@@ -1,117 +1,18 @@
 {
 	"parent": "matcha:imm_revoke",
 	"criteria": {
-		"lily_pad": {
+		"from_tag": {
 			"trigger": "minecraft:fishing_rod_hooked",
 			"conditions": {
 				"item": {
-					"items": "minecraft:lily_pad"
-				}
-			}
-		},
-		"leather": {
-			"trigger": "minecraft:fishing_rod_hooked",
-			"conditions": {
-				"item": {
-					"items": "minecraft:leather"
-				}
-			}
-		},
-		"potion": {
-			"trigger": "minecraft:fishing_rod_hooked",
-			"conditions": {
-				"item": {
-					"items": "minecraft:potion"
-				}
-			}
-		},
-		"glowstone_dust": {
-			"trigger": "minecraft:fishing_rod_hooked",
-			"conditions": {
-				"item": {
-					"items": "minecraft:glowstone_dust"
-				}
-			}
-		},
-		"stick": {
-			"trigger": "minecraft:fishing_rod_hooked",
-			"conditions": {
-				"item": {
-					"items": "minecraft:stick"
-				}
-			}
-		},
-		"ink_sac": {
-			"trigger": "minecraft:fishing_rod_hooked",
-			"conditions": {
-				"item": {
-					"items": "minecraft:ink_sac"
-				}
-			}
-		},
-		"bamboo": {
-			"trigger": "minecraft:fishing_rod_hooked",
-			"conditions": {
-				"item": {
-					"items": "minecraft:bamboo"
-				}
-			}
-		},
-		"sculk_vein": {
-			"trigger": "minecraft:fishing_rod_hooked",
-			"conditions": {
-				"item": {
-					"items": "minecraft:sculk_vein"
-				}
-			}
-		},
-		"echo_shard": {
-			"trigger": "minecraft:fishing_rod_hooked",
-			"conditions": {
-				"item": {
-					"items": "minecraft:echo_shard"
-				}
-			}
-		},
-		"pale_hanging_moss": {
-			"trigger": "minecraft:fishing_rod_hooked",
-			"conditions": {
-				"item": {
-					"items": "minecraft:pale_hanging_moss"
-				}
-			}
-		},
-		"resin_clump": {
-			"trigger": "minecraft:fishing_rod_hooked",
-			"conditions": {
-				"item": {
-					"items": "minecraft:resin_clump"
-				}
-			}
-		},
-		"string": {
-			"trigger": "minecraft:fishing_rod_hooked",
-			"conditions": {
-				"item": {
-					"items": "minecraft:string"
+					"items": "#matcha:fishing_rarity/junk"
 				}
 			}
 		}
 	},
 	"requirements": [
 		[
-			"bamboo",
-			"glowstone_dust",
-			"ink_sac",
-			"leather",
-			"lily_pad",
-			"potion",
-			"stick",
-			"sculk_vein",
-			"echo_shard",
-			"resin_clump",
-			"pale_hanging_moss",
-			"string"
+			"from_tag"
 		]
 	],
 	"rewards": {

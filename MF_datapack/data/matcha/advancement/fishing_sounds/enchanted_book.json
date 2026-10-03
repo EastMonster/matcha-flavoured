@@ -1,18 +1,18 @@
 {
 	"parent": "matcha:imm_revoke",
 	"criteria": {
-		"book": {
+		"from_tag": {
 			"trigger": "minecraft:fishing_rod_hooked",
 			"conditions": {
 				"item": {
-					"items": "minecraft:enchanted_book"
+					"items": "#matcha:fishing_rarity/book"
 				}
 			}
 		}
 	},
 	"requirements": [
 		[
-			"book"
+			"from_tag"
 		]
 	],
 	"rewards": {

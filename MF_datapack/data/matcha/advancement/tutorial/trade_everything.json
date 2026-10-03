@@ -170,44 +170,6 @@
 		"hidden": false,
 		"frame": "challenge"
 	},
-	"requirements": [
-		[
-			"armorer"
-		],
-		[
-			"butcher"
-		],
-		[
-			"cartographer"
-		],
-		[
-			"cleric"
-		],
-		[
-			"farmer"
-		],
-		[
-			"fisherman"
-		],
-		[
-			"fletcher"
-		],
-		[
-			"leatherworker"
-		],
-		[
-			"librarian"
-		],
-		[
-			"mason"
-		],
-		[
-			"shepherd"
-		],
-		[
-			"toolsmith"
-		]
-	],
 	"rewards": {
 		"loot": [
 			"matcha:advancement/obol_5"

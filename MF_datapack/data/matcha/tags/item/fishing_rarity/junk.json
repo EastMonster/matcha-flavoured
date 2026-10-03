@@ -1,0 +1,17 @@
+{
+	"replace": false,
+	"values": [
+		"minecraft:lily_pad",
+		"minecraft:leather",
+		"minecraft:potion",
+		"minecraft:glowstone_dust",
+		"minecraft:stick",
+		"minecraft:ink_sac",
+		"minecraft:bamboo",
+		"minecraft:sculk_vein",
+		"minecraft:echo_shard",
+		"minecraft:pale_hanging_moss",
+		"minecraft:resin_clump",
+		"minecraft:string"
+	]
+}

@@ -17,7 +17,7 @@
 								},
 								"minecraft:lore": [
 									{
-										"text": "\uE030\uE030\uE030\uE030\uE030",
+										"text": "\uE030\uE030\uE030\uE030",
 										"color": "red",
 										"italic": false
 									}
@@ -33,7 +33,7 @@
 												{
 													"id": "minecraft:regeneration",
 													"amplifier": 2,
-													"duration": 120,
+													"duration": 96,
 													"show_particles": false,
 													"show_icon": false
 												}

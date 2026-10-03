@@ -1,0 +1,25 @@
+{
+	"parent": "matcha:imm_revoke",
+	"criteria": {
+		"use_amnestic": {
+			"trigger": "minecraft:player_interacted_with_entity",
+			"conditions": {
+				"entity": {
+					"type": "minecraft:entity_properties",
+					"entity": "this",
+					"predicate": {
+						"minecraft:entity_type": "minecraft:villager"
+					}
+				},
+				"item": {
+					"components": {
+						"minecraft:item_model": "matcha:amnestic_wrapped"
+					}
+				}
+			}
+		}
+	},
+	"rewards": {
+		"function": "matcha:mechanics/amnestic/give_villager"
+	}
+}
