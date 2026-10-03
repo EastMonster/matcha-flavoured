@@ -1,0 +1,29 @@
+{
+	"type": "minecraft:chest",
+	"pools": [
+		{
+			"rolls": 1,
+			"bonus_rolls": 0,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:ender_pearl",
+					"functions": [
+						{
+							"function": "minecraft:set_components",
+							"components": {
+								"minecraft:item_model": "matcha:fish_bones",
+								"minecraft:item_name": {
+									"translate": "item.kleispack.fish.fish_bones"
+								},
+								"minecraft:custom_data": {
+									"version": 1
+								}
+							}
+						}
+					]
+				}
+			]
+		}
+	]
+}
