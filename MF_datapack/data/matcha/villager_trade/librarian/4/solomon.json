@@ -15,6 +15,9 @@
 			"minecraft:item_model": "matcha:ofuda",
 			"minecraft:stored_enchantments": {
 				"minecraft:mending": 1
+			},
+			"minecraft:custom_data": {
+				"version": 1
 			}
 		}
 	},
@@ -39,7 +42,7 @@
 				}
 			]
 		}
-	},	
+	},
 	"additional_wants": {
 		"count": 2,
 		"id": "minecraft:poisonous_potato",

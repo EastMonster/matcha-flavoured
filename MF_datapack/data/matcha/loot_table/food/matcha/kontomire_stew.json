@@ -17,19 +17,23 @@
 								},
 								"minecraft:lore": [
 									{
-										"text": "\uE030\uE030\uE030\uE030\uE030\uE030",
+										"text": "\ue030\ue030\ue030\ue030\ue030\ue030",
 										"color": "red",
 										"italic": false
 									},
 									{
 										"translate": "effect.kleispack.strength",
-										"with": ["5:00"],
+										"with": [
+											"5:00"
+										],
 										"color": "#e65f33",
 										"italic": false
 									},
 									{
 										"translate": "effect.kleispack.regeneration",
-										"with": ["1:00"],
+										"with": [
+											"1:00"
+										],
 										"color": "#e85e8f",
 										"italic": false
 									}
@@ -70,6 +74,9 @@
 								},
 								"minecraft:use_remainder": {
 									"id": "minecraft:bowl"
+								},
+								"minecraft:custom_data": {
+									"version": 1
 								}
 							}
 						}

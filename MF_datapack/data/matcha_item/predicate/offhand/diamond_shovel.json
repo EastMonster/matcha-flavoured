@@ -1,0 +1,76 @@
+{
+	"condition": "minecraft:all_of",
+	"terms": [
+		{
+			"condition": "minecraft:any_of",
+			"terms": [
+				{
+					"condition": "minecraft:entity_properties",
+					"entity": "this",
+					"predicate": {
+						"minecraft:slots": {
+							"weapon.offhand": {
+								"items": "minecraft:diamond_shovel"
+							}
+						}
+					}
+				}
+			]
+		},
+		{
+			"condition": "minecraft:inverted",
+			"term": {
+				"condition": "minecraft:entity_properties",
+				"entity": "this",
+				"predicate": {
+					"minecraft:slots": {
+						"weapon.offhand": {
+							"predicates": {
+								"minecraft:custom_data": {
+									"version": 1
+								}
+							}
+						}
+					}
+				}
+			}
+		},
+		{
+			"condition": "minecraft:inverted",
+			"term": {
+				"condition": "minecraft:any_of",
+				"terms": [
+					{
+						"condition": "minecraft:entity_properties",
+						"entity": "this",
+						"predicate": {
+							"minecraft:slots": {
+								"weapon.offhand": {
+									"components": {
+										"minecraft:item_name": {
+											"translate": "item.kleispack.electrum_shovel",
+											"color": "yellow"
+										}
+									}
+								}
+							}
+						}
+					},
+					{
+						"condition": "minecraft:entity_properties",
+						"entity": "this",
+						"predicate": {
+							"minecraft:slots": {
+								"weapon.offhand": {
+									"components": {
+										"minecraft:item_name": "matcha:electrum_shovel"
+									}
+								}
+							}
+						}
+					}
+				]
+			}
+		}
+	]
+}

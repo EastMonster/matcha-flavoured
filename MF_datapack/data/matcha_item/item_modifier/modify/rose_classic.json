@@ -1,0 +1,10 @@
+{
+	"function": "set_components",
+	"components": {
+		"minecraft:item_model": "matcha:rose_classic",
+		"minecraft:item_name": {
+			"translate": "item.kleispack.rose_classic"
+		},
+		"!minecraft:consumable": {}
+	}
+}

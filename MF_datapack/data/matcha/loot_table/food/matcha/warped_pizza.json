@@ -18,19 +18,23 @@
 								},
 								"minecraft:lore": [
 									{
-										"text": "\uE030\uE030\uE030\uE030",
+										"text": "\ue030\ue030\ue030\ue030",
 										"color": "red",
 										"italic": false
 									},
 									{
 										"translate": "effect.kleispack.invisibility",
-										"with": ["5:00"],
+										"with": [
+											"5:00"
+										],
 										"color": "#92b7ce",
 										"italic": false
 									},
 									{
 										"translate": "effect.kleispack.strength",
-										"with": ["3:00"],
+										"with": [
+											"3:00"
+										],
 										"color": "#e65f33",
 										"italic": false
 									}
@@ -67,6 +71,9 @@
 											]
 										}
 									]
+								},
+								"minecraft:custom_data": {
+									"version": 1
 								}
 							}
 						}

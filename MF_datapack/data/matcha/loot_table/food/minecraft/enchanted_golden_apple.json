@@ -13,30 +13,36 @@
 							"components": {
 								"minecraft:lore": [
 									{
-										"text": "\uE030\uE030",
+										"text": "\ue030\ue030",
 										"color": "red",
 										"italic": false
 									},
 									{
-										"text": "\uE030\uE030\uE030\uE030\uE030\uE030\uE030\uE030 (2:00)",
+										"text": "\ue030\ue030\ue030\ue030\ue030\ue030\ue030\ue030 (2:00)",
 										"color": "aqua",
 										"italic": false
 									},
 									{
 										"translate": "effect.kleispack.regeneration_2",
-										"with": ["0:30"],
+										"with": [
+											"0:30"
+										],
 										"color": "#e85e8f",
 										"italic": false
 									},
 									{
 										"translate": "effect.kleispack.fire_resistance",
-										"with": ["5:00"],
+										"with": [
+											"5:00"
+										],
 										"color": "gold",
 										"italic": false
 									},
 									{
 										"translate": "effect.kleispack.resistance",
-										"with": ["5:00"],
+										"with": [
+											"5:00"
+										],
 										"color": "blue",
 										"italic": false
 									}
@@ -83,6 +89,9 @@
 											]
 										}
 									]
+								},
+								"minecraft:custom_data": {
+									"version": 1
 								}
 							}
 						}
