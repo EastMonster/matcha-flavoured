@@ -16,11 +16,13 @@
 				"requirements": {
 					"type": "minecraft:entity_properties",
 					"entity": "this",
-					"predicate": {}
+					"predicate": {
+						"minecraft:entity_type": "#matcha:can_use_warding"
+					}
 				},
 				"effect": {
 					"type": "minecraft:run_function",
-					"function": "matcha:enchantment_effects/warding/value/equipment_3"
+					"function": "matcha:enchantment_effects/warding/add_power/equipment_3"
 				}
 			}
 		]

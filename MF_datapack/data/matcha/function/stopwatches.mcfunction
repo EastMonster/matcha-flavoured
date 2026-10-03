@@ -15,6 +15,4 @@ execute if stopwatch minecraft:eerie 150.1.. run function matcha:timers/eerie/ti
 
 # Reset scores
 scoreboard players set @a divinity 0
-scoreboard players set @a electrum_armour 0
 scoreboard players set @a adamant_armour 0
-scoreboard players set @a warding_equipment 0
