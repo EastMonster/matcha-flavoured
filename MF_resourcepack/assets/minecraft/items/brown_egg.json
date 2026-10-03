@@ -5,7 +5,7 @@
 			{
 				"model": {
 					"type": "minecraft:model",
-					"model": "matcha:block/food/fried_egg"
+					"model": "matcha:block/food/brown_egg"
 				},
 				"when": [
 					"fixed"
@@ -14,7 +14,7 @@
 		],
 		"fallback": {
 			"type": "minecraft:model",
-			"model": "matcha:item/fried_egg"
+			"model": "minecraft:item/brown_egg"
 		},
 		"property": "minecraft:display_context"
 	}
