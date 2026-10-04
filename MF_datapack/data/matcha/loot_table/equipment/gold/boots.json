@@ -11,38 +11,43 @@
 						{
 							"function": "minecraft:set_components",
 							"components": {
-                                "minecraft:enchantments": {
-                                    "minecraft:fire_protection": 2
-                                },
-                                "minecraft:enchantment_glint_override": false,
-                                "minecraft:max_damage": 200,
-                                "minecraft:lore": [
-                                    {
-                                        "translate": "desc.kleispack.armour",
-                                        "with": ["2"],
-                                        "color": "dark_green",
-                                        "italic": false
-                                    }
-                                ],
-                                "minecraft:tooltip_display": {
-                                    "hidden_components": [
-                                        "minecraft:attribute_modifiers"
-                                    ]
-                                },
-                                "minecraft:attribute_modifiers": [
-                                    {
-                                        "type": "minecraft:armor",
-                                        "id": "minecraft:armor.boots",
-                                        "amount": 2,
-                                        "operation": "add_value",
-                                        "slot": "feet"
-                                    }
-                                ],
-                                "minecraft:item_name": {
-                                    "translate": "item.minecraft.golden_boots",
-                                    "color": "white"
-                                }
-                            }
+								"minecraft:enchantments": {
+									"minecraft:fire_protection": 2
+								},
+								"minecraft:enchantment_glint_override": false,
+								"minecraft:max_damage": 200,
+								"minecraft:lore": [
+									{
+										"translate": "desc.kleispack.armour",
+										"with": [
+											"2"
+										],
+										"color": "dark_green",
+										"italic": false
+									}
+								],
+								"minecraft:tooltip_display": {
+									"hidden_components": [
+										"minecraft:attribute_modifiers"
+									]
+								},
+								"minecraft:attribute_modifiers": [
+									{
+										"type": "minecraft:armor",
+										"id": "minecraft:armor.boots",
+										"amount": 2,
+										"operation": "add_value",
+										"slot": "feet"
+									}
+								],
+								"minecraft:item_name": {
+									"translate": "item.minecraft.golden_boots",
+									"color": "white"
+								},
+								"minecraft:custom_data": {
+									"version": 1
+								}
+							}
 						}
 					]
 				}

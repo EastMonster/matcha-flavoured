@@ -18,13 +18,15 @@
 								},
 								"minecraft:lore": [
 									{
-										"text": "\uE030\uE030\uE030\uE030\uE030\uE030",
+										"text": "\ue030\ue030\ue030\ue030\ue030\ue030",
 										"color": "red",
 										"italic": false
 									},
 									{
 										"translate": "effect.kleispack.invisibility",
-										"with": ["10:00"],
+										"with": [
+											"10:00"
+										],
 										"color": "#92b7ce",
 										"italic": false
 									}
@@ -57,6 +59,9 @@
 								},
 								"minecraft:use_remainder": {
 									"id": "minecraft:bowl"
+								},
+								"minecraft:custom_data": {
+									"version": 1
 								}
 							}
 						}

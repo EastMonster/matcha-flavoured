@@ -14,20 +14,9 @@
 					"weight": 10
 				},
 				{
-					"type": "minecraft:item",
-					"name": "minecraft:bone",
+					"type": "minecraft:loot_table",
+					"value": "matcha:materials/fish_bones",
 					"weight": 10,
-					"functions": [
-						{
-							"function": "minecraft:set_components",
-							"components": {
-								"minecraft:item_model": "matcha:fish_bones",
-								"minecraft:item_name": {
-									"translate": "item.kleispack.fish.fish_bones"
-								}
-							}
-						}
-					]
 				},
 				{
 					"type": "minecraft:item",
