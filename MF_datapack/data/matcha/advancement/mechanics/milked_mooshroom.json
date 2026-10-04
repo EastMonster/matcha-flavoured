@@ -1,0 +1,29 @@
+{
+	"parent": "matcha:imm_revoke",
+	"criteria": {
+		"milked": {
+			"trigger": "minecraft:player_interacted_with_entity",
+			"conditions": {
+				"item": {
+					"items": "minecraft:bowl"
+				},
+				"entity": {
+					"type": "minecraft:entity_properties",
+					"entity": "this",
+					"predicate": {
+						"minecraft:entity_type": "minecraft:mooshroom"
+					}
+				}
+			}
+		}
+	},
+	"requirements": [
+		[
+			"milked"
+		]
+	],
+	"rewards": {
+		"recipes": [],
+		"function": "matcha:mechanics/mooshroom_milking/replace_chocolate_with_soup"
+	}
+}

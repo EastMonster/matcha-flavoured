@@ -51,6 +51,11 @@ scoreboard objectives add divinity dummy
 scoreboard players set 0 divinity 0
 
 
+# Aura Effect
+scoreboard objectives add AuraWindup dummy
+scoreboard objectives add AuraDuration dummy
+
+
 # Electrum and Warding
 scoreboard objectives add WardingPower dummy
 scoreboard objectives add electrum_armour dummy
@@ -68,22 +73,12 @@ scoreboard players set 0 traversal 0
 scoreboard objectives add adamant_armour dummy
 scoreboard players set 0 adamant_armour 0
 
-# Shakudo TO BE CHANGED (Did I ever change it?)
+# Shakudo
 scoreboard objectives add shakudo_regen dummy
-scoreboard players set 0 shakudo_regen 0
+scoreboard objectives add ShakudoRegenCooldown dummy
 
 #Used for Adamant and Electrum Armour
 stopwatch create divinity
-
-#Used for Shakudo Armour
-stopwatch create shakudo_regen_1
-stopwatch create shakudo_regen_2
-stopwatch create shakudo_regen_3
-stopwatch create shakudo_regen_4
-stopwatch create shakudo_regen_5
-stopwatch create shakudo_regen_6
-stopwatch create shakudo_regen_7
-stopwatch create shakudo_regen_8
 
 # Anemos enchantment
 scoreboard objectives add AnemosCooldown dummy
@@ -130,7 +125,7 @@ scoreboard players set 0 wandering_trader_timer_score 0
 
 scoreboard objectives add version_number dummy
 #EX. 104 is 1.04, it represents the current version, 1211 1.12.1
-scoreboard players set current_version version_number 1122
+scoreboard players set current_version version_number 1123
 scoreboard players set zero version_number 0
 
 scoreboard objectives add gamerule_safe_surface dummy

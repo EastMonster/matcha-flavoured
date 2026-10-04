@@ -1,6 +1,14 @@
 {
 	"parent": "matcha:imm_revoke",
 	"criteria": {
+		"from_tag": {
+			"trigger": "minecraft:fishing_rod_hooked",
+			"conditions": {
+				"item": {
+					"items": "#matcha:fishing_rarity/4_star"
+				}
+			}
+		},
 		"echo_fish": {
 			"trigger": "minecraft:fishing_rod_hooked",
 			"conditions": {
@@ -114,6 +122,7 @@
 	},
 	"requirements": [
 		[
+			"from_tag",
 			"arapaima",
 			"bass",
 			"echo_fish",

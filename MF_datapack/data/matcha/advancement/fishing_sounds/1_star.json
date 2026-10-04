@@ -1,6 +1,14 @@
 {
 	"parent": "matcha:imm_revoke",
 	"criteria": {
+		"from_tag": {
+			"trigger": "minecraft:fishing_rod_hooked",
+			"conditions": {
+				"item": {
+					"items": "#matcha:fishing_rarity/1_star"
+				}
+			}
+		},
 		"alaska_blackfish": {
 			"trigger": "minecraft:fishing_rod_hooked",
 			"conditions": {
@@ -164,6 +172,7 @@
 	},
 	"requirements": [
 		[
+			"from_tag",
 			"alaska_blackfish",
 			"anchovy",
 			"bluegill",

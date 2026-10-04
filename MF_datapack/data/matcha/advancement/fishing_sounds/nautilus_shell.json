@@ -1,18 +1,18 @@
 {
 	"parent": "matcha:imm_revoke",
 	"criteria": {
-		"nautilus_shell": {
+		"from_tag": {
 			"trigger": "minecraft:fishing_rod_hooked",
 			"conditions": {
 				"item": {
-					"items": "minecraft:nautilus_shell"
+					"items": "#matcha:fishing_rarity/nautilus_shell"
 				}
 			}
 		}
 	},
 	"requirements": [
 		[
-			"nautilus_shell"
+			"from_tag"
 		]
 	],
 	"rewards": {
