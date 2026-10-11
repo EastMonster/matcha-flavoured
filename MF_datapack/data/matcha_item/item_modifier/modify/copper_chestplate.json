@@ -16,6 +16,9 @@
 				"minecraft:attribute_modifiers"
 			]
 		},
-		"minecraft:max_damage": 200
+		"minecraft:max_damage": 200,
+		"minecraft:custom_data": {
+			"version": 1
+		}
 	}
 }

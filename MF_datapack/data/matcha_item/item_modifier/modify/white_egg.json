@@ -9,6 +9,9 @@
 		},
 		"minecraft:item_name": {
 			"translate": "item.kleispack.fertilised_egg"
+		},
+		"minecraft:custom_data": {
+			"version": 1
 		}
 	}
 }

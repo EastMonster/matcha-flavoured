@@ -71,6 +71,9 @@
 				"minecraft:honeycomb_block",
 				"minecraft:copper_block"
 			]
+		},
+		"minecraft:custom_data": {
+			"version": 1
 		}
 	}
 }

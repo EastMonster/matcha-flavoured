@@ -52,6 +52,9 @@
 			]
 		},
 		"minecraft:item_model": "matcha:copper_mattock",
-		"minecraft:max_damage": 350
+		"minecraft:max_damage": 350,
+		"minecraft:custom_data": {
+			"version": 1
+		}
 	}
 }

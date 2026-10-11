@@ -40,6 +40,9 @@
 				}
 			]
 		},
-		"minecraft:item_model": "matcha:snow_shovel"
+		"minecraft:item_model": "matcha:snow_shovel",
+		"minecraft:custom_data": {
+			"version": 1
+		}
 	}
 }

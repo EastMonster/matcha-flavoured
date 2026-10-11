@@ -40,7 +40,8 @@
 			]
 		},
 		"minecraft:custom_data": {
-			"matcha:aura_60s": {}
+			"matcha:aura_60s": {},
+			"version": 1
 		}
 	}
 }

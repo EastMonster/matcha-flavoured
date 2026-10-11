@@ -54,6 +54,9 @@
 				"id": "minecraft:lily_of_the_valley",
 				"count": 8
 			}
-		]
+		],
+		"minecraft:custom_data": {
+			"version": 1
+		}
 	}
 }

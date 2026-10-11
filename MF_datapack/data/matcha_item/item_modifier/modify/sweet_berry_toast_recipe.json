@@ -11,6 +11,9 @@
 				"color": "#e85e8f",
 				"italic": false
 			}
-		]
+		],
+		"minecraft:custom_data": {
+			"version": 1
+		}
 	}
 }

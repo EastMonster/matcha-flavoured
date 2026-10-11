@@ -80,6 +80,9 @@
 			"items": [
 				"minecraft:copper_block"
 			]
+		},
+		"minecraft:custom_data": {
+			"version": 1
 		}
 	}
 }

@@ -41,6 +41,9 @@
 					]
 				}
 			]
+		},
+		"minecraft:custom_data": {
+			"version": 1
 		}
 	}
 }

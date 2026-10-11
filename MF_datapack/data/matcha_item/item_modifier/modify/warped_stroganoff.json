@@ -53,6 +53,9 @@
 		],
 		"minecraft:use_remainder": {
 			"id": "bowl"
+		},
+		"minecraft:custom_data": {
+			"version": 1
 		}
 	}
 }

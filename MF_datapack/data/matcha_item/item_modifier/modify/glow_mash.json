@@ -36,7 +36,8 @@
 			]
 		},
 		"minecraft:custom_data": {
-			"matcha:aura_3s": {}
+			"matcha:aura_3s": {},
+			"version": 1
 		}
 	}
 }

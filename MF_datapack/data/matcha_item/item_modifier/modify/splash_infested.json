@@ -29,6 +29,9 @@
 		"minecraft:custom_name": {
 			"translate": "item.minecraft.splash_potion.effect.infested",
 			"italic": false
+		},
+		"minecraft:custom_data": {
+			"version": 1
 		}
 	}
 }

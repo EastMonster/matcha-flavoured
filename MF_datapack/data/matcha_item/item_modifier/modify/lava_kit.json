@@ -28,6 +28,9 @@
 		],
 		"minecraft:item_name": {
 			"translate": "item.kleispack.bundle.lava_kit"
+		},
+		"minecraft:custom_data": {
+			"version": 1
 		}
 	}
 }

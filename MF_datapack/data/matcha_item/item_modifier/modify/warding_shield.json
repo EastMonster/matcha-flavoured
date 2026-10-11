@@ -50,7 +50,8 @@
 			]
 		},
 		"minecraft:custom_data": {
-			"has_intrinsic_enchants": 1
+			"has_intrinsic_enchants": 1,
+			"version": 1
 		},
 		"minecraft:item_name": {
 			"translate": "item.kleispack.warding_shield"

@@ -49,6 +49,9 @@
 			"hidden_components": [
 				"minecraft:attribute_modifiers"
 			]
+		},
+		"minecraft:custom_data": {
+			"version": 1
 		}
 	}
 }

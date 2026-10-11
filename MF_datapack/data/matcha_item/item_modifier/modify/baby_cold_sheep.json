@@ -10,6 +10,9 @@
 			"translate": "item.kleispack.baby_cold_sheep"
 		},
 		"minecraft:max_stack_size": 1,
-		"minecraft:item_model": "matcha:crate_sheep_black"
+		"minecraft:item_model": "matcha:crate_sheep_black",
+		"minecraft:custom_data": {
+			"version": 1
+		}
 	}
 }

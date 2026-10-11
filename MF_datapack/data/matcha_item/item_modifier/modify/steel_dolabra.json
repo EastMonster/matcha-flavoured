@@ -83,6 +83,9 @@
 			"items": [
 				"minecraft:iron_ingot"
 			]
+		},
+		"minecraft:custom_data": {
+			"version": 1
 		}
 	}
 }

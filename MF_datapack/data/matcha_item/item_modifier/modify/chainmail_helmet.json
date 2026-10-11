@@ -30,6 +30,9 @@
 		"minecraft:item_name": {
 			"translate": "item.minecraft.chainmail_helmet",
 			"color": "white"
+		},
+		"minecraft:custom_data": {
+			"version": 1
 		}
 	}
 }

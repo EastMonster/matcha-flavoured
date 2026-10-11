@@ -81,6 +81,9 @@
 				"operation": "add_value",
 				"slot": "mainhand"
 			}
-		]
+		],
+		"minecraft:custom_data": {
+			"version": 1
+		}
 	}
 }

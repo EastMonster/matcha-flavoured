@@ -27,6 +27,9 @@
 		"use_remainder": {
 			"id": "minecraft:dirt",
 			"count": 64
+		},
+		"minecraft:custom_data": {
+			"version": 1
 		}
 	}
 }

@@ -42,6 +42,9 @@
 		"minecraft:custom_name": {
 			"translate": "effect.minecraft.darkness",
 			"italic": false
+		},
+		"minecraft:custom_data": {
+			"version": 1
 		}
 	}
 }

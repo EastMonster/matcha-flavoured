@@ -37,6 +37,9 @@
 		"minecraft:item_name": {
 			"translate": "item.minecraft.golden_axe",
 			"color": "white"
+		},
+		"minecraft:custom_data": {
+			"version": 1
 		}
 	}
 }

@@ -84,6 +84,9 @@
 		},
 		"minecraft:repairable": {
 			"items": "minecraft:rabbit_hide"
+		},
+		"minecraft:custom_data": {
+			"version": 1
 		}
 	}
 }

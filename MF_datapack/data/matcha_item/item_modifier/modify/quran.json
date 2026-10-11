@@ -11,6 +11,9 @@
 				"italic": false
 			}
 		],
-		"minecraft:item_model": "matcha:ofuda"
+		"minecraft:item_model": "matcha:ofuda",
+		"minecraft:custom_data": {
+			"version": 1
+		}
 	}
 }
