@@ -771,6 +771,7 @@
 						"italic": false
 					}
 				],
+				"minecraft:max_stack_size": 64,
 				"!minecraft:food": {},
 				"minecraft:consumable": {
 					"consume_seconds": 0.8,
@@ -23981,6 +23982,7 @@
 					"has_consume_particles": false,
 					"on_consume_effects": []
 				},
+				"!minecraft:food": {},
 				"minecraft:death_protection": {
 					"death_effects": [
 						{
@@ -28816,16 +28818,24 @@
 			"models": [
 				"matcha:amethyst_earrings"
 			],
-			"id": "minecraft:netherite_helmet",
+			"id": "minecraft:poisonous_potato",
 			"use": [
 				false,
 				true,
 				true
 			],
-			"type": "helmet",
+			"type": "generic",
 			"processed": false,
 			"components": {
-				"minecraft:max_damage": 250,
+				"minecraft:item_model": "matcha:amethyst_earrings",
+				"minecraft:equippable": {
+					"slot": "head",
+					"asset_id": "matcha:amethyst_earrings"
+				},
+				"minecraft:item_name": {
+					"translate": "item.kleispack.amethyst_earrings",
+					"color": "#b38ef3"
+				},
 				"minecraft:lore": [
 					{
 						"translate": "desc.kleispack.armour",
@@ -28836,37 +28846,22 @@
 						"italic": false
 					}
 				],
-				"minecraft:item_name": {
-					"translate": "item.kleispack.amethyst_earrings",
-					"color": "#b38ef3"
-				},
 				"minecraft:attribute_modifiers": [
 					{
+						"id": "minecraft:armor.helmet",
 						"type": "minecraft:armor",
-						"id": "minecraft:armor.helmet",
+						"operation": "add_value",
 						"amount": 1,
-						"operation": "add_value",
-						"slot": "head"
-					},
-					{
-						"type": "minecraft:knockback_resistance",
-						"id": "minecraft:armor.helmet",
-						"amount": 0,
-						"operation": "add_value",
 						"slot": "head"
 					}
 				],
+				"minecraft:max_stack_size": 1,
+				"!minecraft:consumable": {},
 				"minecraft:tooltip_display": {
 					"hidden_components": [
 						"minecraft:attribute_modifiers"
 					]
 				},
-				"minecraft:item_model": "matcha:amethyst_earrings",
-				"minecraft:equippable": {
-					"slot": "head",
-					"asset_id": "matcha:amethyst_earrings"
-				},
-				"minecraft:unbreakable": {},
 				"minecraft:custom_data": {
 					"version": 1
 				}
@@ -28890,16 +28885,24 @@
 			"models": [
 				"matcha:diamond_earrings"
 			],
-			"id": "minecraft:netherite_helmet",
+			"id": "minecraft:poisonous_potato",
 			"use": [
 				false,
 				true,
 				true
 			],
-			"type": "helmet",
+			"type": "generic",
 			"processed": false,
 			"components": {
-				"minecraft:max_damage": 250,
+				"minecraft:item_model": "matcha:diamond_earrings",
+				"minecraft:equippable": {
+					"slot": "head",
+					"asset_id": "matcha:diamond_earrings"
+				},
+				"minecraft:item_name": {
+					"translate": "item.kleispack.diamond_earrings",
+					"color": "aqua"
+				},
 				"minecraft:lore": [
 					{
 						"translate": "desc.kleispack.armour",
@@ -28910,37 +28913,22 @@
 						"italic": false
 					}
 				],
-				"minecraft:item_name": {
-					"translate": "item.kleispack.diamond_earrings",
-					"color": "aqua"
-				},
 				"minecraft:attribute_modifiers": [
 					{
+						"id": "minecraft:armor.helmet",
 						"type": "minecraft:armor",
-						"id": "minecraft:armor.helmet",
+						"operation": "add_value",
 						"amount": 1,
-						"operation": "add_value",
-						"slot": "head"
-					},
-					{
-						"type": "minecraft:knockback_resistance",
-						"id": "minecraft:armor.helmet",
-						"amount": 0,
-						"operation": "add_value",
 						"slot": "head"
 					}
 				],
+				"minecraft:max_stack_size": 1,
+				"!minecraft:consumable": {},
 				"minecraft:tooltip_display": {
 					"hidden_components": [
 						"minecraft:attribute_modifiers"
 					]
 				},
-				"minecraft:item_model": "matcha:diamond_earrings",
-				"minecraft:equippable": {
-					"slot": "head",
-					"asset_id": "matcha:diamond_earrings"
-				},
-				"minecraft:unbreakable": {},
 				"minecraft:custom_data": {
 					"version": 1
 				}
@@ -28964,16 +28952,24 @@
 			"models": [
 				"matcha:lapis_earrings"
 			],
-			"id": "minecraft:netherite_helmet",
+			"id": "minecraft:poisonous_potato",
 			"use": [
 				false,
 				true,
 				true
 			],
-			"type": "helmet",
+			"type": "generic",
 			"processed": false,
 			"components": {
-				"minecraft:max_damage": 250,
+				"minecraft:item_model": "matcha:lapis_earrings",
+				"minecraft:equippable": {
+					"slot": "head",
+					"asset_id": "matcha:lapis_earrings"
+				},
+				"minecraft:item_name": {
+					"translate": "item.kleispack.lapis_earrings",
+					"color": "#325caa"
+				},
 				"minecraft:lore": [
 					{
 						"translate": "desc.kleispack.armour",
@@ -28984,37 +28980,22 @@
 						"italic": false
 					}
 				],
-				"minecraft:item_name": {
-					"translate": "item.kleispack.lapis_earrings",
-					"color": "#325caa"
-				},
 				"minecraft:attribute_modifiers": [
 					{
+						"id": "minecraft:armor.helmet",
 						"type": "minecraft:armor",
-						"id": "minecraft:armor.helmet",
+						"operation": "add_value",
 						"amount": 1,
-						"operation": "add_value",
-						"slot": "head"
-					},
-					{
-						"type": "minecraft:knockback_resistance",
-						"id": "minecraft:armor.helmet",
-						"amount": 0,
-						"operation": "add_value",
 						"slot": "head"
 					}
 				],
+				"minecraft:max_stack_size": 1,
+				"!minecraft:consumable": {},
 				"minecraft:tooltip_display": {
 					"hidden_components": [
 						"minecraft:attribute_modifiers"
 					]
 				},
-				"minecraft:item_model": "matcha:lapis_earrings",
-				"minecraft:equippable": {
-					"slot": "head",
-					"asset_id": "matcha:lapis_earrings"
-				},
-				"minecraft:unbreakable": {},
 				"minecraft:custom_data": {
 					"version": 1
 				}
@@ -29038,16 +29019,24 @@
 			"models": [
 				"matcha:opal_earrings"
 			],
-			"id": "minecraft:netherite_helmet",
+			"id": "minecraft:poisonous_potato",
 			"use": [
 				false,
 				true,
 				true
 			],
-			"type": "enchanted_helmet",
+			"type": "enchanted",
 			"processed": false,
 			"components": {
-				"minecraft:max_damage": 250,
+				"minecraft:item_model": "matcha:opal_earrings",
+				"minecraft:equippable": {
+					"slot": "head",
+					"asset_id": "matcha:opal_earrings"
+				},
+				"minecraft:item_name": {
+					"translate": "item.kleispack.opal_earrings",
+					"color": "#ab85ad"
+				},
 				"minecraft:lore": [
 					{
 						"translate": "desc.kleispack.armour",
@@ -29058,40 +29047,25 @@
 						"italic": false
 					}
 				],
-				"minecraft:item_name": {
-					"translate": "item.kleispack.opal_earrings",
-					"color": "#ab85ad"
-				},
 				"minecraft:attribute_modifiers": [
 					{
+						"id": "minecraft:armor.helmet",
 						"type": "minecraft:armor",
-						"id": "minecraft:armor.helmet",
+						"operation": "add_value",
 						"amount": 1,
-						"operation": "add_value",
-						"slot": "head"
-					},
-					{
-						"type": "minecraft:knockback_resistance",
-						"id": "minecraft:armor.helmet",
-						"amount": 0,
-						"operation": "add_value",
 						"slot": "head"
 					}
 				],
+				"minecraft:enchantments": {
+					"matcha:conduit_power": 1
+				},
+				"minecraft:max_stack_size": 1,
+				"!minecraft:consumable": {},
 				"minecraft:tooltip_display": {
 					"hidden_components": [
 						"minecraft:attribute_modifiers"
 					]
 				},
-				"minecraft:item_model": "matcha:opal_earrings",
-				"minecraft:equippable": {
-					"slot": "head",
-					"asset_id": "matcha:opal_earrings"
-				},
-				"minecraft:enchantments": {
-					"matcha:conduit_power": 1
-				},
-				"minecraft:unbreakable": {},
 				"minecraft:custom_data": {
 					"version": 1
 				}
@@ -29115,16 +29089,24 @@
 			"models": [
 				"matcha:ruby_circlet"
 			],
-			"id": "minecraft:netherite_helmet",
+			"id": "minecraft:poisonous_potato",
 			"use": [
 				false,
 				true,
 				true
 			],
-			"type": "enchanted_helmet",
+			"type": "enchanted",
 			"processed": false,
 			"components": {
-				"minecraft:max_damage": 250,
+				"minecraft:item_model": "matcha:ruby_circlet",
+				"minecraft:equippable": {
+					"slot": "head",
+					"asset_id": "matcha:ruby_circlet"
+				},
+				"minecraft:item_name": {
+					"translate": "item.kleispack.ruby_circlet",
+					"color": "#e63d5f"
+				},
 				"minecraft:lore": [
 					{
 						"translate": "desc.kleispack.armour",
@@ -29135,40 +29117,25 @@
 						"italic": false
 					}
 				],
-				"minecraft:item_name": {
-					"translate": "item.kleispack.ruby_circlet",
-					"color": "#e63d5f"
-				},
 				"minecraft:attribute_modifiers": [
 					{
+						"id": "minecraft:armor.helmet",
 						"type": "minecraft:armor",
-						"id": "minecraft:armor.helmet",
+						"operation": "add_value",
 						"amount": 1,
-						"operation": "add_value",
-						"slot": "head"
-					},
-					{
-						"type": "minecraft:knockback_resistance",
-						"id": "minecraft:armor.helmet",
-						"amount": 0,
-						"operation": "add_value",
 						"slot": "head"
 					}
 				],
+				"minecraft:enchantments": {
+					"matcha:fire_proof": 1
+				},
+				"minecraft:max_stack_size": 1,
+				"!minecraft:consumable": {},
 				"minecraft:tooltip_display": {
 					"hidden_components": [
 						"minecraft:attribute_modifiers"
 					]
 				},
-				"minecraft:item_model": "matcha:ruby_circlet",
-				"minecraft:equippable": {
-					"slot": "head",
-					"asset_id": "matcha:ruby_circlet"
-				},
-				"minecraft:enchantments": {
-					"matcha:fire_proof": 1
-				},
-				"minecraft:unbreakable": {},
 				"minecraft:custom_data": {
 					"version": 1
 				}
@@ -29192,16 +29159,24 @@
 			"models": [
 				"matcha:amber_earrings"
 			],
-			"id": "minecraft:netherite_helmet",
+			"id": "minecraft:poisonous_potato",
 			"use": [
 				false,
 				true,
 				true
 			],
-			"type": "enchanted_helmet",
+			"type": "enchanted",
 			"processed": false,
 			"components": {
-				"minecraft:max_damage": 250,
+				"minecraft:item_model": "matcha:amber_earrings",
+				"minecraft:equippable": {
+					"slot": "head",
+					"asset_id": "matcha:amber_earrings"
+				},
+				"minecraft:item_name": {
+					"translate": "item.kleispack.amber_earrings",
+					"color": "#e58904"
+				},
 				"minecraft:lore": [
 					{
 						"translate": "desc.kleispack.armour",
@@ -29212,40 +29187,25 @@
 						"italic": false
 					}
 				],
-				"minecraft:item_name": {
-					"translate": "item.kleispack.amber_earrings",
-					"color": "#e58904"
-				},
 				"minecraft:attribute_modifiers": [
 					{
+						"id": "minecraft:armor.helmet",
 						"type": "minecraft:armor",
-						"id": "minecraft:armor.helmet",
+						"operation": "add_value",
 						"amount": 1,
-						"operation": "add_value",
-						"slot": "head"
-					},
-					{
-						"type": "minecraft:knockback_resistance",
-						"id": "minecraft:armor.helmet",
-						"amount": 0,
-						"operation": "add_value",
 						"slot": "head"
 					}
 				],
+				"minecraft:enchantments": {
+					"matcha:regeneration": 1
+				},
+				"minecraft:max_stack_size": 1,
+				"!minecraft:consumable": {},
 				"minecraft:tooltip_display": {
 					"hidden_components": [
 						"minecraft:attribute_modifiers"
 					]
 				},
-				"minecraft:item_model": "matcha:amber_earrings",
-				"minecraft:equippable": {
-					"slot": "head",
-					"asset_id": "matcha:amber_earrings"
-				},
-				"minecraft:enchantments": {
-					"matcha:regeneration": 1
-				},
-				"minecraft:unbreakable": {},
 				"minecraft:custom_data": {
 					"version": 1
 				}
@@ -29269,16 +29229,24 @@
 			"models": [
 				"matcha:hepatizon_laurel"
 			],
-			"id": "minecraft:netherite_helmet",
+			"id": "minecraft:poisonous_potato",
 			"use": [
 				false,
 				true,
 				true
 			],
-			"type": "helmet",
+			"type": "generic",
 			"processed": false,
 			"components": {
-				"minecraft:max_damage": 250,
+				"minecraft:item_model": "matcha:hepatizon_laurel",
+				"minecraft:equippable": {
+					"slot": "head",
+					"asset_id": "matcha:hepatizon_laurel"
+				},
+				"minecraft:item_name": {
+					"translate": "item.kleispack.hepatizon_laurel",
+					"color": "#ac7b5c"
+				},
 				"minecraft:lore": [
 					{
 						"translate": "desc.kleispack.armour",
@@ -29297,44 +29265,29 @@
 						"italic": false
 					}
 				],
-				"minecraft:item_name": {
-					"translate": "item.kleispack.hepatizon_laurel",
-					"color": "#ac7b5c"
-				},
 				"minecraft:attribute_modifiers": [
 					{
-						"type": "minecraft:movement_speed",
-						"id": "bronze_helmet",
-						"amount": 0.1,
-						"operation": "add_value",
-						"slot": "head"
-					},
-					{
+						"id": "minecraft:armor.helmet",
 						"type": "minecraft:armor",
-						"id": "minecraft:armor.helmet",
-						"amount": 1,
 						"operation": "add_value",
+						"amount": 1,
 						"slot": "head"
 					},
 					{
-						"type": "minecraft:knockback_resistance",
-						"id": "minecraft:armor.helmet",
-						"amount": 0,
+						"id": "bronze_helmet",
+						"type": "minecraft:movement_speed",
 						"operation": "add_value",
+						"amount": 0.1,
 						"slot": "head"
 					}
 				],
+				"minecraft:max_stack_size": 1,
+				"!minecraft:consumable": {},
 				"minecraft:tooltip_display": {
 					"hidden_components": [
 						"minecraft:attribute_modifiers"
 					]
 				},
-				"minecraft:item_model": "matcha:hepatizon_laurel",
-				"minecraft:equippable": {
-					"slot": "head",
-					"asset_id": "matcha:hepatizon_laurel"
-				},
-				"minecraft:unbreakable": {},
 				"minecraft:custom_data": {
 					"version": 1
 				}
@@ -29358,16 +29311,24 @@
 			"models": [
 				"matcha:topaz_earrings"
 			],
-			"id": "minecraft:netherite_helmet",
+			"id": "minecraft:poisonous_potato",
 			"use": [
 				false,
 				true,
 				true
 			],
-			"type": "enchanted_helmet",
+			"type": "enchanted",
 			"processed": false,
 			"components": {
-				"minecraft:max_damage": 250,
+				"minecraft:item_model": "matcha:topaz_earrings",
+				"minecraft:equippable": {
+					"slot": "head",
+					"asset_id": "matcha:topaz_earrings"
+				},
+				"minecraft:item_name": {
+					"translate": "item.kleispack.topaz_earrings",
+					"color": "yellow"
+				},
 				"minecraft:lore": [
 					{
 						"translate": "desc.kleispack.armour",
@@ -29378,40 +29339,25 @@
 						"italic": false
 					}
 				],
-				"minecraft:item_name": {
-					"translate": "item.kleispack.topaz_earrings",
-					"color": "yellow"
-				},
 				"minecraft:attribute_modifiers": [
 					{
+						"id": "minecraft:armor.helmet",
 						"type": "minecraft:armor",
-						"id": "minecraft:armor.helmet",
+						"operation": "add_value",
 						"amount": 1,
-						"operation": "add_value",
-						"slot": "head"
-					},
-					{
-						"type": "minecraft:knockback_resistance",
-						"id": "minecraft:armor.helmet",
-						"amount": 0,
-						"operation": "add_value",
 						"slot": "head"
 					}
 				],
+				"minecraft:enchantments": {
+					"matcha:haste": 1
+				},
+				"minecraft:max_stack_size": 1,
+				"!minecraft:consumable": {},
 				"minecraft:tooltip_display": {
 					"hidden_components": [
 						"minecraft:attribute_modifiers"
 					]
 				},
-				"minecraft:item_model": "matcha:topaz_earrings",
-				"minecraft:equippable": {
-					"slot": "head",
-					"asset_id": "matcha:topaz_earrings"
-				},
-				"minecraft:enchantments": {
-					"matcha:haste": 1
-				},
-				"minecraft:unbreakable": {},
 				"minecraft:custom_data": {
 					"version": 1
 				}
@@ -33924,9 +33870,9 @@
 			],
 			"names": [],
 			"models": [],
-			"id": "minecraft:map",
+			"id": "minecraft:buried_mineshaft_map",
 			"use": [
-				false,
+				true,
 				false,
 				false
 			],
@@ -33945,7 +33891,7 @@
 			],
 			"names": [],
 			"models": [],
-			"id": "minecraft:map",
+			"id": "minecraft:jungle_pyramid_map",
 			"use": [
 				false,
 				false,
@@ -33966,7 +33912,7 @@
 			],
 			"names": [],
 			"models": [],
-			"id": "minecraft:map",
+			"id": "minecraft:buried_treasure_map",
 			"use": [
 				false,
 				false,
@@ -33990,9 +33936,9 @@
 			],
 			"names": [],
 			"models": [],
-			"id": "minecraft:map",
+			"id": "minecraft:swamp_hut_map",
 			"use": [
-				false,
+				true,
 				false,
 				false
 			],
@@ -34032,9 +33978,9 @@
 			],
 			"names": [],
 			"models": [],
-			"id": "minecraft:map",
+			"id": "minecraft:desert_pyramid_map",
 			"use": [
-				false,
+				true,
 				false,
 				false
 			],
@@ -34053,7 +33999,7 @@
 			],
 			"names": [],
 			"models": [],
-			"id": "minecraft:map",
+			"id": "minecraft:jungle_pyramid_map",
 			"use": [
 				false,
 				false,
@@ -34074,9 +34020,9 @@
 			],
 			"names": [],
 			"models": [],
-			"id": "minecraft:map",
+			"id": "minecraft:plains_village_map",
 			"use": [
-				false,
+				true,
 				false,
 				false
 			],
@@ -34152,9 +34098,9 @@
 			],
 			"names": [],
 			"models": [],
-			"id": "minecraft:map",
+			"id": "minecraft:ocean_monument_map",
 			"use": [
-				false,
+				true,
 				false,
 				false
 			],
@@ -34173,9 +34119,9 @@
 			],
 			"names": [],
 			"models": [],
-			"id": "minecraft:map",
+			"id": "minecraft:buried_trial_chambers_map",
 			"use": [
-				false,
+				true,
 				false,
 				false
 			],
@@ -34194,7 +34140,28 @@
 			],
 			"names": [],
 			"models": [],
-			"id": "minecraft:map",
+			"id": "minecraft:warm_ocean_ruins_map",
+			"use": [
+				true,
+				false,
+				false
+			],
+			"type": "generic",
+			"processed": false,
+			"components": {},
+			"ignore": true
+		},
+		"abbey_divine_comedy": {
+			"version": null,
+			"folder": [
+				[
+					"cartographer",
+					"3"
+				]
+			],
+			"names": [],
+			"models": [],
+			"id": "minecraft:buried_treasure_map",
 			"use": [
 				false,
 				false,
@@ -34205,36 +34172,8 @@
 			"components": {},
 			"ignore": true
 		},
-		"abbey_divine_comedy": {
-			"version": 1,
-			"folder": [
-				[
-					"cartographer",
-					"3"
-				]
-			],
-			"names": [],
-			"models": [
-				"matcha:abbey_map"
-			],
-			"id": "minecraft:map",
-			"use": [
-				false,
-				false,
-				true
-			],
-			"type": "generic",
-			"processed": false,
-			"components": {
-				"minecraft:item_model": "matcha:abbey_map",
-				"minecraft:custom_data": {
-					"version": 1
-				}
-			},
-			"ignore": null
-		},
 		"abbey_paradise_lost": {
-			"version": 1,
+			"version": null,
 			"folder": [
 				[
 					"cartographer",
@@ -34242,24 +34181,17 @@
 				]
 			],
 			"names": [],
-			"models": [
-				"matcha:abbey_map"
-			],
-			"id": "minecraft:map",
+			"models": [],
+			"id": "minecraft:buried_treasure_map",
 			"use": [
 				false,
 				false,
-				true
+				false
 			],
 			"type": "generic",
 			"processed": false,
-			"components": {
-				"minecraft:item_model": "matcha:abbey_map",
-				"minecraft:custom_data": {
-					"version": 1
-				}
-			},
-			"ignore": null
+			"components": {},
+			"ignore": true
 		},
 		"mourner_pottery_sherd": {
 			"version": null,
@@ -34292,9 +34224,9 @@
 			],
 			"names": [],
 			"models": [],
-			"id": "minecraft:map",
+			"id": "minecraft:buried_ancient_city_map",
 			"use": [
-				false,
+				true,
 				false,
 				false
 			],
@@ -34334,9 +34266,9 @@
 			],
 			"names": [],
 			"models": [],
-			"id": "minecraft:map",
+			"id": "minecraft:woodland_mansion_map",
 			"use": [
-				false,
+				true,
 				false,
 				false
 			],
@@ -34624,42 +34556,11 @@
 			"type": "enchanted",
 			"processed": false,
 			"components": {
+				"minecraft:item_model": "matcha:butcher_knife",
 				"minecraft:item_name": {
 					"translate": "item.kleispack.butcher_knife"
 				},
-				"minecraft:max_damage": 1500,
-				"minecraft:attribute_modifiers": [
-					{
-						"type": "minecraft:attack_damage",
-						"id": "attack_damage",
-						"amount": 5,
-						"operation": "add_value",
-						"slot": "mainhand"
-					},
-					{
-						"type": "minecraft:attack_speed",
-						"id": "attack_speed",
-						"amount": -2.4,
-						"operation": "add_value",
-						"slot": "mainhand"
-					},
-					{
-						"type": "minecraft:entity_interaction_range",
-						"id": "interaction_range",
-						"amount": -1,
-						"operation": "add_value"
-					}
-				],
-				"minecraft:item_model": "matcha:butcher_knife",
 				"minecraft:lore": [
-					{
-						"translate": "desc.kleispack.entity_interaction_range",
-						"with": [
-							"-1"
-						],
-						"color": "red",
-						"italic": false
-					},
 					{
 						"text": "\ud83d\udde1 6",
 						"color": "dark_green",
@@ -34668,6 +34569,14 @@
 					{
 						"text": "\ud83d\udd52 1.6",
 						"color": "dark_green",
+						"italic": false
+					},
+					{
+						"translate": "desc.kleispack.entity_interaction_range",
+						"with": [
+							"-1"
+						],
+						"color": "red",
 						"italic": false
 					},
 					{
@@ -34681,24 +34590,47 @@
 						"italic": false
 					}
 				],
-				"minecraft:tooltip_display": {
-					"hide_tooltip": false,
-					"hidden_components": [
-						"minecraft:attribute_modifiers"
-					]
+				"minecraft:max_damage": 1500,
+				"minecraft:attribute_modifiers": [
+					{
+						"id": "attack_damage",
+						"type": "minecraft:attack_damage",
+						"operation": "add_value",
+						"amount": 5,
+						"slot": "mainhand"
+					},
+					{
+						"id": "attack_speed",
+						"type": "minecraft:attack_speed",
+						"operation": "add_value",
+						"amount": -2.4,
+						"slot": "mainhand"
+					},
+					{
+						"id": "interaction_range",
+						"type": "minecraft:entity_interaction_range",
+						"operation": "add_value",
+						"amount": -1
+					}
+				],
+				"minecraft:enchantments": {
+					"matcha:slaughter": 1,
+					"minecraft:looting": 2
 				},
 				"minecraft:repairable": {
 					"items": [
 						"minecraft:iron_ingot"
 					]
 				},
-				"minecraft:enchantments": {
-					"matcha:slaughter": 1,
-					"minecraft:looting": 2
-				},
-				"minecraft:enchantment_glint_override": false,
 				"minecraft:custom_data": {
 					"version": 1
+				},
+				"minecraft:enchantment_glint_override": false,
+				"minecraft:tooltip_display": {
+					"hide_tooltip": false,
+					"hidden_components": [
+						"minecraft:attribute_modifiers"
+					]
 				}
 			},
 			"ignore": null
