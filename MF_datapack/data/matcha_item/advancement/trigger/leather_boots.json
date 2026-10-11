@@ -2,54 +2,52 @@
 	"criteria": {
 		"leather_boots": {
 			"conditions": {
-				"player": [
-					{
-						"type": "minecraft:all_of",
-						"terms": [
-							{
-								"type": "minecraft:any_of",
-								"terms": [
-									{
-										"type": "minecraft:entity_properties",
-										"entity": "this",
-										"predicate": {
-											"minecraft:slots": {
-												"armor.feet": {
-													"components": {
-														"minecraft:item_name": {
-															"translate": "item.minecraft.leather_boots",
-															"color": "white"
-														}
+				"player": {
+					"type": "minecraft:all_of",
+					"terms": [
+						{
+							"type": "minecraft:any_of",
+							"terms": [
+								{
+									"type": "minecraft:entity_properties",
+									"entity": "this",
+									"predicate": {
+										"minecraft:slots": {
+											"armor.feet": {
+												"components": {
+													"minecraft:item_name": {
+														"translate": "item.minecraft.leather_boots",
+														"color": "white"
 													}
 												}
 											}
 										}
 									}
-								]
-							},
-							{
-								"type": "minecraft:inverted",
-								"term": [
-									{
-										"type": "minecraft:entity_properties",
-										"entity": "this",
-										"predicate": {
-											"minecraft:slots": {
-												"armor.feet": {
-													"predicates": {
-														"minecraft:custom_data": {
-															"version": 1
-														}
+								}
+							]
+						},
+						{
+							"type": "minecraft:inverted",
+							"term": [
+								{
+									"type": "minecraft:entity_properties",
+									"entity": "this",
+									"predicate": {
+										"minecraft:slots": {
+											"armor.feet": {
+												"predicates": {
+													"minecraft:custom_data": {
+														"version": 1
 													}
 												}
 											}
 										}
 									}
-								]
-							}
-						]
-					}
-				]
+								}
+							]
+						}
+					]
+				}
 			},
 			"trigger": "minecraft:inventory_changed"
 		}

@@ -2,54 +2,52 @@
 	"criteria": {
 		"adamant_boots": {
 			"conditions": {
-				"player": [
-					{
-						"type": "minecraft:all_of",
-						"terms": [
-							{
-								"type": "minecraft:any_of",
-								"terms": [
-									{
-										"type": "minecraft:entity_properties",
-										"entity": "this",
-										"predicate": {
-											"minecraft:slots": {
-												"armor.feet": {
-													"components": {
-														"minecraft:item_name": {
-															"translate": "item.minecraft.netherite_boots",
-															"color": "gold"
-														}
+				"player": {
+					"type": "minecraft:all_of",
+					"terms": [
+						{
+							"type": "minecraft:any_of",
+							"terms": [
+								{
+									"type": "minecraft:entity_properties",
+									"entity": "this",
+									"predicate": {
+										"minecraft:slots": {
+											"armor.feet": {
+												"components": {
+													"minecraft:item_name": {
+														"translate": "item.minecraft.netherite_boots",
+														"color": "gold"
 													}
 												}
 											}
 										}
 									}
-								]
-							},
-							{
-								"type": "minecraft:inverted",
-								"term": [
-									{
-										"type": "minecraft:entity_properties",
-										"entity": "this",
-										"predicate": {
-											"minecraft:slots": {
-												"armor.feet": {
-													"predicates": {
-														"minecraft:custom_data": {
-															"version": 1
-														}
+								}
+							]
+						},
+						{
+							"type": "minecraft:inverted",
+							"term": [
+								{
+									"type": "minecraft:entity_properties",
+									"entity": "this",
+									"predicate": {
+										"minecraft:slots": {
+											"armor.feet": {
+												"predicates": {
+													"minecraft:custom_data": {
+														"version": 1
 													}
 												}
 											}
 										}
 									}
-								]
-							}
-						]
-					}
-				]
+								}
+							]
+						}
+					]
+				}
 			},
 			"trigger": "minecraft:inventory_changed"
 		}

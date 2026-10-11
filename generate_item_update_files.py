@@ -845,29 +845,29 @@ def creationHelper(obj, item):
 # defining trigger advancement
     match type_:
         case "generic" | "enchanted" | "trim_materials" | "mineral" | "baked_apple" | "diamond":
-            trigger_advancement = {"criteria": {item: {"conditions": {"player": [{"type": "minecraft:any_of", "terms": []}]}, "trigger": "minecraft:inventory_changed"}}, "requirements": [[item]],"rewards": {"function": "matcha_item:update/"+item}}
-            trigger_advancement["criteria"][item]["conditions"]["player"][0]["terms"].append(mainhand_predicate)
-            trigger_advancement["criteria"][item]["conditions"]["player"][0]["terms"].append(offhand_predicate)
+            trigger_advancement = {"criteria": {item: {"conditions": {"player": {"type": "minecraft:any_of", "terms": []}}, "trigger": "minecraft:inventory_changed"}}, "requirements": [[item]],"rewards": {"function": "matcha_item:update/"+item}}
+            trigger_advancement["criteria"][item]["conditions"]["player"]["terms"].append(mainhand_predicate)
+            trigger_advancement["criteria"][item]["conditions"]["player"]["terms"].append(offhand_predicate)
         case _:
-            trigger_advancement = {"criteria": {item: {"conditions": {"player": [{"type": "minecraft:all_of", "terms": [{"type": "minecraft:any_of", "terms": []}, {"type": "minecraft:inverted", "term": []}]}]}, "trigger": "minecraft:inventory_changed"}}, "requirements": [[item]],"rewards": {"function": "matcha_item:update/"+item}}
+            trigger_advancement = {"criteria": {item: {"conditions": {"player": {"type": "minecraft:all_of", "terms": [{"type": "minecraft:any_of", "terms": []}, {"type": "minecraft:inverted", "term": []}]}}, "trigger": "minecraft:inventory_changed"}}, "requirements": [[item]],"rewards": {"function": "matcha_item:update/"+item}}
             if usenames:
                 for i in range(len(names_predicates)):
-                    trigger_advancement["criteria"][item]["conditions"]["player"][0]["terms"][0]["terms"].append(names_predicates[i])
+                    trigger_advancement["criteria"][item]["conditions"]["player"]["terms"][0]["terms"].append(names_predicates[i])
             else:
                 pass
             if usemodels:
-                trigger_advancement["criteria"][item]["conditions"]["player"][0]["terms"][0]["terms"].append(models_predicates[0])
+                trigger_advancement["criteria"][item]["conditions"]["player"]["terms"][0]["terms"].append(models_predicates[0])
             else:
                 pass
             if useid:
-                trigger_advancement["criteria"][item]["conditions"]["player"][0]["terms"][0]["terms"].append(id_predicates[0])
+                trigger_advancement["criteria"][item]["conditions"]["player"]["terms"][0]["terms"].append(id_predicates[0])
             else:
                 pass
-            trigger_advancement["criteria"][item]["conditions"]["player"][0]["terms"][1]["term"].append(version_predicates[0])
+            trigger_advancement["criteria"][item]["conditions"]["player"]["terms"][1]["term"].append(version_predicates[0])
             if (type_ == "diamond_helmet") | (type_ == "diamond_chestplate") | (type_ == "diamond_leggings") | (type_ == "diamond_boots"):
-                trigger_advancement["criteria"][item]["conditions"]["player"][0]["terms"].append(working_diamond_predicates[0])
+                trigger_advancement["criteria"][item]["conditions"]["player"]["terms"].append(working_diamond_predicates[0])
             elif type_ == "baked_apple":
-                trigger_advancement["criteria"][item]["conditions"]["player"][0]["terms"].append(baked_apple_predicates[0])
+                trigger_advancement["criteria"][item]["conditions"]["player"]["terms"].append(baked_apple_predicates[0])
             else:
                 pass
 # defining update functions
