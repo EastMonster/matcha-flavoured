@@ -30,6 +30,7 @@ execute as @a if score @s CrystalHeartCooldown matches 1.. run scoreboard player
 execute as @a if score @s AuraWindup matches 0.. run scoreboard players remove @s AuraWindup 1
 execute as @a if score @s ShakudoRegenCooldown matches 0.. run scoreboard players remove @s ShakudoRegenCooldown 1
 execute as @a if score @s DivinityCooldown matches 0.. run scoreboard players remove @s DivinityCooldown 1
+execute as @a if score @s TraversalBuffer matches 1.. run scoreboard players remove @s TraversalBuffer 1
 
 # Reset counts
 # * empties the entire scoreboard
