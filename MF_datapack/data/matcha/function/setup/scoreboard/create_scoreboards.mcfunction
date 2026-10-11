@@ -2,17 +2,6 @@
 # This function is used to set up Scoreboards and their Global Variables
 # Players' initial scores are applied in "matcha:setup/scoreboard/player_setup"
 
-scoreboard objectives add sneaking minecraft.custom:minecraft.sneak_time
-scoreboard players set 0 sneaking 0
-scoreboard players set 5 sneaking 5
-scoreboard players set 10 sneaking 10
-scoreboard players set 15 sneaking 15
-scoreboard players set 20 sneaking 20
-scoreboard players set 25 sneaking 25
-scoreboard players set 30 sneaking 30
-scoreboard players set 35 sneaking 35
-scoreboard players set 40 sneaking 40
-scoreboard players set 45 sneaking 45
 
 scoreboard objectives add Hunger food
 scoreboard objectives add HealthPoints health
@@ -71,17 +60,20 @@ scoreboard players set 0 traversal 0
 
 # Adamant Armour
 scoreboard objectives add adamant_armour dummy
-scoreboard players set 0 adamant_armour 0
 
 # Shakudo
 scoreboard objectives add shakudo_regen dummy
 scoreboard objectives add ShakudoRegenCooldown dummy
+scoreboard objectives add shakudo_wither_resistance dummy
 
-#Used for Adamant and Electrum Armour
-stopwatch create divinity
+# Divinity. Used for Adamant and Electrum Armour
+scoreboard objectives add DivinityCooldown dummy
 
 # Anemos enchantment
 scoreboard objectives add AnemosCooldown dummy
+
+# Zephyr enchantment
+scoreboard objectives add ZephyrCharge dummy
 
 #Used mostly for particles
 stopwatch create 3s
@@ -111,11 +103,14 @@ scoreboard players set 1 water_bucket_used 1
 #Used for Wither Effect (Heartbreaker)
 scoreboard objectives add wither_timer dummy
 
+#Used for Hunger Effect
+scoreboard objectives add hunger_timer dummy
+
 # On load, set the wandering trader timer, and reset ALL people who summoned him, because if we don't, functions that should be looping wont be
 # and it'll never ever fix itself. So if the server crashes, or someone logs out whilst waiting, they will never have a wandering trader arrive :c
 # We will also kill any existing wandering traders, on load. Because again, that'll mess things up
 kill @e[type=minecraft:wandering_trader,tag=summoned_by_beacon]
-execute as @e[type=marker,tag=beacon_kindling] at @s run function matcha:mechanics/wandering_trader/kill_wandering_trader_early
+execute as @e[type=marker,tag=beacon_kindling] at @s run schedule function matcha:mechanics/wandering_trader/kill_wandering_trader_early 1s
 scoreboard objectives add wandering_trader_timer_score dummy
 scoreboard players reset @a wandering_trader_timer_score
 tag @a remove SummonedTrader
