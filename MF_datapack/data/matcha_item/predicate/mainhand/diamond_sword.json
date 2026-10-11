@@ -63,6 +63,19 @@
 							"minecraft:slots": {
 								"weapon.mainhand": {
 									"components": {
+										"minecraft:item_name": "Electrum Sword"
+									}
+								}
+							}
+						}
+					},
+					{
+						"type": "minecraft:entity_properties",
+						"entity": "this",
+						"predicate": {
+							"minecraft:slots": {
+								"weapon.mainhand": {
+									"components": {
 										"minecraft:item_model": "matcha:electrum_sword"
 									}
 								}

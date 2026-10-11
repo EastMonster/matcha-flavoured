@@ -18,21 +18,6 @@
 												"minecraft:slots": {
 													"weapon.mainhand": {
 														"components": {
-															"minecraft:item_name": {
-																"translate": "item.kleispack.diamond_mattock"
-															}
-														}
-													}
-												}
-											}
-										},
-										{
-											"type": "minecraft:entity_properties",
-											"entity": "this",
-											"predicate": {
-												"minecraft:slots": {
-													"weapon.mainhand": {
-														"components": {
 															"minecraft:item_name": "matcha:diamond_mattock"
 														}
 													}
@@ -87,6 +72,19 @@
 													"minecraft:slots": {
 														"weapon.mainhand": {
 															"components": {
+																"minecraft:item_name": "Electrum Mattock"
+															}
+														}
+													}
+												}
+											},
+											{
+												"type": "minecraft:entity_properties",
+												"entity": "this",
+												"predicate": {
+													"minecraft:slots": {
+														"weapon.mainhand": {
+															"components": {
 																"minecraft:item_model": "matcha:electrum_mattock"
 															}
 														}
@@ -104,21 +102,6 @@
 								{
 									"type": "minecraft:any_of",
 									"terms": [
-										{
-											"type": "minecraft:entity_properties",
-											"entity": "this",
-											"predicate": {
-												"minecraft:slots": {
-													"weapon.offhand": {
-														"components": {
-															"minecraft:item_name": {
-																"translate": "item.kleispack.diamond_mattock"
-															}
-														}
-													}
-												}
-											}
-										},
 										{
 											"type": "minecraft:entity_properties",
 											"entity": "this",
@@ -168,6 +151,19 @@
 																	"translate": "item.kleispack.electrum_mattock",
 																	"color": "yellow"
 																}
+															}
+														}
+													}
+												}
+											},
+											{
+												"type": "minecraft:entity_properties",
+												"entity": "this",
+												"predicate": {
+													"minecraft:slots": {
+														"weapon.offhand": {
+															"components": {
+																"minecraft:item_name": "Electrum Mattock"
 															}
 														}
 													}

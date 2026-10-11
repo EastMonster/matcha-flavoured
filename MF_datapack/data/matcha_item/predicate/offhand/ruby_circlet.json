@@ -11,22 +11,6 @@
 						"minecraft:slots": {
 							"weapon.offhand": {
 								"components": {
-									"minecraft:item_name": {
-										"translate": "item.kleispack.ruby_circlet",
-										"color": "#e63d5f"
-									}
-								}
-							}
-						}
-					}
-				},
-				{
-					"type": "minecraft:entity_properties",
-					"entity": "this",
-					"predicate": {
-						"minecraft:slots": {
-							"weapon.offhand": {
-								"components": {
 									"minecraft:item_name": "matcha:ruby_circlet"
 								}
 							}

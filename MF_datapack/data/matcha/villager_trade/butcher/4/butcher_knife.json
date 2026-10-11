@@ -11,7 +11,7 @@
 			},
 			"minecraft:lore": [
 				{
-					"text": "🗡 6",
+					"text": "\ud83d\udde1 6",
 					"color": "dark_green",
 					"italic": false
 				},
@@ -22,7 +22,9 @@
 				},
 				{
 					"translate": "desc.kleispack.entity_interaction_range",
-					"with": ["-1"],
+					"with": [
+						"-1"
+					],
 					"color": "red",
 					"italic": false
 				},

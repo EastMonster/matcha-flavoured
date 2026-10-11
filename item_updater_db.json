@@ -121,7 +121,7 @@
 				false
 			],
 			"type": "baked_apple",
-			"processed": false,
+			"processed": true,
 			"components": {
 				"minecraft:lore": [
 					{
@@ -197,7 +197,7 @@
 				true
 			],
 			"type": "generic",
-			"processed": false,
+			"processed": true,
 			"components": {
 				"minecraft:item_model": "matcha:baked_golden_apple",
 				"minecraft:item_name": {
@@ -282,7 +282,7 @@
 				false
 			],
 			"type": "generic",
-			"processed": false,
+			"processed": true,
 			"components": {
 				"minecraft:lore": [
 					{
@@ -335,7 +335,7 @@
 				false
 			],
 			"type": "generic",
-			"processed": false,
+			"processed": true,
 			"components": {
 				"minecraft:lore": [
 					{
@@ -403,7 +403,7 @@
 				false
 			],
 			"type": "generic",
-			"processed": false,
+			"processed": true,
 			"components": {
 				"minecraft:lore": [
 					{
@@ -464,7 +464,7 @@
 				true
 			],
 			"type": "generic",
-			"processed": false,
+			"processed": true,
 			"components": {
 				"minecraft:item_model": "matcha:braised_crimson_fungus",
 				"minecraft:item_name": {
@@ -544,7 +544,7 @@
 				true
 			],
 			"type": "generic",
-			"processed": false,
+			"processed": true,
 			"components": {
 				"minecraft:item_model": "matcha:braised_red_mushroom",
 				"minecraft:item_name": {
@@ -623,7 +623,7 @@
 				true
 			],
 			"type": "generic",
-			"processed": false,
+			"processed": true,
 			"components": {
 				"minecraft:item_model": "matcha:braised_warped_fungus",
 				"minecraft:item_name": {
@@ -696,7 +696,7 @@
 				false
 			],
 			"type": "generic",
-			"processed": false,
+			"processed": true,
 			"components": {
 				"minecraft:lore": [
 					{
@@ -758,7 +758,7 @@
 				false
 			],
 			"type": "generic",
-			"processed": false,
+			"processed": true,
 			"components": {
 				"minecraft:lore": [
 					{
@@ -828,7 +828,7 @@
 				false
 			],
 			"type": "generic",
-			"processed": false,
+			"processed": true,
 			"components": {
 				"minecraft:lore": [
 					{
@@ -881,7 +881,7 @@
 				false
 			],
 			"type": "generic",
-			"processed": false,
+			"processed": true,
 			"components": {
 				"minecraft:lore": [
 					{
@@ -934,7 +934,7 @@
 				false
 			],
 			"type": "generic",
-			"processed": false,
+			"processed": true,
 			"components": {
 				"minecraft:lore": [
 					{
@@ -987,7 +987,7 @@
 				false
 			],
 			"type": "generic",
-			"processed": false,
+			"processed": true,
 			"components": {
 				"minecraft:lore": [
 					{
@@ -1040,7 +1040,7 @@
 				false
 			],
 			"type": "generic",
-			"processed": false,
+			"processed": true,
 			"components": {
 				"minecraft:lore": [
 					{
@@ -1093,7 +1093,7 @@
 				false
 			],
 			"type": "generic",
-			"processed": false,
+			"processed": true,
 			"components": {
 				"minecraft:lore": [
 					{
@@ -1146,7 +1146,7 @@
 				false
 			],
 			"type": "generic",
-			"processed": false,
+			"processed": true,
 			"components": {
 				"minecraft:lore": [
 					{
@@ -1206,7 +1206,7 @@
 				true
 			],
 			"type": "generic",
-			"processed": false,
+			"processed": true,
 			"components": {
 				"minecraft:item_model": "matcha:cooked_pufferfish",
 				"minecraft:item_name": {
@@ -1278,7 +1278,7 @@
 				false
 			],
 			"type": "generic",
-			"processed": false,
+			"processed": true,
 			"components": {
 				"minecraft:lore": [
 					{
@@ -1353,7 +1353,7 @@
 				true
 			],
 			"type": "generic",
-			"processed": false,
+			"processed": true,
 			"components": {
 				"minecraft:item_model": "matcha:fried_egg",
 				"minecraft:item_name": {
@@ -1410,7 +1410,7 @@
 				false
 			],
 			"type": "generic",
-			"processed": false,
+			"processed": true,
 			"components": {
 				"minecraft:lore": [
 					{
@@ -1480,7 +1480,7 @@
 				true
 			],
 			"type": "generic",
-			"processed": false,
+			"processed": true,
 			"components": {
 				"minecraft:item_model": "matcha:golden_steamed_carrots",
 				"minecraft:item_name": {
@@ -1560,7 +1560,7 @@
 				true
 			],
 			"type": "generic",
-			"processed": false,
+			"processed": true,
 			"components": {
 				"minecraft:item_model": "matcha:green_curry",
 				"minecraft:item_name": {
@@ -1643,7 +1643,7 @@
 				true
 			],
 			"type": "generic",
-			"processed": false,
+			"processed": true,
 			"components": {
 				"minecraft:item_model": "matcha:grilled_melon",
 				"minecraft:item_name": {
@@ -1722,7 +1722,7 @@
 				true
 			],
 			"type": "generic",
-			"processed": false,
+			"processed": true,
 			"components": {
 				"minecraft:item_model": "matcha:grilled_tomatoes",
 				"minecraft:item_name": {
@@ -1801,7 +1801,7 @@
 				true
 			],
 			"type": "generic",
-			"processed": false,
+			"processed": true,
 			"components": {
 				"minecraft:item_model": "matcha:honey_ginger_tea",
 				"minecraft:item_name": {
@@ -1894,7 +1894,7 @@
 				true
 			],
 			"type": "generic",
-			"processed": false,
+			"processed": true,
 			"components": {
 				"minecraft:item_model": "matcha:japanese_curry",
 				"minecraft:item_name": {
@@ -1970,7 +1970,7 @@
 				false
 			],
 			"type": "generic",
-			"processed": false,
+			"processed": true,
 			"components": {
 				"!minecraft:entity_data": {},
 				"minecraft:custom_data": {
@@ -2005,7 +2005,7 @@
 				true
 			],
 			"type": "generic",
-			"processed": false,
+			"processed": true,
 			"components": {
 				"minecraft:item_model": "matcha:nopales",
 				"minecraft:item_name": {
@@ -2069,7 +2069,7 @@
 				true
 			],
 			"type": "generic",
-			"processed": false,
+			"processed": true,
 			"components": {
 				"minecraft:item_model": "matcha:paneer_makhani",
 				"minecraft:item_name": {
@@ -2145,7 +2145,7 @@
 				false
 			],
 			"type": "generic",
-			"processed": false,
+			"processed": true,
 			"components": {
 				"minecraft:lore": [
 					{
@@ -2220,7 +2220,7 @@
 				true
 			],
 			"type": "generic",
-			"processed": false,
+			"processed": true,
 			"components": {
 				"minecraft:item_model": "matcha:pumpkin_curry",
 				"minecraft:item_name": {
@@ -2306,7 +2306,7 @@
 				true
 			],
 			"type": "generic",
-			"processed": false,
+			"processed": true,
 			"components": {
 				"minecraft:item_model": "matcha:ramen",
 				"minecraft:item_name": {
@@ -2389,7 +2389,7 @@
 				true
 			],
 			"type": "generic",
-			"processed": false,
+			"processed": true,
 			"components": {
 				"minecraft:item_model": "matcha:steamed_carrots",
 				"minecraft:item_name": {
@@ -2461,7 +2461,7 @@
 				false
 			],
 			"type": "generic",
-			"processed": false,
+			"processed": true,
 			"components": {
 				"minecraft:lore": [
 					{
@@ -2570,7 +2570,7 @@
 				true
 			],
 			"type": "generic",
-			"processed": false,
+			"processed": true,
 			"components": {
 				"minecraft:item_model": "matcha:apple_empanada",
 				"minecraft:item_name": {
@@ -2646,7 +2646,7 @@
 				true
 			],
 			"type": "generic",
-			"processed": false,
+			"processed": true,
 			"components": {
 				"minecraft:item_model": "matcha:bokguk",
 				"minecraft:item_name": {
@@ -2726,7 +2726,7 @@
 				true
 			],
 			"type": "generic",
-			"processed": false,
+			"processed": true,
 			"components": {
 				"minecraft:item_model": "matcha:brachio_chicken_nugget",
 				"minecraft:item_name": {
@@ -2787,7 +2787,7 @@
 				true
 			],
 			"type": "generic",
-			"processed": false,
+			"processed": true,
 			"components": {
 				"minecraft:item_model": "matcha:brownie",
 				"minecraft:item_name": {
@@ -2863,7 +2863,7 @@
 				true
 			],
 			"type": "generic",
-			"processed": false,
+			"processed": true,
 			"components": {
 				"minecraft:item_model": "matcha:bruschetta",
 				"minecraft:item_name": {
@@ -2934,7 +2934,7 @@
 				true
 			],
 			"type": "generic",
-			"processed": false,
+			"processed": true,
 			"components": {
 				"minecraft:item_model": "matcha:bubbling_mead",
 				"minecraft:custom_name": {
@@ -3002,7 +3002,7 @@
 				true
 			],
 			"type": "generic",
-			"processed": false,
+			"processed": true,
 			"components": {
 				"minecraft:item_model": "matcha:bunuelo",
 				"minecraft:item_name": {
@@ -3071,7 +3071,7 @@
 				false
 			],
 			"type": "generic",
-			"processed": false,
+			"processed": true,
 			"components": {
 				"minecraft:lore": [
 					{
@@ -3114,7 +3114,7 @@
 				true
 			],
 			"type": "generic",
-			"processed": false,
+			"processed": true,
 			"components": {
 				"minecraft:item_model": "matcha:canned_apples",
 				"minecraft:item_name": {
@@ -3194,7 +3194,7 @@
 				true
 			],
 			"type": "generic",
-			"processed": false,
+			"processed": true,
 			"components": {
 				"minecraft:item_model": "matcha:canned_golden_apples",
 				"minecraft:item_name": {
@@ -3286,7 +3286,7 @@
 				true
 			],
 			"type": "generic",
-			"processed": false,
+			"processed": true,
 			"components": {
 				"minecraft:item_model": "matcha:carrot_cupcake",
 				"minecraft:item_name": {
@@ -3355,7 +3355,7 @@
 				false
 			],
 			"type": "generic",
-			"processed": false,
+			"processed": true,
 			"components": {
 				"minecraft:lore": [
 					{
@@ -3412,7 +3412,7 @@
 				true
 			],
 			"type": "generic",
-			"processed": false,
+			"processed": true,
 			"components": {
 				"minecraft:item_model": "matcha:cheese_pizza",
 				"minecraft:item_name": {
@@ -3488,7 +3488,7 @@
 				true
 			],
 			"type": "generic",
-			"processed": false,
+			"processed": true,
 			"components": {
 				"minecraft:item_model": "matcha:chocolate_chip_cookie",
 				"minecraft:item_name": {
@@ -3569,7 +3569,7 @@
 				true
 			],
 			"type": "generic",
-			"processed": false,
+			"processed": true,
 			"components": {
 				"minecraft:item_model": "matcha:chorus_mochi",
 				"minecraft:item_name": {
@@ -3647,7 +3647,7 @@
 				true
 			],
 			"type": "generic",
-			"processed": false,
+			"processed": true,
 			"components": {
 				"minecraft:item_model": "matcha:crimson_stroganoff",
 				"minecraft:item_name": {
@@ -3720,7 +3720,7 @@
 				false
 			],
 			"type": "generic",
-			"processed": false,
+			"processed": true,
 			"components": {
 				"!minecraft:entity_data": {},
 				"minecraft:custom_data": {
@@ -3745,7 +3745,7 @@
 				false
 			],
 			"type": "generic",
-			"processed": false,
+			"processed": true,
 			"components": {
 				"!minecraft:entity_data": {},
 				"minecraft:custom_data": {
@@ -3770,7 +3770,7 @@
 				false
 			],
 			"type": "generic",
-			"processed": false,
+			"processed": true,
 			"components": {
 				"minecraft:lore": [
 					{
@@ -3842,7 +3842,7 @@
 				true
 			],
 			"type": "generic",
-			"processed": false,
+			"processed": true,
 			"components": {
 				"minecraft:item_model": "matcha:fish_and_chips",
 				"minecraft:item_name": {
@@ -3896,7 +3896,7 @@
 				false
 			],
 			"type": "generic",
-			"processed": false,
+			"processed": true,
 			"components": {
 				"!minecraft:entity_data": {},
 				"minecraft:custom_data": {
@@ -3921,7 +3921,7 @@
 				false
 			],
 			"type": "generic",
-			"processed": false,
+			"processed": true,
 			"components": {
 				"!minecraft:entity_data": {},
 				"minecraft:custom_data": {
@@ -3946,7 +3946,7 @@
 				false
 			],
 			"type": "generic",
-			"processed": false,
+			"processed": true,
 			"components": {
 				"!minecraft:entity_data": {},
 				"minecraft:custom_data": {
@@ -3978,7 +3978,7 @@
 				true
 			],
 			"type": "generic",
-			"processed": false,
+			"processed": true,
 			"components": {
 				"minecraft:item_model": "matcha:french_toast",
 				"minecraft:item_name": {
@@ -4039,7 +4039,7 @@
 				true
 			],
 			"type": "generic",
-			"processed": false,
+			"processed": true,
 			"components": {
 				"minecraft:item_model": "matcha:gimmari",
 				"minecraft:item_name": {
@@ -4115,7 +4115,7 @@
 				true
 			],
 			"type": "generic",
-			"processed": false,
+			"processed": true,
 			"components": {
 				"minecraft:item_model": "matcha:glow_berry_crumble",
 				"minecraft:item_name": {
@@ -4185,7 +4185,7 @@
 				true
 			],
 			"type": "generic",
-			"processed": false,
+			"processed": true,
 			"components": {
 				"minecraft:item_model": "matcha:glow_jam",
 				"minecraft:item_name": {
@@ -4242,6 +4242,10 @@
 			"folder": [
 				[
 					"food_crafting"
+				],
+				[
+					"food",
+					"recipe"
 				]
 			],
 			"names": [
@@ -4261,7 +4265,7 @@
 				true
 			],
 			"type": "generic",
-			"processed": false,
+			"processed": true,
 			"components": {
 				"minecraft:item_model": "matcha:gnocchi",
 				"minecraft:item_name": {
@@ -4319,7 +4323,7 @@
 				false
 			],
 			"type": "generic",
-			"processed": false,
+			"processed": true,
 			"components": {
 				"minecraft:lore": [
 					{
@@ -4404,7 +4408,7 @@
 				true
 			],
 			"type": "generic",
-			"processed": false,
+			"processed": true,
 			"components": {
 				"minecraft:item_model": "matcha:golden_apple_empanada",
 				"minecraft:item_name": {
@@ -4486,7 +4490,7 @@
 				false
 			],
 			"type": "generic",
-			"processed": false,
+			"processed": true,
 			"components": {
 				"minecraft:lore": [
 					{
@@ -4559,7 +4563,7 @@
 				true
 			],
 			"type": "generic",
-			"processed": false,
+			"processed": true,
 			"components": {
 				"minecraft:item_model": "matcha:golden_carrot_cupcake",
 				"minecraft:item_name": {
@@ -4637,7 +4641,7 @@
 				true
 			],
 			"type": "generic",
-			"processed": false,
+			"processed": true,
 			"components": {
 				"minecraft:item_model": "matcha:golden_pickled_carrots",
 				"minecraft:item_name": {
@@ -4717,7 +4721,7 @@
 				true
 			],
 			"type": "generic",
-			"processed": false,
+			"processed": true,
 			"components": {
 				"minecraft:item_model": "matcha:honied_french_toast",
 				"minecraft:item_name": {
@@ -4793,7 +4797,7 @@
 				true
 			],
 			"type": "generic",
-			"processed": false,
+			"processed": true,
 			"components": {
 				"minecraft:item_model": "matcha:ice_cream",
 				"minecraft:item_name": {
@@ -4866,7 +4870,7 @@
 				true
 			],
 			"type": "generic",
-			"processed": false,
+			"processed": true,
 			"components": {
 				"minecraft:item_model": "matcha:kontomire_stew",
 				"minecraft:item_name": {
@@ -4961,7 +4965,7 @@
 				true
 			],
 			"type": "generic",
-			"processed": false,
+			"processed": true,
 			"components": {
 				"minecraft:item_model": "matcha:latke",
 				"minecraft:item_name": {
@@ -5022,7 +5026,7 @@
 				true
 			],
 			"type": "generic",
-			"processed": false,
+			"processed": true,
 			"components": {
 				"minecraft:item_model": "matcha:lumpia",
 				"minecraft:item_name": {
@@ -5113,7 +5117,7 @@
 				true
 			],
 			"type": "generic",
-			"processed": false,
+			"processed": true,
 			"components": {
 				"minecraft:item_model": "matcha:mead",
 				"minecraft:item_name": {
@@ -5194,7 +5198,7 @@
 				true
 			],
 			"type": "generic",
-			"processed": false,
+			"processed": true,
 			"components": {
 				"minecraft:item_model": "matcha:meat_pizza",
 				"minecraft:item_name": {
@@ -5263,7 +5267,7 @@
 				false
 			],
 			"type": "generic",
-			"processed": false,
+			"processed": true,
 			"components": {
 				"minecraft:lore": [
 					{
@@ -5320,7 +5324,7 @@
 				true
 			],
 			"type": "generic",
-			"processed": false,
+			"processed": true,
 			"components": {
 				"minecraft:item_model": "matcha:melon_sorbet",
 				"minecraft:item_name": {
@@ -5393,7 +5397,7 @@
 				false
 			],
 			"type": "generic",
-			"processed": false,
+			"processed": true,
 			"components": {
 				"minecraft:lore": [
 					{
@@ -5447,7 +5451,7 @@
 				true
 			],
 			"type": "generic",
-			"processed": false,
+			"processed": true,
 			"components": {
 				"minecraft:item_model": "matcha:mushroom_pizza",
 				"minecraft:item_name": {
@@ -5523,7 +5527,7 @@
 				true
 			],
 			"type": "generic",
-			"processed": false,
+			"processed": true,
 			"components": {
 				"minecraft:item_model": "matcha:mushroom_soup",
 				"minecraft:item_name": {
@@ -5588,7 +5592,7 @@
 				true
 			],
 			"type": "generic",
-			"processed": false,
+			"processed": true,
 			"components": {
 				"minecraft:item_model": "matcha:oatmeal",
 				"minecraft:item_name": {
@@ -5675,7 +5679,7 @@
 				false
 			],
 			"type": "generic",
-			"processed": false,
+			"processed": true,
 			"components": {
 				"!minecraft:entity_data": {},
 				"minecraft:custom_data": {
@@ -5707,7 +5711,7 @@
 				true
 			],
 			"type": "generic",
-			"processed": false,
+			"processed": true,
 			"components": {
 				"minecraft:item_model": "matcha:pad_thai",
 				"minecraft:item_name": {
@@ -5786,7 +5790,7 @@
 				true
 			],
 			"type": "generic",
-			"processed": false,
+			"processed": true,
 			"components": {
 				"minecraft:item_model": "matcha:pickled_carrots",
 				"minecraft:item_name": {
@@ -5860,7 +5864,7 @@
 				true
 			],
 			"type": "generic",
-			"processed": false,
+			"processed": true,
 			"components": {
 				"minecraft:item_model": "matcha:pickled_crimson_fungus",
 				"minecraft:custom_name": {
@@ -5929,7 +5933,7 @@
 				true
 			],
 			"type": "generic",
-			"processed": false,
+			"processed": true,
 			"components": {
 				"minecraft:item_model": "matcha:pickled_mushrooms",
 				"minecraft:item_name": {
@@ -5993,7 +5997,7 @@
 				true
 			],
 			"type": "generic",
-			"processed": false,
+			"processed": true,
 			"components": {
 				"minecraft:item_model": "matcha:pickled_potatoes",
 				"minecraft:item_name": {
@@ -6052,7 +6056,7 @@
 				true
 			],
 			"type": "generic",
-			"processed": false,
+			"processed": true,
 			"components": {
 				"minecraft:item_model": "matcha:pickled_red_mushrooms",
 				"minecraft:custom_name": {
@@ -6120,7 +6124,7 @@
 				true
 			],
 			"type": "generic",
-			"processed": false,
+			"processed": true,
 			"components": {
 				"minecraft:item_model": "matcha:pickled_tomatoes",
 				"minecraft:item_name": {
@@ -6194,7 +6198,7 @@
 				true
 			],
 			"type": "generic",
-			"processed": false,
+			"processed": true,
 			"components": {
 				"minecraft:item_model": "matcha:pickled_warped_fungus",
 				"minecraft:custom_name": {
@@ -6264,7 +6268,7 @@
 				true
 			],
 			"type": "generic",
-			"processed": false,
+			"processed": true,
 			"components": {
 				"minecraft:item_model": "matcha:ptero_chicken_nugget",
 				"minecraft:item_name": {
@@ -6325,7 +6329,7 @@
 				true
 			],
 			"type": "generic",
-			"processed": false,
+			"processed": true,
 			"components": {
 				"minecraft:item_model": "matcha:puerquito",
 				"minecraft:item_name": {
@@ -6401,7 +6405,7 @@
 				true
 			],
 			"type": "generic",
-			"processed": false,
+			"processed": true,
 			"components": {
 				"minecraft:item_model": "matcha:pumpkin_empanada",
 				"minecraft:item_name": {
@@ -6477,7 +6481,7 @@
 				true
 			],
 			"type": "generic",
-			"processed": false,
+			"processed": true,
 			"components": {
 				"minecraft:item_model": "matcha:pumpkin_jam",
 				"minecraft:item_name": {
@@ -6558,7 +6562,7 @@
 				true
 			],
 			"type": "generic",
-			"processed": false,
+			"processed": true,
 			"components": {
 				"minecraft:item_model": "matcha:pupusa",
 				"minecraft:item_name": {
@@ -6619,7 +6623,7 @@
 				true
 			],
 			"type": "generic",
-			"processed": false,
+			"processed": true,
 			"components": {
 				"minecraft:item_model": "matcha:red_mushroom_stroganoff",
 				"minecraft:item_name": {
@@ -6698,7 +6702,7 @@
 				true
 			],
 			"type": "generic",
-			"processed": false,
+			"processed": true,
 			"components": {
 				"minecraft:item_model": "matcha:rind_jam",
 				"minecraft:item_name": {
@@ -6770,7 +6774,7 @@
 				false
 			],
 			"type": "generic",
-			"processed": false,
+			"processed": true,
 			"components": {
 				"!minecraft:entity_data": {},
 				"minecraft:custom_data": {
@@ -6802,7 +6806,7 @@
 				true
 			],
 			"type": "generic",
-			"processed": false,
+			"processed": true,
 			"components": {
 				"minecraft:item_model": "matcha:stego_chicken_nugget",
 				"minecraft:item_name": {
@@ -6863,7 +6867,7 @@
 				true
 			],
 			"type": "generic",
-			"processed": false,
+			"processed": true,
 			"components": {
 				"minecraft:item_model": "matcha:stroganoff",
 				"minecraft:item_name": {
@@ -6927,7 +6931,7 @@
 				true
 			],
 			"type": "generic",
-			"processed": false,
+			"processed": true,
 			"components": {
 				"minecraft:item_model": "matcha:sweet_berry_danish",
 				"minecraft:item_name": {
@@ -7000,7 +7004,7 @@
 				true
 			],
 			"type": "generic",
-			"processed": false,
+			"processed": true,
 			"components": {
 				"minecraft:item_model": "matcha:sweet_berry_jam",
 				"minecraft:item_name": {
@@ -7083,7 +7087,7 @@
 				true
 			],
 			"type": "generic",
-			"processed": false,
+			"processed": true,
 			"components": {
 				"minecraft:item_model": "matcha:sweet_berry_toast",
 				"minecraft:item_name": {
@@ -7157,7 +7161,7 @@
 				true
 			],
 			"type": "generic",
-			"processed": false,
+			"processed": true,
 			"components": {
 				"minecraft:lore": [
 					{
@@ -7215,7 +7219,7 @@
 				false
 			],
 			"type": "generic",
-			"processed": false,
+			"processed": true,
 			"components": {
 				"!minecraft:entity_data": {},
 				"minecraft:custom_data": {
@@ -7240,7 +7244,7 @@
 				false
 			],
 			"type": "generic",
-			"processed": false,
+			"processed": true,
 			"components": {
 				"!minecraft:entity_data": {},
 				"minecraft:custom_data": {
@@ -7265,7 +7269,7 @@
 				false
 			],
 			"type": "generic",
-			"processed": false,
+			"processed": true,
 			"components": {
 				"!minecraft:entity_data": {},
 				"minecraft:custom_data": {
@@ -7290,7 +7294,7 @@
 				false
 			],
 			"type": "generic",
-			"processed": false,
+			"processed": true,
 			"components": {
 				"!minecraft:entity_data": {},
 				"minecraft:custom_data": {
@@ -7315,7 +7319,7 @@
 				false
 			],
 			"type": "generic",
-			"processed": false,
+			"processed": true,
 			"components": {
 				"!minecraft:entity_data": {},
 				"minecraft:custom_data": {
@@ -7348,7 +7352,7 @@
 				true
 			],
 			"type": "generic",
-			"processed": false,
+			"processed": true,
 			"components": {
 				"minecraft:item_model": "matcha:warped_pizza",
 				"minecraft:item_name": {
@@ -7449,7 +7453,7 @@
 				true
 			],
 			"type": "generic",
-			"processed": false,
+			"processed": true,
 			"components": {
 				"minecraft:item_model": "matcha:warped_stroganoff",
 				"minecraft:item_name": {
@@ -7533,7 +7537,7 @@
 				true
 			],
 			"type": "generic",
-			"processed": false,
+			"processed": true,
 			"components": {
 				"minecraft:item_model": "matcha:charred_fish",
 				"minecraft:item_name": {
@@ -7594,7 +7598,7 @@
 				true
 			],
 			"type": "generic",
-			"processed": false,
+			"processed": true,
 			"components": {
 				"minecraft:item_model": "matcha:charred_meat",
 				"minecraft:item_name": {
@@ -7655,7 +7659,7 @@
 				true
 			],
 			"type": "generic",
-			"processed": false,
+			"processed": true,
 			"components": {
 				"minecraft:item_model": "matcha:charred_potato",
 				"minecraft:item_name": {
@@ -7716,7 +7720,7 @@
 				true
 			],
 			"type": "generic",
-			"processed": false,
+			"processed": true,
 			"components": {
 				"minecraft:item_model": "matcha:naan",
 				"minecraft:item_name": {
@@ -7759,6 +7763,10 @@
 			"folder": [
 				[
 					"smithing"
+				],
+				[
+					"equipment",
+					"adamant"
 				]
 			],
 			"names": [
@@ -7776,7 +7784,7 @@
 				false
 			],
 			"type": "enchanted",
-			"processed": false,
+			"processed": true,
 			"components": {
 				"minecraft:max_damage": 5000,
 				"minecraft:tool": {
@@ -7870,6 +7878,10 @@
 			"folder": [
 				[
 					"smithing"
+				],
+				[
+					"equipment",
+					"adamant"
 				]
 			],
 			"names": [
@@ -7887,7 +7899,7 @@
 				false
 			],
 			"type": "enchanted_boots",
-			"processed": false,
+			"processed": true,
 			"components": {
 				"minecraft:max_damage": 1000,
 				"minecraft:custom_data": {
@@ -7978,6 +7990,10 @@
 			"folder": [
 				[
 					"smithing"
+				],
+				[
+					"equipment",
+					"adamant"
 				]
 			],
 			"names": [
@@ -7995,7 +8011,7 @@
 				false
 			],
 			"type": "enchanted_chestplate",
-			"processed": false,
+			"processed": true,
 			"components": {
 				"minecraft:max_damage": 1000,
 				"minecraft:custom_data": {
@@ -8086,6 +8102,10 @@
 			"folder": [
 				[
 					"smithing"
+				],
+				[
+					"equipment",
+					"adamant"
 				]
 			],
 			"names": [
@@ -8105,7 +8125,7 @@
 				true
 			],
 			"type": "enchanted",
-			"processed": false,
+			"processed": true,
 			"components": {
 				"minecraft:max_damage": 3000,
 				"minecraft:item_name": {
@@ -8243,6 +8263,10 @@
 			"folder": [
 				[
 					"smithing"
+				],
+				[
+					"equipment",
+					"adamant"
 				]
 			],
 			"names": [
@@ -8262,7 +8286,7 @@
 				true
 			],
 			"type": "enchanted",
-			"processed": false,
+			"processed": true,
 			"components": {
 				"minecraft:max_damage": 5000,
 				"minecraft:tool": {
@@ -8382,6 +8406,10 @@
 			"folder": [
 				[
 					"smithing"
+				],
+				[
+					"equipment",
+					"adamant"
 				]
 			],
 			"names": [
@@ -8399,7 +8427,7 @@
 				false
 			],
 			"type": "enchanted_helmet",
-			"processed": false,
+			"processed": true,
 			"components": {
 				"minecraft:max_damage": 1000,
 				"minecraft:custom_data": {
@@ -8490,6 +8518,10 @@
 			"folder": [
 				[
 					"smithing"
+				],
+				[
+					"equipment",
+					"adamant"
 				]
 			],
 			"names": [
@@ -8507,7 +8539,7 @@
 				false
 			],
 			"type": "enchanted",
-			"processed": false,
+			"processed": true,
 			"components": {
 				"minecraft:max_damage": 5000,
 				"minecraft:tool": {
@@ -8600,6 +8632,10 @@
 			"folder": [
 				[
 					"smithing"
+				],
+				[
+					"equipment",
+					"adamant"
 				]
 			],
 			"names": [
@@ -8617,7 +8653,7 @@
 				false
 			],
 			"type": "enchanted_leggings",
-			"processed": false,
+			"processed": true,
 			"components": {
 				"minecraft:max_damage": 1000,
 				"minecraft:custom_data": {
@@ -8708,6 +8744,10 @@
 			"folder": [
 				[
 					"smithing"
+				],
+				[
+					"equipment",
+					"adamant"
 				]
 			],
 			"names": [
@@ -8727,7 +8767,7 @@
 				true
 			],
 			"type": "enchanted",
-			"processed": false,
+			"processed": true,
 			"components": {
 				"minecraft:max_damage": 5000,
 				"minecraft:tool": {
@@ -8826,6 +8866,10 @@
 			"folder": [
 				[
 					"smithing"
+				],
+				[
+					"equipment",
+					"adamant"
 				]
 			],
 			"names": [
@@ -8843,7 +8887,7 @@
 				false
 			],
 			"type": "enchanted",
-			"processed": false,
+			"processed": true,
 			"components": {
 				"minecraft:max_damage": 5000,
 				"minecraft:tool": {
@@ -8951,6 +8995,10 @@
 			"folder": [
 				[
 					"smithing"
+				],
+				[
+					"equipment",
+					"adamant"
 				]
 			],
 			"names": [
@@ -8968,7 +9016,7 @@
 				false
 			],
 			"type": "enchanted",
-			"processed": false,
+			"processed": true,
 			"components": {
 				"minecraft:max_damage": 5000,
 				"minecraft:tool": {
@@ -9061,6 +9109,10 @@
 			"folder": [
 				[
 					"smithing"
+				],
+				[
+					"equipment",
+					"adamant"
 				]
 			],
 			"names": [
@@ -9078,7 +9130,7 @@
 				false
 			],
 			"type": "enchanted",
-			"processed": false,
+			"processed": true,
 			"components": {
 				"minecraft:max_damage": 5000,
 				"minecraft:item_name": {
@@ -9151,6 +9203,10 @@
 			"folder": [
 				[
 					"smithing"
+				],
+				[
+					"equipment",
+					"adamant"
 				]
 			],
 			"names": [
@@ -9168,7 +9224,7 @@
 				false
 			],
 			"type": "enchanted",
-			"processed": false,
+			"processed": true,
 			"components": {
 				"minecraft:max_damage": 3000,
 				"minecraft:item_name": {
@@ -9256,6 +9312,10 @@
 			"folder": [
 				[
 					"smithing"
+				],
+				[
+					"equipment",
+					"electrum"
 				]
 			],
 			"names": [
@@ -9275,7 +9335,7 @@
 				true
 			],
 			"type": "enchanted",
-			"processed": false,
+			"processed": true,
 			"components": {
 				"minecraft:max_damage": 3000,
 				"minecraft:tool": {
@@ -9380,6 +9440,10 @@
 			"folder": [
 				[
 					"smithing"
+				],
+				[
+					"equipment",
+					"electrum"
 				]
 			],
 			"names": [
@@ -9399,7 +9463,7 @@
 				true
 			],
 			"type": "enchanted_boots",
-			"processed": false,
+			"processed": true,
 			"components": {
 				"minecraft:max_damage": 1000,
 				"minecraft:lore": [
@@ -9506,6 +9570,10 @@
 			"folder": [
 				[
 					"smithing"
+				],
+				[
+					"equipment",
+					"electrum"
 				]
 			],
 			"names": [
@@ -9525,7 +9593,7 @@
 				true
 			],
 			"type": "enchanted_chestplate",
-			"processed": false,
+			"processed": true,
 			"components": {
 				"minecraft:max_damage": 1000,
 				"minecraft:lore": [
@@ -9632,6 +9700,10 @@
 			"folder": [
 				[
 					"smithing"
+				],
+				[
+					"equipment",
+					"electrum"
 				]
 			],
 			"names": [
@@ -9651,7 +9723,7 @@
 				true
 			],
 			"type": "enchanted",
-			"processed": false,
+			"processed": true,
 			"components": {
 				"minecraft:max_damage": 3000,
 				"minecraft:tool": {
@@ -9763,6 +9835,10 @@
 			"folder": [
 				[
 					"smithing"
+				],
+				[
+					"equipment",
+					"electrum"
 				]
 			],
 			"names": [
@@ -9782,7 +9858,7 @@
 				true
 			],
 			"type": "enchanted_helmet",
-			"processed": false,
+			"processed": true,
 			"components": {
 				"minecraft:max_damage": 1000,
 				"minecraft:lore": [
@@ -9889,6 +9965,10 @@
 			"folder": [
 				[
 					"smithing"
+				],
+				[
+					"equipment",
+					"electrum"
 				]
 			],
 			"names": [
@@ -9908,7 +9988,7 @@
 				true
 			],
 			"type": "enchanted",
-			"processed": false,
+			"processed": true,
 			"components": {
 				"minecraft:max_damage": 3000,
 				"minecraft:tool": {
@@ -10010,6 +10090,10 @@
 			"folder": [
 				[
 					"smithing"
+				],
+				[
+					"equipment",
+					"electrum"
 				]
 			],
 			"names": [
@@ -10029,7 +10113,7 @@
 				true
 			],
 			"type": "enchanted_leggings",
-			"processed": false,
+			"processed": true,
 			"components": {
 				"minecraft:max_damage": 1000,
 				"minecraft:lore": [
@@ -10136,6 +10220,10 @@
 			"folder": [
 				[
 					"smithing"
+				],
+				[
+					"equipment",
+					"electrum"
 				]
 			],
 			"names": [
@@ -10155,7 +10243,7 @@
 				true
 			],
 			"type": "enchanted",
-			"processed": false,
+			"processed": true,
 			"components": {
 				"minecraft:max_damage": 3000,
 				"minecraft:tool": {
@@ -10263,6 +10351,10 @@
 			"folder": [
 				[
 					"smithing"
+				],
+				[
+					"equipment",
+					"electrum"
 				]
 			],
 			"names": [
@@ -10282,7 +10374,7 @@
 				true
 			],
 			"type": "enchanted",
-			"processed": false,
+			"processed": true,
 			"components": {
 				"minecraft:max_damage": 3000,
 				"minecraft:tool": {
@@ -10389,6 +10481,10 @@
 			"folder": [
 				[
 					"smithing"
+				],
+				[
+					"equipment",
+					"electrum"
 				]
 			],
 			"names": [
@@ -10408,7 +10504,7 @@
 				true
 			],
 			"type": "enchanted",
-			"processed": false,
+			"processed": true,
 			"components": {
 				"minecraft:max_damage": 3000,
 				"minecraft:tool": {
@@ -10510,6 +10606,10 @@
 			"folder": [
 				[
 					"smithing"
+				],
+				[
+					"equipment",
+					"electrum"
 				]
 			],
 			"names": [
@@ -10529,7 +10629,7 @@
 				true
 			],
 			"type": "enchanted",
-			"processed": false,
+			"processed": true,
 			"components": {
 				"minecraft:max_damage": 3000,
 				"minecraft:item_name": {
@@ -10605,6 +10705,10 @@
 			"folder": [
 				[
 					"smithing"
+				],
+				[
+					"equipment",
+					"electrum"
 				]
 			],
 			"names": [
@@ -10624,7 +10728,7 @@
 				true
 			],
 			"type": "enchanted",
-			"processed": false,
+			"processed": true,
 			"components": {
 				"minecraft:max_damage": 3000,
 				"minecraft:lore": [
@@ -10707,6 +10811,10 @@
 			"folder": [
 				[
 					"smithing"
+				],
+				[
+					"equipment",
+					"hepatizon"
 				]
 			],
 			"names": [
@@ -10732,7 +10840,7 @@
 				true
 			],
 			"type": "generic",
-			"processed": false,
+			"processed": true,
 			"components": {
 				"minecraft:max_damage": 1000,
 				"minecraft:tool": {
@@ -10838,6 +10946,10 @@
 			"folder": [
 				[
 					"smithing"
+				],
+				[
+					"equipment",
+					"hepatizon"
 				]
 			],
 			"names": [
@@ -10863,7 +10975,7 @@
 				true
 			],
 			"type": "boots",
-			"processed": false,
+			"processed": true,
 			"components": {
 				"minecraft:max_damage": 500,
 				"minecraft:lore": [
@@ -10941,6 +11053,10 @@
 			"folder": [
 				[
 					"smithing"
+				],
+				[
+					"equipment",
+					"hepatizon"
 				]
 			],
 			"names": [
@@ -10966,7 +11082,7 @@
 				true
 			],
 			"type": "chestplate",
-			"processed": false,
+			"processed": true,
 			"components": {
 				"minecraft:max_damage": 500,
 				"minecraft:lore": [
@@ -11044,6 +11160,10 @@
 			"folder": [
 				[
 					"smithing"
+				],
+				[
+					"equipment",
+					"hepatizon"
 				]
 			],
 			"names": [
@@ -11069,7 +11189,7 @@
 				true
 			],
 			"type": "generic",
-			"processed": false,
+			"processed": true,
 			"components": {
 				"minecraft:max_damage": 1000,
 				"minecraft:tool": {
@@ -11181,6 +11301,10 @@
 			"folder": [
 				[
 					"smithing"
+				],
+				[
+					"equipment",
+					"hepatizon"
 				]
 			],
 			"names": [
@@ -11206,7 +11330,7 @@
 				true
 			],
 			"type": "generic",
-			"processed": false,
+			"processed": true,
 			"components": {
 				"minecraft:max_damage": 800,
 				"minecraft:lore": [
@@ -11290,6 +11414,10 @@
 			"folder": [
 				[
 					"smithing"
+				],
+				[
+					"equipment",
+					"hepatizon"
 				]
 			],
 			"names": [
@@ -11315,7 +11443,7 @@
 				true
 			],
 			"type": "helmet",
-			"processed": false,
+			"processed": true,
 			"components": {
 				"minecraft:max_damage": 500,
 				"minecraft:lore": [
@@ -11393,6 +11521,10 @@
 			"folder": [
 				[
 					"smithing"
+				],
+				[
+					"equipment",
+					"hepatizon"
 				]
 			],
 			"names": [
@@ -11418,7 +11550,7 @@
 				true
 			],
 			"type": "generic",
-			"processed": false,
+			"processed": true,
 			"components": {
 				"minecraft:max_damage": 1000,
 				"minecraft:tool": {
@@ -11511,6 +11643,10 @@
 			"folder": [
 				[
 					"smithing"
+				],
+				[
+					"equipment",
+					"hepatizon"
 				]
 			],
 			"names": [
@@ -11536,7 +11672,7 @@
 				true
 			],
 			"type": "leggings",
-			"processed": false,
+			"processed": true,
 			"components": {
 				"minecraft:max_damage": 500,
 				"minecraft:lore": [
@@ -11614,6 +11750,10 @@
 			"folder": [
 				[
 					"smithing"
+				],
+				[
+					"equipment",
+					"hepatizon"
 				]
 			],
 			"names": [
@@ -11639,7 +11779,7 @@
 				true
 			],
 			"type": "generic",
-			"processed": false,
+			"processed": true,
 			"components": {
 				"minecraft:max_damage": 1000,
 				"minecraft:tool": {
@@ -11751,6 +11891,10 @@
 			"folder": [
 				[
 					"smithing"
+				],
+				[
+					"equipment",
+					"hepatizon"
 				]
 			],
 			"names": [
@@ -11776,7 +11920,7 @@
 				true
 			],
 			"type": "generic",
-			"processed": false,
+			"processed": true,
 			"components": {
 				"minecraft:max_damage": 1000,
 				"minecraft:tool": {
@@ -11888,6 +12032,10 @@
 			"folder": [
 				[
 					"smithing"
+				],
+				[
+					"equipment",
+					"hepatizon"
 				]
 			],
 			"names": [
@@ -11913,7 +12061,7 @@
 				true
 			],
 			"type": "generic",
-			"processed": false,
+			"processed": true,
 			"components": {
 				"minecraft:max_damage": 1000,
 				"minecraft:tool": {
@@ -12020,6 +12168,10 @@
 			"folder": [
 				[
 					"smithing"
+				],
+				[
+					"equipment",
+					"hepatizon"
 				]
 			],
 			"names": [
@@ -12044,7 +12196,7 @@
 				true
 			],
 			"type": "enchanted",
-			"processed": false,
+			"processed": true,
 			"components": {
 				"minecraft:max_damage": 1000,
 				"minecraft:item_name": {
@@ -12137,6 +12289,10 @@
 			"folder": [
 				[
 					"smithing"
+				],
+				[
+					"equipment",
+					"hepatizon"
 				]
 			],
 			"names": [
@@ -12161,7 +12317,7 @@
 				true
 			],
 			"type": "enchanted",
-			"processed": false,
+			"processed": true,
 			"components": {
 				"minecraft:max_damage": 1000,
 				"minecraft:item_name": {
@@ -12254,6 +12410,10 @@
 			"folder": [
 				[
 					"smithing"
+				],
+				[
+					"equipment",
+					"shakudo"
 				]
 			],
 			"names": [
@@ -12278,7 +12438,7 @@
 				true
 			],
 			"type": "enchanted",
-			"processed": false,
+			"processed": true,
 			"components": {
 				"minecraft:max_damage": 1000,
 				"minecraft:tool": {
@@ -12376,6 +12536,10 @@
 			"folder": [
 				[
 					"smithing"
+				],
+				[
+					"equipment",
+					"shakudo"
 				]
 			],
 			"names": [
@@ -12400,7 +12564,7 @@
 				true
 			],
 			"type": "enchanted_boots",
-			"processed": false,
+			"processed": true,
 			"components": {
 				"minecraft:max_damage": 500,
 				"minecraft:lore": [
@@ -12479,6 +12643,10 @@
 			"folder": [
 				[
 					"smithing"
+				],
+				[
+					"equipment",
+					"shakudo"
 				]
 			],
 			"names": [
@@ -12503,7 +12671,7 @@
 				true
 			],
 			"type": "enchanted_chestplate",
-			"processed": false,
+			"processed": true,
 			"components": {
 				"minecraft:max_damage": 500,
 				"minecraft:lore": [
@@ -12582,6 +12750,10 @@
 			"folder": [
 				[
 					"smithing"
+				],
+				[
+					"equipment",
+					"shakudo"
 				]
 			],
 			"names": [
@@ -12606,7 +12778,7 @@
 				true
 			],
 			"type": "enchanted",
-			"processed": false,
+			"processed": true,
 			"components": {
 				"minecraft:max_damage": 1000,
 				"minecraft:tool": {
@@ -12706,6 +12878,10 @@
 			"folder": [
 				[
 					"smithing"
+				],
+				[
+					"equipment",
+					"shakudo"
 				]
 			],
 			"names": [
@@ -12730,7 +12906,7 @@
 				true
 			],
 			"type": "enchanted",
-			"processed": false,
+			"processed": true,
 			"components": {
 				"minecraft:max_damage": 800,
 				"minecraft:lore": [
@@ -12815,6 +12991,10 @@
 			"folder": [
 				[
 					"smithing"
+				],
+				[
+					"equipment",
+					"shakudo"
 				]
 			],
 			"names": [
@@ -12839,7 +13019,7 @@
 				true
 			],
 			"type": "enchanted_helmet",
-			"processed": false,
+			"processed": true,
 			"components": {
 				"minecraft:max_damage": 500,
 				"minecraft:lore": [
@@ -12918,6 +13098,10 @@
 			"folder": [
 				[
 					"smithing"
+				],
+				[
+					"equipment",
+					"shakudo"
 				]
 			],
 			"names": [
@@ -12942,7 +13126,7 @@
 				true
 			],
 			"type": "enchanted",
-			"processed": false,
+			"processed": true,
 			"components": {
 				"minecraft:max_damage": 1000,
 				"minecraft:tool": {
@@ -13032,6 +13216,10 @@
 			"folder": [
 				[
 					"smithing"
+				],
+				[
+					"equipment",
+					"shakudo"
 				]
 			],
 			"names": [
@@ -13056,7 +13244,7 @@
 				true
 			],
 			"type": "enchanted_leggings",
-			"processed": false,
+			"processed": true,
 			"components": {
 				"minecraft:max_damage": 500,
 				"minecraft:lore": [
@@ -13135,6 +13323,10 @@
 			"folder": [
 				[
 					"smithing"
+				],
+				[
+					"equipment",
+					"shakudo"
 				]
 			],
 			"names": [
@@ -13159,7 +13351,7 @@
 				true
 			],
 			"type": "enchanted",
-			"processed": false,
+			"processed": true,
 			"components": {
 				"minecraft:max_damage": 1000,
 				"minecraft:tool": {
@@ -13261,6 +13453,10 @@
 			"folder": [
 				[
 					"smithing"
+				],
+				[
+					"equipment",
+					"shakudo"
 				]
 			],
 			"names": [
@@ -13285,7 +13481,7 @@
 				true
 			],
 			"type": "enchanted",
-			"processed": false,
+			"processed": true,
 			"components": {
 				"minecraft:max_damage": 1000,
 				"minecraft:tool": {
@@ -13380,6 +13576,10 @@
 			"folder": [
 				[
 					"smithing"
+				],
+				[
+					"equipment",
+					"shakudo"
 				]
 			],
 			"names": [
@@ -13404,7 +13604,7 @@
 				true
 			],
 			"type": "enchanted",
-			"processed": false,
+			"processed": true,
 			"components": {
 				"minecraft:max_damage": 1000,
 				"minecraft:tool": {
@@ -13501,6 +13701,10 @@
 			"folder": [
 				[
 					"smithing"
+				],
+				[
+					"equipment",
+					"shakudo"
 				]
 			],
 			"names": [
@@ -13525,7 +13729,7 @@
 				true
 			],
 			"type": "enchanted",
-			"processed": false,
+			"processed": true,
 			"components": {
 				"minecraft:max_damage": 1000,
 				"minecraft:item_name": {
@@ -13603,6 +13807,10 @@
 			"folder": [
 				[
 					"smithing"
+				],
+				[
+					"equipment",
+					"shakudo"
 				]
 			],
 			"names": [
@@ -13627,7 +13835,7 @@
 				true
 			],
 			"type": "enchanted",
-			"processed": false,
+			"processed": true,
 			"components": {
 				"minecraft:max_damage": 1000,
 				"minecraft:item_name": {
@@ -13706,6 +13914,10 @@
 			"folder": [
 				[
 					"smithing"
+				],
+				[
+					"equipment",
+					"misc"
 				]
 			],
 			"names": [
@@ -13724,7 +13936,7 @@
 				true
 			],
 			"type": "enchanted",
-			"processed": false,
+			"processed": true,
 			"components": {
 				"minecraft:max_damage": 400,
 				"minecraft:lore": [
@@ -13812,6 +14024,10 @@
 			"folder": [
 				[
 					"smithing"
+				],
+				[
+					"equipment",
+					"steel"
 				]
 			],
 			"names": [
@@ -13830,7 +14046,7 @@
 				true
 			],
 			"type": "generic",
-			"processed": false,
+			"processed": true,
 			"components": {
 				"minecraft:item_name": {
 					"translate": "item.kleispack.steel_axe"
@@ -13936,6 +14152,10 @@
 			"folder": [
 				[
 					"smithing"
+				],
+				[
+					"equipment",
+					"steel"
 				]
 			],
 			"names": [
@@ -13955,7 +14175,7 @@
 				true
 			],
 			"type": "enchanted_boots",
-			"processed": false,
+			"processed": true,
 			"components": {
 				"minecraft:max_damage": 1000,
 				"minecraft:lore": [
@@ -14052,6 +14272,10 @@
 			"folder": [
 				[
 					"smithing"
+				],
+				[
+					"equipment",
+					"steel"
 				]
 			],
 			"names": [
@@ -14071,7 +14295,7 @@
 				true
 			],
 			"type": "enchanted_chestplate",
-			"processed": false,
+			"processed": true,
 			"components": {
 				"minecraft:max_damage": 1000,
 				"minecraft:lore": [
@@ -14168,6 +14392,10 @@
 			"folder": [
 				[
 					"smithing"
+				],
+				[
+					"equipment",
+					"steel"
 				]
 			],
 			"names": [
@@ -14186,7 +14414,7 @@
 				true
 			],
 			"type": "generic",
-			"processed": false,
+			"processed": true,
 			"components": {
 				"minecraft:max_damage": 1500,
 				"minecraft:item_name": {
@@ -14322,6 +14550,10 @@
 			"folder": [
 				[
 					"smithing"
+				],
+				[
+					"equipment",
+					"steel"
 				]
 			],
 			"names": [
@@ -14340,7 +14572,7 @@
 				true
 			],
 			"type": "generic",
-			"processed": false,
+			"processed": true,
 			"components": {
 				"minecraft:item_name": {
 					"translate": "item.kleispack.steel_dolabra"
@@ -14436,6 +14668,10 @@
 			"folder": [
 				[
 					"smithing"
+				],
+				[
+					"equipment",
+					"steel"
 				]
 			],
 			"names": [
@@ -14455,7 +14691,7 @@
 				true
 			],
 			"type": "enchanted_helmet",
-			"processed": false,
+			"processed": true,
 			"components": {
 				"minecraft:max_damage": 1000,
 				"minecraft:lore": [
@@ -14552,6 +14788,10 @@
 			"folder": [
 				[
 					"smithing"
+				],
+				[
+					"equipment",
+					"steel"
 				]
 			],
 			"names": [
@@ -14570,7 +14810,7 @@
 				true
 			],
 			"type": "generic",
-			"processed": false,
+			"processed": true,
 			"components": {
 				"minecraft:item_name": {
 					"translate": "item.kleispack.steel_hoe"
@@ -14645,6 +14885,10 @@
 			"folder": [
 				[
 					"smithing"
+				],
+				[
+					"equipment",
+					"steel"
 				]
 			],
 			"names": [
@@ -14664,7 +14908,7 @@
 				true
 			],
 			"type": "enchanted_leggings",
-			"processed": false,
+			"processed": true,
 			"components": {
 				"minecraft:max_damage": 1000,
 				"minecraft:lore": [
@@ -14761,6 +15005,10 @@
 			"folder": [
 				[
 					"smithing"
+				],
+				[
+					"equipment",
+					"steel"
 				]
 			],
 			"names": [
@@ -14779,7 +15027,7 @@
 				true
 			],
 			"type": "generic",
-			"processed": false,
+			"processed": true,
 			"components": {
 				"minecraft:item_name": {
 					"translate": "item.kleispack.steel_mattock"
@@ -14859,6 +15107,10 @@
 			"folder": [
 				[
 					"smithing"
+				],
+				[
+					"equipment",
+					"steel"
 				]
 			],
 			"names": [
@@ -14877,7 +15129,7 @@
 				true
 			],
 			"type": "generic",
-			"processed": false,
+			"processed": true,
 			"components": {
 				"minecraft:item_name": {
 					"translate": "item.kleispack.steel_pickaxe"
@@ -14952,6 +15204,10 @@
 			"folder": [
 				[
 					"smithing"
+				],
+				[
+					"equipment",
+					"steel"
 				]
 			],
 			"names": [
@@ -14970,7 +15226,7 @@
 				true
 			],
 			"type": "generic",
-			"processed": false,
+			"processed": true,
 			"components": {
 				"minecraft:item_name": {
 					"translate": "item.kleispack.steel_shears"
@@ -15005,6 +15261,10 @@
 			"folder": [
 				[
 					"smithing"
+				],
+				[
+					"equipment",
+					"steel"
 				]
 			],
 			"names": [
@@ -15023,7 +15283,7 @@
 				true
 			],
 			"type": "generic",
-			"processed": false,
+			"processed": true,
 			"components": {
 				"minecraft:item_name": {
 					"translate": "item.kleispack.steel_shovel"
@@ -15098,6 +15358,10 @@
 			"folder": [
 				[
 					"smithing"
+				],
+				[
+					"equipment",
+					"steel"
 				]
 			],
 			"names": [
@@ -15116,7 +15380,7 @@
 				true
 			],
 			"type": "generic",
-			"processed": false,
+			"processed": true,
 			"components": {
 				"minecraft:max_damage": 3000,
 				"minecraft:item_name": {
@@ -15204,6 +15468,10 @@
 			"folder": [
 				[
 					"smithing"
+				],
+				[
+					"equipment",
+					"steel"
 				]
 			],
 			"names": [
@@ -15222,7 +15490,7 @@
 				true
 			],
 			"type": "generic",
-			"processed": false,
+			"processed": true,
 			"components": {
 				"minecraft:item_name": {
 					"translate": "item.kleispack.steel_sword"
@@ -15310,6 +15578,10 @@
 			"folder": [
 				[
 					"smithing"
+				],
+				[
+					"equipment",
+					"misc"
 				]
 			],
 			"names": [
@@ -15326,7 +15598,7 @@
 				false
 			],
 			"type": "enchanted",
-			"processed": false,
+			"processed": true,
 			"components": {
 				"minecraft:lore": [
 					{
@@ -15400,6 +15672,10 @@
 			"folder": [
 				[
 					"smithing"
+				],
+				[
+					"equipment",
+					"misc"
 				]
 			],
 			"names": [
@@ -15418,7 +15694,7 @@
 				true
 			],
 			"type": "enchanted",
-			"processed": false,
+			"processed": true,
 			"components": {
 				"minecraft:max_damage": 500,
 				"minecraft:lore": [
@@ -22964,6 +23240,9 @@
 			"folder": [
 				[
 					"crafting"
+				],
+				[
+					"materials"
 				]
 			],
 			"names": [],
@@ -22977,7 +23256,7 @@
 				true
 			],
 			"type": "generic",
-			"processed": false,
+			"processed": true,
 			"components": {
 				"minecraft:item_model": "matcha:amnestic_wrapped",
 				"minecraft:custom_name": {
@@ -23027,7 +23306,7 @@
 				true
 			],
 			"type": "generic",
-			"processed": false,
+			"processed": true,
 			"components": {
 				"minecraft:entity_data": {
 					"id": "minecraft:marker",
@@ -23070,7 +23349,7 @@
 				true
 			],
 			"type": "generic",
-			"processed": false,
+			"processed": true,
 			"components": {
 				"minecraft:entity_data": {
 					"id": "minecraft:tnt",
@@ -23105,7 +23384,7 @@
 				false
 			],
 			"type": "generic",
-			"processed": false,
+			"processed": true,
 			"components": {
 				"!minecraft:entity_data": {},
 				"minecraft:custom_data": {
@@ -23130,7 +23409,7 @@
 				false
 			],
 			"type": "generic",
-			"processed": false,
+			"processed": true,
 			"components": {
 				"minecraft:block_state": {
 					"lit": "false"
@@ -23157,7 +23436,7 @@
 				false
 			],
 			"type": "generic",
-			"processed": false,
+			"processed": true,
 			"components": {
 				"!minecraft:entity_data": {},
 				"minecraft:custom_data": {
@@ -23171,6 +23450,10 @@
 			"folder": [
 				[
 					"crafting"
+				],
+				[
+					"equipment",
+					"chainmail"
 				]
 			],
 			"names": [
@@ -23187,7 +23470,7 @@
 				false
 			],
 			"type": "enchanted_boots",
-			"processed": false,
+			"processed": true,
 			"components": {
 				"minecraft:max_damage": 300,
 				"minecraft:lore": [
@@ -23233,6 +23516,10 @@
 			"folder": [
 				[
 					"crafting"
+				],
+				[
+					"equipment",
+					"chainmail"
 				]
 			],
 			"names": [
@@ -23249,7 +23536,7 @@
 				false
 			],
 			"type": "enchanted_chestplate",
-			"processed": false,
+			"processed": true,
 			"components": {
 				"minecraft:max_damage": 300,
 				"minecraft:lore": [
@@ -23295,6 +23582,10 @@
 			"folder": [
 				[
 					"crafting"
+				],
+				[
+					"equipment",
+					"chainmail"
 				]
 			],
 			"names": [
@@ -23311,7 +23602,7 @@
 				false
 			],
 			"type": "enchanted_helmet",
-			"processed": false,
+			"processed": true,
 			"components": {
 				"minecraft:max_damage": 300,
 				"minecraft:lore": [
@@ -23357,6 +23648,10 @@
 			"folder": [
 				[
 					"crafting"
+				],
+				[
+					"equipment",
+					"chainmail"
 				]
 			],
 			"names": [
@@ -23373,7 +23668,7 @@
 				false
 			],
 			"type": "enchanted_leggings",
-			"processed": false,
+			"processed": true,
 			"components": {
 				"minecraft:max_damage": 300,
 				"minecraft:lore": [
@@ -23419,6 +23714,10 @@
 			"folder": [
 				[
 					"crafting"
+				],
+				[
+					"equipment",
+					"copper"
 				]
 			],
 			"names": [],
@@ -23432,7 +23731,7 @@
 				true
 			],
 			"type": "generic",
-			"processed": false,
+			"processed": true,
 			"components": {
 				"minecraft:item_model": "minecraft:copper_axe",
 				"minecraft:max_damage": 350,
@@ -23489,6 +23788,10 @@
 			"folder": [
 				[
 					"crafting"
+				],
+				[
+					"equipment",
+					"copper"
 				]
 			],
 			"names": [],
@@ -23500,7 +23803,7 @@
 				false
 			],
 			"type": "boots",
-			"processed": false,
+			"processed": true,
 			"components": {
 				"minecraft:lore": [
 					{
@@ -23529,6 +23832,10 @@
 			"folder": [
 				[
 					"crafting"
+				],
+				[
+					"equipment",
+					"copper"
 				]
 			],
 			"names": [],
@@ -23540,7 +23847,7 @@
 				false
 			],
 			"type": "chestplate",
-			"processed": false,
+			"processed": true,
 			"components": {
 				"minecraft:lore": [
 					{
@@ -23587,7 +23894,7 @@
 				true
 			],
 			"type": "generic",
-			"processed": false,
+			"processed": true,
 			"components": {
 				"minecraft:item_model": "matcha:copper_compass",
 				"minecraft:item_name": {
@@ -23604,6 +23911,10 @@
 			"folder": [
 				[
 					"crafting"
+				],
+				[
+					"equipment",
+					"copper"
 				]
 			],
 			"names": [
@@ -23622,7 +23933,7 @@
 				true
 			],
 			"type": "generic",
-			"processed": false,
+			"processed": true,
 			"components": {
 				"minecraft:item_name": {
 					"translate": "item.kleispack.copper_dolabra"
@@ -23716,6 +24027,10 @@
 			"folder": [
 				[
 					"crafting"
+				],
+				[
+					"equipment",
+					"copper"
 				]
 			],
 			"names": [],
@@ -23727,7 +24042,7 @@
 				false
 			],
 			"type": "helmet",
-			"processed": false,
+			"processed": true,
 			"components": {
 				"minecraft:lore": [
 					{
@@ -23756,6 +24071,10 @@
 			"folder": [
 				[
 					"crafting"
+				],
+				[
+					"equipment",
+					"copper"
 				]
 			],
 			"names": [],
@@ -23769,7 +24088,7 @@
 				true
 			],
 			"type": "generic",
-			"processed": false,
+			"processed": true,
 			"components": {
 				"minecraft:item_model": "copper_hoe",
 				"minecraft:max_damage": 350,
@@ -23831,6 +24150,10 @@
 			"folder": [
 				[
 					"crafting"
+				],
+				[
+					"equipment",
+					"copper"
 				]
 			],
 			"names": [],
@@ -23842,7 +24165,7 @@
 				false
 			],
 			"type": "leggings",
-			"processed": false,
+			"processed": true,
 			"components": {
 				"minecraft:lore": [
 					{
@@ -23871,6 +24194,10 @@
 			"folder": [
 				[
 					"crafting"
+				],
+				[
+					"equipment",
+					"copper"
 				]
 			],
 			"names": [
@@ -23889,7 +24216,7 @@
 				true
 			],
 			"type": "generic",
-			"processed": false,
+			"processed": true,
 			"components": {
 				"minecraft:item_name": {
 					"translate": "item.kleispack.copper_mattock"
@@ -23954,6 +24281,10 @@
 			"folder": [
 				[
 					"crafting"
+				],
+				[
+					"equipment",
+					"copper"
 				]
 			],
 			"names": [],
@@ -23967,7 +24298,7 @@
 				true
 			],
 			"type": "generic",
-			"processed": false,
+			"processed": true,
 			"components": {
 				"minecraft:tool": {
 					"rules": [
@@ -24029,6 +24360,10 @@
 			"folder": [
 				[
 					"crafting"
+				],
+				[
+					"equipment",
+					"copper"
 				]
 			],
 			"names": [
@@ -24047,7 +24382,7 @@
 				true
 			],
 			"type": "generic",
-			"processed": false,
+			"processed": true,
 			"components": {
 				"minecraft:max_damage": 300,
 				"minecraft:item_name": {
@@ -24068,6 +24403,10 @@
 			"folder": [
 				[
 					"crafting"
+				],
+				[
+					"equipment",
+					"copper"
 				]
 			],
 			"names": [],
@@ -24081,7 +24420,7 @@
 				true
 			],
 			"type": "generic",
-			"processed": false,
+			"processed": true,
 			"components": {
 				"minecraft:item_model": "minecraft:copper_shovel",
 				"minecraft:max_damage": 350,
@@ -24138,6 +24477,10 @@
 			"folder": [
 				[
 					"crafting"
+				],
+				[
+					"equipment",
+					"copper"
 				]
 			],
 			"names": [],
@@ -24149,7 +24492,7 @@
 				false
 			],
 			"type": "generic",
-			"processed": false,
+			"processed": true,
 			"components": {
 				"minecraft:lore": [
 					{
@@ -24185,6 +24528,10 @@
 			"folder": [
 				[
 					"crafting"
+				],
+				[
+					"equipment",
+					"copper"
 				]
 			],
 			"names": [],
@@ -24198,7 +24545,7 @@
 				true
 			],
 			"type": "generic",
-			"processed": false,
+			"processed": true,
 			"components": {
 				"minecraft:max_damage": 350,
 				"minecraft:item_model": "minecraft:copper_sword",
@@ -24240,6 +24587,9 @@
 				[
 					"mouthpiece",
 					"5"
+				],
+				[
+					"treasure"
 				]
 			],
 			"names": [
@@ -24258,7 +24608,7 @@
 				true
 			],
 			"type": "generic",
-			"processed": false,
+			"processed": true,
 			"components": {
 				"minecraft:item_model": "matcha:heart_container",
 				"minecraft:item_name": {
@@ -24305,6 +24655,10 @@
 			"folder": [
 				[
 					"crafting"
+				],
+				[
+					"equipment",
+					"diamond"
 				]
 			],
 			"names": [],
@@ -24316,7 +24670,7 @@
 				false
 			],
 			"type": "diamond",
-			"processed": false,
+			"processed": true,
 			"components": {
 				"minecraft:max_damage": 2500,
 				"minecraft:tool": {
@@ -24372,6 +24726,10 @@
 			"folder": [
 				[
 					"crafting"
+				],
+				[
+					"equipment",
+					"diamond"
 				]
 			],
 			"names": [],
@@ -24383,7 +24741,7 @@
 				false
 			],
 			"type": "diamond_boots",
-			"processed": false,
+			"processed": true,
 			"components": {
 				"minecraft:lore": [
 					{
@@ -24420,6 +24778,10 @@
 			"folder": [
 				[
 					"crafting"
+				],
+				[
+					"equipment",
+					"diamond"
 				]
 			],
 			"names": [],
@@ -24431,7 +24793,7 @@
 				false
 			],
 			"type": "diamond_chestplate",
-			"processed": false,
+			"processed": true,
 			"components": {
 				"minecraft:lore": [
 					{
@@ -24468,6 +24830,10 @@
 			"folder": [
 				[
 					"crafting"
+				],
+				[
+					"equipment",
+					"diamond"
 				]
 			],
 			"names": [
@@ -24486,7 +24852,7 @@
 				true
 			],
 			"type": "diamond",
-			"processed": false,
+			"processed": true,
 			"components": {
 				"minecraft:tool": {
 					"rules": [
@@ -24572,6 +24938,10 @@
 			"folder": [
 				[
 					"crafting"
+				],
+				[
+					"equipment",
+					"diamond"
 				]
 			],
 			"names": [],
@@ -24583,7 +24953,7 @@
 				false
 			],
 			"type": "diamond_helmet",
-			"processed": false,
+			"processed": true,
 			"components": {
 				"minecraft:lore": [
 					{
@@ -24620,6 +24990,10 @@
 			"folder": [
 				[
 					"crafting"
+				],
+				[
+					"equipment",
+					"diamond"
 				]
 			],
 			"names": [],
@@ -24631,7 +25005,7 @@
 				false
 			],
 			"type": "diamond",
-			"processed": false,
+			"processed": true,
 			"components": {
 				"minecraft:max_damage": 2500,
 				"minecraft:tool": {
@@ -24687,6 +25061,10 @@
 			"folder": [
 				[
 					"crafting"
+				],
+				[
+					"equipment",
+					"diamond"
 				]
 			],
 			"names": [],
@@ -24698,7 +25076,7 @@
 				false
 			],
 			"type": "diamond_leggings",
-			"processed": false,
+			"processed": true,
 			"components": {
 				"minecraft:lore": [
 					{
@@ -24735,6 +25113,10 @@
 			"folder": [
 				[
 					"crafting"
+				],
+				[
+					"equipment",
+					"diamond"
 				]
 			],
 			"names": [
@@ -24753,7 +25135,7 @@
 				true
 			],
 			"type": "diamond",
-			"processed": false,
+			"processed": true,
 			"components": {
 				"minecraft:tool": {
 					"rules": [
@@ -24834,6 +25216,10 @@
 			"folder": [
 				[
 					"crafting"
+				],
+				[
+					"equipment",
+					"diamond"
 				]
 			],
 			"names": [],
@@ -24845,7 +25231,7 @@
 				false
 			],
 			"type": "diamond",
-			"processed": false,
+			"processed": true,
 			"components": {
 				"minecraft:max_damage": 2500,
 				"minecraft:tool": {
@@ -24906,6 +25292,10 @@
 			"folder": [
 				[
 					"crafting"
+				],
+				[
+					"equipment",
+					"diamond"
 				]
 			],
 			"names": [],
@@ -24917,7 +25307,7 @@
 				false
 			],
 			"type": "diamond",
-			"processed": false,
+			"processed": true,
 			"components": {
 				"minecraft:max_damage": 2500,
 				"minecraft:tool": {
@@ -24973,6 +25363,10 @@
 			"folder": [
 				[
 					"crafting"
+				],
+				[
+					"equipment",
+					"diamond"
 				]
 			],
 			"names": [],
@@ -24984,7 +25378,7 @@
 				false
 			],
 			"type": "diamond",
-			"processed": false,
+			"processed": true,
 			"components": {
 				"minecraft:lore": [
 					{
@@ -25021,6 +25415,10 @@
 			"folder": [
 				[
 					"crafting"
+				],
+				[
+					"equipment",
+					"diamond"
 				]
 			],
 			"names": [],
@@ -25032,7 +25430,7 @@
 				false
 			],
 			"type": "diamond",
-			"processed": false,
+			"processed": true,
 			"components": {
 				"minecraft:lore": [
 					{
@@ -25069,6 +25467,9 @@
 			"folder": [
 				[
 					"crafting"
+				],
+				[
+					"treasure"
 				]
 			],
 			"names": [],
@@ -25080,7 +25481,7 @@
 				false
 			],
 			"type": "generic",
-			"processed": false,
+			"processed": true,
 			"components": {
 				"minecraft:enchantment_glint_override": true,
 				"minecraft:rarity": "rare",
@@ -25106,7 +25507,7 @@
 				false
 			],
 			"type": "generic",
-			"processed": false,
+			"processed": true,
 			"components": {
 				"minecraft:custom_data": {
 					"version": 1
@@ -25130,7 +25531,7 @@
 				false
 			],
 			"type": "generic",
-			"processed": false,
+			"processed": true,
 			"components": {
 				"minecraft:custom_data": {
 					"version": 1
@@ -25154,7 +25555,7 @@
 				false
 			],
 			"type": "generic",
-			"processed": false,
+			"processed": true,
 			"components": {
 				"minecraft:custom_data": {
 					"version": 1
@@ -25178,7 +25579,7 @@
 				false
 			],
 			"type": "generic",
-			"processed": false,
+			"processed": true,
 			"components": {
 				"minecraft:custom_data": {
 					"version": 1
@@ -25202,7 +25603,7 @@
 				false
 			],
 			"type": "generic",
-			"processed": false,
+			"processed": true,
 			"components": {
 				"minecraft:custom_data": {
 					"version": 1
@@ -25226,7 +25627,7 @@
 				false
 			],
 			"type": "generic",
-			"processed": false,
+			"processed": true,
 			"components": {
 				"minecraft:custom_data": {
 					"version": 1
@@ -25255,7 +25656,7 @@
 				false
 			],
 			"type": "enchanted",
-			"processed": false,
+			"processed": true,
 			"components": {
 				"minecraft:max_damage": 350,
 				"minecraft:enchantments": {
@@ -25325,7 +25726,7 @@
 				false
 			],
 			"type": "enchanted_boots",
-			"processed": false,
+			"processed": true,
 			"components": {
 				"minecraft:enchantments": {
 					"minecraft:fire_protection": 2
@@ -25387,7 +25788,7 @@
 				false
 			],
 			"type": "enchanted_chestplate",
-			"processed": false,
+			"processed": true,
 			"components": {
 				"minecraft:enchantments": {
 					"minecraft:fire_protection": 3
@@ -25442,7 +25843,7 @@
 				true
 			],
 			"type": "generic",
-			"processed": false,
+			"processed": true,
 			"components": {
 				"minecraft:item_model": "matcha:golden_compass",
 				"minecraft:item_name": {
@@ -25476,7 +25877,7 @@
 				false
 			],
 			"type": "enchanted_helmet",
-			"processed": false,
+			"processed": true,
 			"components": {
 				"minecraft:enchantments": {
 					"minecraft:fire_protection": 2
@@ -25529,7 +25930,7 @@
 				false
 			],
 			"type": "enchanted",
-			"processed": false,
+			"processed": true,
 			"components": {
 				"minecraft:max_damage": 350,
 				"minecraft:enchantments": {
@@ -25598,7 +25999,7 @@
 				false
 			],
 			"type": "enchanted_leggings",
-			"processed": false,
+			"processed": true,
 			"components": {
 				"minecraft:enchantments": {
 					"minecraft:fire_protection": 2
@@ -25651,7 +26052,7 @@
 				false
 			],
 			"type": "enchanted",
-			"processed": false,
+			"processed": true,
 			"components": {
 				"minecraft:max_damage": 350,
 				"minecraft:enchantments": {
@@ -25736,7 +26137,7 @@
 				false
 			],
 			"type": "enchanted",
-			"processed": false,
+			"processed": true,
 			"components": {
 				"minecraft:max_damage": 350,
 				"minecraft:enchantments": {
@@ -25816,7 +26217,7 @@
 				false
 			],
 			"type": "enchanted",
-			"processed": false,
+			"processed": true,
 			"components": {
 				"minecraft:lore": [
 					{
@@ -25877,7 +26278,7 @@
 				false
 			],
 			"type": "enchanted",
-			"processed": false,
+			"processed": true,
 			"components": {
 				"minecraft:max_damage": 350,
 				"minecraft:enchantments": {
@@ -25940,7 +26341,7 @@
 				true
 			],
 			"type": "generic",
-			"processed": false,
+			"processed": true,
 			"components": {
 				"minecraft:entity_data": {
 					"id": "minecraft:item_frame",
@@ -25961,6 +26362,10 @@
 			"folder": [
 				[
 					"crafting"
+				],
+				[
+					"equipment",
+					"iron"
 				]
 			],
 			"names": [],
@@ -25972,7 +26377,7 @@
 				false
 			],
 			"type": "generic",
-			"processed": false,
+			"processed": true,
 			"components": {
 				"minecraft:tool": {
 					"rules": [
@@ -26027,6 +26432,10 @@
 			"folder": [
 				[
 					"crafting"
+				],
+				[
+					"equipment",
+					"iron"
 				]
 			],
 			"names": [],
@@ -26038,7 +26447,7 @@
 				false
 			],
 			"type": "boots",
-			"processed": false,
+			"processed": true,
 			"components": {
 				"minecraft:lore": [
 					{
@@ -26067,6 +26476,10 @@
 			"folder": [
 				[
 					"crafting"
+				],
+				[
+					"equipment",
+					"iron"
 				]
 			],
 			"names": [],
@@ -26078,7 +26491,7 @@
 				false
 			],
 			"type": "chestplate",
-			"processed": false,
+			"processed": true,
 			"components": {
 				"minecraft:lore": [
 					{
@@ -26107,6 +26520,10 @@
 			"folder": [
 				[
 					"crafting"
+				],
+				[
+					"equipment",
+					"iron"
 				]
 			],
 			"names": [
@@ -26125,7 +26542,7 @@
 				true
 			],
 			"type": "generic",
-			"processed": false,
+			"processed": true,
 			"components": {
 				"minecraft:item_name": {
 					"translate": "item.kleispack.iron_dolabra"
@@ -26205,6 +26622,10 @@
 			"folder": [
 				[
 					"crafting"
+				],
+				[
+					"equipment",
+					"iron"
 				]
 			],
 			"names": [],
@@ -26216,7 +26637,7 @@
 				false
 			],
 			"type": "helmet",
-			"processed": false,
+			"processed": true,
 			"components": {
 				"minecraft:lore": [
 					{
@@ -26245,6 +26666,10 @@
 			"folder": [
 				[
 					"crafting"
+				],
+				[
+					"equipment",
+					"iron"
 				]
 			],
 			"names": [],
@@ -26256,7 +26681,7 @@
 				false
 			],
 			"type": "generic",
-			"processed": false,
+			"processed": true,
 			"components": {
 				"minecraft:tool": {
 					"rules": [
@@ -26311,6 +26736,10 @@
 			"folder": [
 				[
 					"crafting"
+				],
+				[
+					"equipment",
+					"iron"
 				]
 			],
 			"names": [],
@@ -26322,7 +26751,7 @@
 				false
 			],
 			"type": "leggings",
-			"processed": false,
+			"processed": true,
 			"components": {
 				"minecraft:lore": [
 					{
@@ -26351,6 +26780,10 @@
 			"folder": [
 				[
 					"crafting"
+				],
+				[
+					"equipment",
+					"iron"
 				]
 			],
 			"names": [
@@ -26369,7 +26802,7 @@
 				true
 			],
 			"type": "generic",
-			"processed": false,
+			"processed": true,
 			"components": {
 				"minecraft:item_name": {
 					"translate": "item.kleispack.iron_mattock"
@@ -26442,6 +26875,10 @@
 			"folder": [
 				[
 					"crafting"
+				],
+				[
+					"equipment",
+					"iron"
 				]
 			],
 			"names": [],
@@ -26453,7 +26890,7 @@
 				false
 			],
 			"type": "generic",
-			"processed": false,
+			"processed": true,
 			"components": {
 				"minecraft:tool": {
 					"rules": [
@@ -26525,7 +26962,7 @@
 				false
 			],
 			"type": "generic",
-			"processed": false,
+			"processed": true,
 			"components": {
 				"minecraft:max_damage": 500,
 				"minecraft:custom_data": {
@@ -26539,6 +26976,10 @@
 			"folder": [
 				[
 					"crafting"
+				],
+				[
+					"equipment",
+					"iron"
 				]
 			],
 			"names": [],
@@ -26550,7 +26991,7 @@
 				false
 			],
 			"type": "generic",
-			"processed": false,
+			"processed": true,
 			"components": {
 				"minecraft:tool": {
 					"rules": [
@@ -26606,6 +27047,10 @@
 			"folder": [
 				[
 					"crafting"
+				],
+				[
+					"equipment",
+					"iron"
 				]
 			],
 			"names": [],
@@ -26617,7 +27062,7 @@
 				false
 			],
 			"type": "generic",
-			"processed": false,
+			"processed": true,
 			"components": {
 				"minecraft:lore": [
 					{
@@ -26654,6 +27099,10 @@
 			"folder": [
 				[
 					"crafting"
+				],
+				[
+					"equipment",
+					"iron"
 				]
 			],
 			"names": [],
@@ -26665,7 +27114,7 @@
 				false
 			],
 			"type": "generic",
-			"processed": false,
+			"processed": true,
 			"components": {
 				"minecraft:attribute_modifiers": [
 					{
@@ -26718,6 +27167,10 @@
 			"folder": [
 				[
 					"crafting"
+				],
+				[
+					"equipment",
+					"leather"
 				]
 			],
 			"names": [
@@ -26734,7 +27187,7 @@
 				false
 			],
 			"type": "enchanted_boots",
-			"processed": false,
+			"processed": true,
 			"components": {
 				"minecraft:max_damage": 200,
 				"minecraft:lore": [
@@ -26799,6 +27252,10 @@
 			"folder": [
 				[
 					"crafting"
+				],
+				[
+					"equipment",
+					"leather"
 				]
 			],
 			"names": [
@@ -26816,7 +27273,7 @@
 				false
 			],
 			"type": "chestplate",
-			"processed": false,
+			"processed": true,
 			"components": {
 				"minecraft:max_damage": 200,
 				"minecraft:lore": [
@@ -26878,6 +27335,10 @@
 			"folder": [
 				[
 					"crafting"
+				],
+				[
+					"equipment",
+					"leather"
 				]
 			],
 			"names": [
@@ -26895,7 +27356,7 @@
 				false
 			],
 			"type": "helmet",
-			"processed": false,
+			"processed": true,
 			"components": {
 				"minecraft:max_damage": 200,
 				"minecraft:lore": [
@@ -26973,7 +27434,7 @@
 				false
 			],
 			"type": "leggings",
-			"processed": false,
+			"processed": true,
 			"components": {
 				"minecraft:max_damage": 200,
 				"minecraft:lore": [
@@ -27046,7 +27507,7 @@
 				false
 			],
 			"type": "generic",
-			"processed": false,
+			"processed": true,
 			"components": {
 				"minecraft:lore": [
 					{
@@ -27091,7 +27552,7 @@
 				false
 			],
 			"type": "generic",
-			"processed": false,
+			"processed": true,
 			"components": {
 				"minecraft:max_stack_size": 2,
 				"minecraft:custom_data": {
@@ -27118,7 +27579,7 @@
 				true
 			],
 			"type": "generic",
-			"processed": false,
+			"processed": true,
 			"components": {
 				"minecraft:jukebox_playable": "matcha:crete",
 				"minecraft:item_model": "matcha:music_disc_crete",
@@ -27146,7 +27607,7 @@
 				true
 			],
 			"type": "generic",
-			"processed": false,
+			"processed": true,
 			"components": {
 				"minecraft:jukebox_playable": "matcha:golden",
 				"minecraft:item_model": "matcha:music_disc_golden",
@@ -27174,7 +27635,7 @@
 				true
 			],
 			"type": "generic",
-			"processed": false,
+			"processed": true,
 			"components": {
 				"minecraft:jukebox_playable": "matcha:labyrinthine",
 				"minecraft:item_model": "matcha:music_disc_labyrinthine",
@@ -27202,7 +27663,7 @@
 				true
 			],
 			"type": "generic",
-			"processed": false,
+			"processed": true,
 			"components": {
 				"minecraft:jukebox_playable": "matcha:malachite",
 				"minecraft:item_model": "matcha:music_disc_malachite",
@@ -27217,6 +27678,10 @@
 			"folder": [
 				[
 					"crafting"
+				],
+				[
+					"equipment",
+					"misc"
 				]
 			],
 			"names": [],
@@ -27228,7 +27693,7 @@
 				false
 			],
 			"type": "enchanted",
-			"processed": false,
+			"processed": true,
 			"components": {
 				"minecraft:enchantments": {
 					"matcha:warding_2": 1
@@ -27256,7 +27721,7 @@
 				false
 			],
 			"type": "generic",
-			"processed": false,
+			"processed": true,
 			"components": {
 				"minecraft:custom_data": {
 					"version": 1
@@ -27280,7 +27745,7 @@
 				false
 			],
 			"type": "generic",
-			"processed": false,
+			"processed": true,
 			"components": {
 				"minecraft:custom_data": {
 					"version": 1
@@ -27304,7 +27769,7 @@
 				false
 			],
 			"type": "generic",
-			"processed": false,
+			"processed": true,
 			"components": {
 				"minecraft:custom_data": {
 					"version": 1
@@ -27328,7 +27793,7 @@
 				false
 			],
 			"type": "generic",
-			"processed": false,
+			"processed": true,
 			"components": {
 				"minecraft:custom_data": {
 					"version": 1
@@ -27352,7 +27817,7 @@
 				false
 			],
 			"type": "generic",
-			"processed": false,
+			"processed": true,
 			"components": {
 				"minecraft:custom_data": {
 					"version": 1
@@ -27376,7 +27841,7 @@
 				false
 			],
 			"type": "generic",
-			"processed": false,
+			"processed": true,
 			"components": {
 				"minecraft:custom_data": {
 					"version": 1
@@ -27400,7 +27865,7 @@
 				false
 			],
 			"type": "generic",
-			"processed": false,
+			"processed": true,
 			"components": {
 				"minecraft:custom_data": {
 					"version": 1
@@ -27431,7 +27896,7 @@
 				true
 			],
 			"type": "generic",
-			"processed": false,
+			"processed": true,
 			"components": {
 				"minecraft:item_name": {
 					"translate": "item.kleispack.snow_shovel"
@@ -27495,7 +27960,7 @@
 				false
 			],
 			"type": "generic",
-			"processed": false,
+			"processed": true,
 			"components": {
 				"minecraft:block_state": {
 					"lit": "false"
@@ -27522,7 +27987,7 @@
 				false
 			],
 			"type": "generic",
-			"processed": false,
+			"processed": true,
 			"components": {
 				"minecraft:custom_data": {
 					"version": 1
@@ -27546,7 +28011,7 @@
 				false
 			],
 			"type": "generic",
-			"processed": false,
+			"processed": true,
 			"components": {
 				"minecraft:enchantment_glint_override": true,
 				"minecraft:rarity": "uncommon",
@@ -27561,6 +28026,10 @@
 			"folder": [
 				[
 					"crafting"
+				],
+				[
+					"equipment",
+					"sturdy_leather"
 				]
 			],
 			"names": [
@@ -27580,7 +28049,7 @@
 				true
 			],
 			"type": "enchanted_boots",
-			"processed": false,
+			"processed": true,
 			"components": {
 				"minecraft:max_damage": 350,
 				"minecraft:lore": [
@@ -27682,6 +28151,10 @@
 			"folder": [
 				[
 					"crafting"
+				],
+				[
+					"equipment",
+					"sturdy_leather"
 				]
 			],
 			"names": [
@@ -27701,7 +28174,7 @@
 				true
 			],
 			"type": "enchanted_chestplate",
-			"processed": false,
+			"processed": true,
 			"components": {
 				"minecraft:max_damage": 350,
 				"minecraft:lore": [
@@ -27784,6 +28257,10 @@
 			"folder": [
 				[
 					"crafting"
+				],
+				[
+					"equipment",
+					"sturdy_leather"
 				]
 			],
 			"names": [
@@ -27803,7 +28280,7 @@
 				true
 			],
 			"type": "enchanted_helmet",
-			"processed": false,
+			"processed": true,
 			"components": {
 				"minecraft:max_damage": 350,
 				"minecraft:lore": [
@@ -27905,7 +28382,7 @@
 				true
 			],
 			"type": "enchanted_leggings",
-			"processed": false,
+			"processed": true,
 			"components": {
 				"minecraft:max_damage": 350,
 				"minecraft:lore": [
@@ -28006,7 +28483,7 @@
 				true
 			],
 			"type": "generic",
-			"processed": false,
+			"processed": true,
 			"components": {
 				"minecraft:max_damage": 1,
 				"minecraft:item_model": "matcha:tinder",
@@ -28042,7 +28519,7 @@
 				true
 			],
 			"type": "trim_colour",
-			"processed": false,
+			"processed": true,
 			"components": {
 				"minecraft:item_model": "matcha:trim_colour_amethyst",
 				"minecraft:item_name": {
@@ -28086,7 +28563,7 @@
 				true
 			],
 			"type": "trim_colour",
-			"processed": false,
+			"processed": true,
 			"components": {
 				"minecraft:item_model": "matcha:trim_colour_cinnabar",
 				"minecraft:item_name": {
@@ -28130,7 +28607,7 @@
 				true
 			],
 			"type": "trim_colour",
-			"processed": false,
+			"processed": true,
 			"components": {
 				"minecraft:item_model": "matcha:trim_colour_diamond",
 				"minecraft:item_name": {
@@ -28174,7 +28651,7 @@
 				true
 			],
 			"type": "trim_colour",
-			"processed": false,
+			"processed": true,
 			"components": {
 				"minecraft:item_model": "matcha:trim_colour_electrum",
 				"minecraft:item_name": {
@@ -28218,7 +28695,7 @@
 				true
 			],
 			"type": "trim_colour",
-			"processed": false,
+			"processed": true,
 			"components": {
 				"minecraft:item_model": "matcha:trim_colour_gold",
 				"minecraft:item_name": {
@@ -28262,7 +28739,7 @@
 				true
 			],
 			"type": "trim_colour",
-			"processed": false,
+			"processed": true,
 			"components": {
 				"minecraft:item_model": "matcha:trim_colour_hepatizon",
 				"minecraft:item_name": {
@@ -28306,7 +28783,7 @@
 				true
 			],
 			"type": "trim_colour",
-			"processed": false,
+			"processed": true,
 			"components": {
 				"minecraft:item_model": "matcha:trim_colour_iron",
 				"minecraft:item_name": {
@@ -28350,7 +28827,7 @@
 				true
 			],
 			"type": "trim_colour",
-			"processed": false,
+			"processed": true,
 			"components": {
 				"minecraft:item_model": "matcha:trim_colour_lapis",
 				"minecraft:item_name": {
@@ -28394,7 +28871,7 @@
 				true
 			],
 			"type": "trim_colour",
-			"processed": false,
+			"processed": true,
 			"components": {
 				"minecraft:item_model": "matcha:trim_colour_patina",
 				"minecraft:item_name": {
@@ -28438,7 +28915,7 @@
 				true
 			],
 			"type": "trim_colour",
-			"processed": false,
+			"processed": true,
 			"components": {
 				"minecraft:item_model": "matcha:trim_colour_quartz",
 				"minecraft:item_name": {
@@ -28482,7 +28959,7 @@
 				true
 			],
 			"type": "trim_colour",
-			"processed": false,
+			"processed": true,
 			"components": {
 				"minecraft:item_model": "matcha:trim_colour_resin",
 				"minecraft:item_name": {
@@ -28526,7 +29003,7 @@
 				true
 			],
 			"type": "trim_colour",
-			"processed": false,
+			"processed": true,
 			"components": {
 				"minecraft:item_model": "matcha:trim_colour_shakudo",
 				"minecraft:item_name": {
@@ -28570,7 +29047,7 @@
 				true
 			],
 			"type": "trim_colour",
-			"processed": false,
+			"processed": true,
 			"components": {
 				"minecraft:item_model": "matcha:trim_colour_steel",
 				"minecraft:item_name": {
@@ -28615,7 +29092,7 @@
 				true
 			],
 			"type": "generic",
-			"processed": false,
+			"processed": true,
 			"components": {
 				"minecraft:entity_data": {
 					"id": "minecraft:armor_stand",
@@ -28655,7 +29132,7 @@
 				false
 			],
 			"type": "generic",
-			"processed": false,
+			"processed": true,
 			"components": {
 				"minecraft:custom_data": {
 					"version": 1
@@ -28679,7 +29156,7 @@
 				false
 			],
 			"type": "generic",
-			"processed": false,
+			"processed": true,
 			"components": {
 				"minecraft:custom_data": {
 					"version": 1
@@ -28703,7 +29180,7 @@
 				false
 			],
 			"type": "generic",
-			"processed": false,
+			"processed": true,
 			"components": {
 				"minecraft:custom_data": {
 					"version": 1
@@ -28727,7 +29204,7 @@
 				false
 			],
 			"type": "generic",
-			"processed": false,
+			"processed": true,
 			"components": {
 				"minecraft:custom_data": {
 					"version": 1
@@ -28751,7 +29228,7 @@
 				false
 			],
 			"type": "generic",
-			"processed": false,
+			"processed": true,
 			"components": {
 				"minecraft:custom_data": {
 					"version": 1
@@ -28775,7 +29252,7 @@
 				false
 			],
 			"type": "generic",
-			"processed": false,
+			"processed": true,
 			"components": {
 				"minecraft:custom_data": {
 					"version": 1
@@ -28799,7 +29276,7 @@
 				false
 			],
 			"type": "generic",
-			"processed": false,
+			"processed": true,
 			"components": {
 				"minecraft:max_damage": 200,
 				"minecraft:lore": [
@@ -28835,6 +29312,10 @@
 			"folder": [
 				[
 					"crafting"
+				],
+				[
+					"equipment",
+					"misc"
 				]
 			],
 			"names": [
@@ -28854,7 +29335,7 @@
 				true
 			],
 			"type": "enchanted",
-			"processed": false,
+			"processed": true,
 			"components": {
 				"!minecraft:consumable": {},
 				"minecraft:item_model": "matcha:wooden_cross",
@@ -28888,7 +29369,7 @@
 				false
 			],
 			"type": "generic",
-			"processed": false,
+			"processed": true,
 			"components": {
 				"minecraft:max_damage": 200,
 				"minecraft:lore": [
@@ -28935,7 +29416,7 @@
 				false
 			],
 			"type": "generic",
-			"processed": false,
+			"processed": true,
 			"components": {
 				"minecraft:tool": {
 					"rules": [
@@ -29007,7 +29488,7 @@
 				false
 			],
 			"type": "generic",
-			"processed": false,
+			"processed": true,
 			"components": {
 				"minecraft:max_damage": 200,
 				"minecraft:lore": [
@@ -29054,7 +29535,7 @@
 				false
 			],
 			"type": "generic",
-			"processed": false,
+			"processed": true,
 			"components": {
 				"minecraft:lore": [
 					{
@@ -29095,7 +29576,7 @@
 				false
 			],
 			"type": "generic",
-			"processed": false,
+			"processed": true,
 			"components": {
 				"minecraft:max_damage": 200,
 				"minecraft:lore": [
@@ -29127,6 +29608,10 @@
 				[
 					"jeweler",
 					"1"
+				],
+				[
+					"equipment",
+					"misc"
 				]
 			],
 			"names": [
@@ -29146,7 +29631,7 @@
 				true
 			],
 			"type": "generic",
-			"processed": false,
+			"processed": true,
 			"components": {
 				"minecraft:item_model": "matcha:amethyst_earrings",
 				"minecraft:equippable": {
@@ -29195,6 +29680,10 @@
 				[
 					"jeweler",
 					"1"
+				],
+				[
+					"equipment",
+					"misc"
 				]
 			],
 			"names": [
@@ -29214,7 +29703,7 @@
 				true
 			],
 			"type": "generic",
-			"processed": false,
+			"processed": true,
 			"components": {
 				"minecraft:item_model": "matcha:diamond_earrings",
 				"minecraft:equippable": {
@@ -29263,6 +29752,10 @@
 				[
 					"jeweler",
 					"1"
+				],
+				[
+					"equipment",
+					"misc"
 				]
 			],
 			"names": [
@@ -29282,7 +29775,7 @@
 				true
 			],
 			"type": "generic",
-			"processed": false,
+			"processed": true,
 			"components": {
 				"minecraft:item_model": "matcha:lapis_earrings",
 				"minecraft:equippable": {
@@ -29331,6 +29824,10 @@
 				[
 					"jeweler",
 					"1"
+				],
+				[
+					"equipment",
+					"misc"
 				]
 			],
 			"names": [
@@ -29350,7 +29847,7 @@
 				true
 			],
 			"type": "enchanted",
-			"processed": false,
+			"processed": true,
 			"components": {
 				"minecraft:item_model": "matcha:opal_earrings",
 				"minecraft:equippable": {
@@ -29402,6 +29899,10 @@
 				[
 					"jeweler",
 					"2"
+				],
+				[
+					"equipment",
+					"misc"
 				]
 			],
 			"names": [
@@ -29421,7 +29922,7 @@
 				true
 			],
 			"type": "enchanted",
-			"processed": false,
+			"processed": true,
 			"components": {
 				"minecraft:item_model": "matcha:ruby_circlet",
 				"minecraft:equippable": {
@@ -29473,6 +29974,10 @@
 				[
 					"jeweler",
 					"3"
+				],
+				[
+					"equipment",
+					"misc"
 				]
 			],
 			"names": [
@@ -29492,7 +29997,7 @@
 				true
 			],
 			"type": "enchanted",
-			"processed": false,
+			"processed": true,
 			"components": {
 				"minecraft:item_model": "matcha:amber_earrings",
 				"minecraft:equippable": {
@@ -29544,6 +30049,14 @@
 				[
 					"jeweler",
 					"4"
+				],
+				[
+					"equipment",
+					"misc"
+				],
+				[
+					"equipment",
+					"hepatizon"
 				]
 			],
 			"names": [
@@ -29569,7 +30082,7 @@
 				true
 			],
 			"type": "generic",
-			"processed": false,
+			"processed": true,
 			"components": {
 				"minecraft:item_model": "matcha:hepatizon_laurel",
 				"minecraft:equippable": {
@@ -29633,6 +30146,10 @@
 				[
 					"jeweler",
 					"4"
+				],
+				[
+					"equipment",
+					"misc"
 				]
 			],
 			"names": [
@@ -29652,7 +30169,7 @@
 				true
 			],
 			"type": "enchanted",
-			"processed": false,
+			"processed": true,
 			"components": {
 				"minecraft:item_model": "matcha:topaz_earrings",
 				"minecraft:equippable": {
@@ -29788,6 +30305,9 @@
 				[
 					"mouthpiece",
 					"1"
+				],
+				[
+					"treasure"
 				]
 			],
 			"names": [
@@ -29806,7 +30326,7 @@
 				true
 			],
 			"type": "generic",
-			"processed": false,
+			"processed": true,
 			"components": {
 				"minecraft:item_model": "matcha:heart_container",
 				"minecraft:item_name": {
@@ -29864,7 +30384,7 @@
 				false
 			],
 			"type": "generic",
-			"processed": false,
+			"processed": true,
 			"components": {
 				"minecraft:max_stack_size": 64,
 				"minecraft:custom_data": {
@@ -29879,6 +30399,9 @@
 				[
 					"mouthpiece",
 					"1"
+				],
+				[
+					"treasure"
 				]
 			],
 			"names": [
@@ -29897,7 +30420,7 @@
 				true
 			],
 			"type": "generic",
-			"processed": false,
+			"processed": true,
 			"components": {
 				"minecraft:item_model": "matcha:heart_container",
 				"minecraft:item_name": {
@@ -29944,6 +30467,9 @@
 				[
 					"mouthpiece",
 					"2"
+				],
+				[
+					"treasure"
 				]
 			],
 			"names": [
@@ -29962,7 +30488,7 @@
 				true
 			],
 			"type": "enchanted",
-			"processed": false,
+			"processed": true,
 			"components": {
 				"minecraft:item_name": {
 					"translate": "item.kleispack.ofuda"
@@ -29991,6 +30517,9 @@
 				[
 					"mouthpiece",
 					"2"
+				],
+				[
+					"treasure"
 				]
 			],
 			"names": [
@@ -30009,7 +30538,7 @@
 				true
 			],
 			"type": "enchanted",
-			"processed": false,
+			"processed": true,
 			"components": {
 				"minecraft:item_name": {
 					"translate": "item.kleispack.ofuda"
@@ -30037,6 +30566,9 @@
 				[
 					"mouthpiece",
 					"2"
+				],
+				[
+					"treasure"
 				]
 			],
 			"names": [
@@ -30055,7 +30587,7 @@
 				true
 			],
 			"type": "enchanted",
-			"processed": false,
+			"processed": true,
 			"components": {
 				"minecraft:item_name": {
 					"translate": "item.kleispack.ofuda"
@@ -30085,6 +30617,9 @@
 				[
 					"mouthpiece",
 					"3"
+				],
+				[
+					"treasure"
 				]
 			],
 			"names": [
@@ -30103,7 +30638,7 @@
 				true
 			],
 			"type": "enchanted",
-			"processed": false,
+			"processed": true,
 			"components": {
 				"minecraft:item_name": {
 					"translate": "item.kleispack.ofuda"
@@ -30131,6 +30666,9 @@
 				[
 					"mouthpiece",
 					"4"
+				],
+				[
+					"treasure"
 				]
 			],
 			"names": [
@@ -30149,7 +30687,7 @@
 				true
 			],
 			"type": "enchanted",
-			"processed": false,
+			"processed": true,
 			"components": {
 				"minecraft:item_name": {
 					"translate": "item.kleispack.ofuda"
@@ -30195,7 +30733,7 @@
 				true
 			],
 			"type": "generic",
-			"processed": false,
+			"processed": true,
 			"components": {
 				"minecraft:item_name": {
 					"translate": "item.kleispack.trade.bulk_dirt"
@@ -30236,6 +30774,10 @@
 				[
 					"mason",
 					"1"
+				],
+				[
+					"materials",
+					"bulk"
 				]
 			],
 			"names": [
@@ -30254,7 +30796,7 @@
 				true
 			],
 			"type": "generic",
-			"processed": false,
+			"processed": true,
 			"components": {
 				"minecraft:item_name": {
 					"translate": "item.kleispack.trade.bulk_andesite"
@@ -30295,6 +30837,10 @@
 				[
 					"mason",
 					"1"
+				],
+				[
+					"materials",
+					"bulk"
 				]
 			],
 			"names": [
@@ -30313,7 +30859,7 @@
 				true
 			],
 			"type": "generic",
-			"processed": false,
+			"processed": true,
 			"components": {
 				"minecraft:item_name": {
 					"translate": "item.kleispack.trade.bulk_granite"
@@ -30354,6 +30900,10 @@
 				[
 					"mason",
 					"1"
+				],
+				[
+					"materials",
+					"bulk"
 				]
 			],
 			"names": [
@@ -30372,7 +30922,7 @@
 				true
 			],
 			"type": "generic",
-			"processed": false,
+			"processed": true,
 			"components": {
 				"minecraft:item_name": {
 					"translate": "item.kleispack.trade.bulk_diorite"
@@ -30413,6 +30963,10 @@
 				[
 					"mason",
 					"1"
+				],
+				[
+					"materials",
+					"bulk"
 				]
 			],
 			"names": [
@@ -30431,7 +30985,7 @@
 				true
 			],
 			"type": "generic",
-			"processed": false,
+			"processed": true,
 			"components": {
 				"minecraft:item_name": {
 					"translate": "item.kleispack.trade.bulk_stone"
@@ -30541,6 +31095,10 @@
 				[
 					"mason",
 					"2"
+				],
+				[
+					"materials",
+					"bulk"
 				]
 			],
 			"names": [
@@ -30559,7 +31117,7 @@
 				true
 			],
 			"type": "generic",
-			"processed": false,
+			"processed": true,
 			"components": {
 				"minecraft:item_name": {
 					"translate": "item.kleispack.trade.bulk_smooth_red_sandstone"
@@ -30600,6 +31158,10 @@
 				[
 					"mason",
 					"2"
+				],
+				[
+					"materials",
+					"bulk"
 				]
 			],
 			"names": [
@@ -30618,7 +31180,7 @@
 				true
 			],
 			"type": "generic",
-			"processed": false,
+			"processed": true,
 			"components": {
 				"minecraft:item_name": {
 					"translate": "item.kleispack.trade.bulk_smooth_sandstone"
@@ -30659,6 +31221,10 @@
 				[
 					"mason",
 					"2"
+				],
+				[
+					"materials",
+					"bulk"
 				]
 			],
 			"names": [
@@ -30677,7 +31243,7 @@
 				true
 			],
 			"type": "generic",
-			"processed": false,
+			"processed": true,
 			"components": {
 				"minecraft:item_name": {
 					"translate": "item.kleispack.trade.bulk_terracotta"
@@ -30718,6 +31284,10 @@
 				[
 					"mason",
 					"2"
+				],
+				[
+					"materials",
+					"bulk"
 				]
 			],
 			"names": [
@@ -30736,7 +31306,7 @@
 				true
 			],
 			"type": "generic",
-			"processed": false,
+			"processed": true,
 			"components": {
 				"minecraft:item_name": {
 					"translate": "item.kleispack.trade.bulk_deepslate"
@@ -30777,6 +31347,10 @@
 				[
 					"mason",
 					"2"
+				],
+				[
+					"materials",
+					"bulk"
 				]
 			],
 			"names": [
@@ -30795,7 +31369,7 @@
 				true
 			],
 			"type": "generic",
-			"processed": false,
+			"processed": true,
 			"components": {
 				"minecraft:item_name": {
 					"translate": "item.kleispack.trade.bulk_glass"
@@ -30836,6 +31410,10 @@
 				[
 					"mason",
 					"2"
+				],
+				[
+					"materials",
+					"bulk"
 				]
 			],
 			"names": [
@@ -30854,7 +31432,7 @@
 				true
 			],
 			"type": "generic",
-			"processed": false,
+			"processed": true,
 			"components": {
 				"minecraft:item_name": {
 					"translate": "item.kleispack.trade.bulk_tuff"
@@ -30895,6 +31473,10 @@
 				[
 					"mason",
 					"3"
+				],
+				[
+					"materials",
+					"bulk"
 				]
 			],
 			"names": [
@@ -30913,7 +31495,7 @@
 				true
 			],
 			"type": "generic",
-			"processed": false,
+			"processed": true,
 			"components": {
 				"minecraft:item_name": {
 					"translate": "item.kleispack.trade.bulk_dripstone"
@@ -30954,6 +31536,10 @@
 				[
 					"mason",
 					"3"
+				],
+				[
+					"materials",
+					"bulk"
 				]
 			],
 			"names": [
@@ -30972,7 +31558,7 @@
 				true
 			],
 			"type": "generic",
-			"processed": false,
+			"processed": true,
 			"components": {
 				"minecraft:item_name": {
 					"translate": "item.kleispack.trade.bulk_prismarine"
@@ -31013,6 +31599,10 @@
 				[
 					"mason",
 					"3"
+				],
+				[
+					"materials",
+					"bulk"
 				]
 			],
 			"names": [
@@ -31031,7 +31621,7 @@
 				true
 			],
 			"type": "generic",
-			"processed": false,
+			"processed": true,
 			"components": {
 				"minecraft:item_name": {
 					"translate": "item.kleispack.trade.bulk_cinnabar"
@@ -31072,6 +31662,10 @@
 				[
 					"mason",
 					"3"
+				],
+				[
+					"materials",
+					"bulk"
 				]
 			],
 			"names": [
@@ -31090,7 +31684,7 @@
 				true
 			],
 			"type": "generic",
-			"processed": false,
+			"processed": true,
 			"components": {
 				"minecraft:item_name": {
 					"translate": "item.kleispack.trade.bulk_calcite"
@@ -31152,6 +31746,10 @@
 				[
 					"mason",
 					"4"
+				],
+				[
+					"materials",
+					"bulk"
 				]
 			],
 			"names": [
@@ -31170,7 +31768,7 @@
 				true
 			],
 			"type": "generic",
-			"processed": false,
+			"processed": true,
 			"components": {
 				"minecraft:item_name": {
 					"translate": "item.kleispack.trade.bulk_smooth_quartz"
@@ -31211,6 +31809,10 @@
 				[
 					"mason",
 					"4"
+				],
+				[
+					"materials",
+					"bulk"
 				]
 			],
 			"names": [
@@ -31229,7 +31831,7 @@
 				true
 			],
 			"type": "generic",
-			"processed": false,
+			"processed": true,
 			"components": {
 				"minecraft:item_name": {
 					"translate": "item.kleispack.trade.bulk_smooth_basalt"
@@ -31270,6 +31872,10 @@
 				[
 					"mason",
 					"4"
+				],
+				[
+					"materials",
+					"bulk"
 				]
 			],
 			"names": [
@@ -31288,7 +31894,7 @@
 				true
 			],
 			"type": "generic",
-			"processed": false,
+			"processed": true,
 			"components": {
 				"minecraft:item_name": {
 					"translate": "item.kleispack.trade.bulk_blackstone"
@@ -31347,7 +31953,7 @@
 				true
 			],
 			"type": "generic",
-			"processed": false,
+			"processed": true,
 			"components": {
 				"minecraft:entity_data": {
 					"id": "minecraft:sheep",
@@ -31389,7 +31995,7 @@
 				true
 			],
 			"type": "generic",
-			"processed": false,
+			"processed": true,
 			"components": {
 				"minecraft:entity_data": {
 					"id": "minecraft:sheep",
@@ -31431,7 +32037,7 @@
 				true
 			],
 			"type": "generic",
-			"processed": false,
+			"processed": true,
 			"components": {
 				"minecraft:entity_data": {
 					"id": "minecraft:sheep",
@@ -31473,7 +32079,7 @@
 				true
 			],
 			"type": "enchanted",
-			"processed": false,
+			"processed": true,
 			"components": {
 				"minecraft:item_model": "matcha:hepatizon_shears",
 				"minecraft:item_name": {
@@ -31531,7 +32137,7 @@
 				true
 			],
 			"type": "generic",
-			"processed": false,
+			"processed": true,
 			"components": {
 				"minecraft:item_model": "matcha:crook",
 				"minecraft:item_name": {
@@ -31952,7 +32558,7 @@
 				true
 			],
 			"type": "enchanted",
-			"processed": false,
+			"processed": true,
 			"components": {
 				"minecraft:item_model": "matcha:bloodrage_hatchet",
 				"minecraft:attribute_modifiers": [
@@ -32036,7 +32642,7 @@
 				true
 			],
 			"type": "generic",
-			"processed": false,
+			"processed": true,
 			"components": {
 				"minecraft:item_model": "matcha:apotropaic_arrow",
 				"minecraft:potion_contents": {
@@ -32068,7 +32674,7 @@
 				true
 			],
 			"type": "generic",
-			"processed": false,
+			"processed": true,
 			"components": {
 				"minecraft:item_model": "matcha:nightshade_arrow",
 				"minecraft:potion_contents": {
@@ -32098,7 +32704,7 @@
 				false
 			],
 			"type": "generic",
-			"processed": false,
+			"processed": true,
 			"components": {
 				"minecraft:custom_data": {
 					"version": 1
@@ -32131,7 +32737,7 @@
 				true
 			],
 			"type": "enchanted",
-			"processed": false,
+			"processed": true,
 			"components": {
 				"minecraft:enchantments": {
 					"minecraft:power": 2
@@ -32181,7 +32787,7 @@
 				true
 			],
 			"type": "generic",
-			"processed": false,
+			"processed": true,
 			"components": {
 				"minecraft:item_name": {
 					"translate": "adv.kleispack.anglers_almanac"
@@ -32206,6 +32812,9 @@
 				[
 					"fisherman",
 					"2"
+				],
+				[
+					"fish"
 				]
 			],
 			"names": [],
@@ -32227,6 +32836,9 @@
 				[
 					"fisherman",
 					"2"
+				],
+				[
+					"fish"
 				]
 			],
 			"names": [],
@@ -32248,6 +32860,9 @@
 				[
 					"fisherman",
 					"2"
+				],
+				[
+					"fish"
 				]
 			],
 			"names": [],
@@ -32269,6 +32884,9 @@
 				[
 					"fisherman",
 					"2"
+				],
+				[
+					"fish"
 				]
 			],
 			"names": [],
@@ -32290,6 +32908,9 @@
 				[
 					"fisherman",
 					"2"
+				],
+				[
+					"fish"
 				]
 			],
 			"names": [],
@@ -32311,6 +32932,9 @@
 				[
 					"fisherman",
 					"2"
+				],
+				[
+					"fish"
 				]
 			],
 			"names": [],
@@ -32332,6 +32956,9 @@
 				[
 					"fisherman",
 					"2"
+				],
+				[
+					"fish"
 				]
 			],
 			"names": [],
@@ -32353,6 +32980,9 @@
 				[
 					"fisherman",
 					"2"
+				],
+				[
+					"fish"
 				]
 			],
 			"names": [],
@@ -32374,6 +33004,9 @@
 				[
 					"fisherman",
 					"2"
+				],
+				[
+					"fish"
 				]
 			],
 			"names": [],
@@ -32395,6 +33028,9 @@
 				[
 					"fisherman",
 					"2"
+				],
+				[
+					"fish"
 				]
 			],
 			"names": [],
@@ -32416,6 +33052,9 @@
 				[
 					"fisherman",
 					"2"
+				],
+				[
+					"fish"
 				]
 			],
 			"names": [],
@@ -32437,6 +33076,9 @@
 				[
 					"fisherman",
 					"2"
+				],
+				[
+					"fish"
 				]
 			],
 			"names": [],
@@ -32458,6 +33100,9 @@
 				[
 					"fisherman",
 					"2"
+				],
+				[
+					"fish"
 				]
 			],
 			"names": [],
@@ -32479,6 +33124,9 @@
 				[
 					"fisherman",
 					"2"
+				],
+				[
+					"fish"
 				]
 			],
 			"names": [],
@@ -32500,6 +33148,9 @@
 				[
 					"fisherman",
 					"2"
+				],
+				[
+					"fish"
 				]
 			],
 			"names": [],
@@ -32521,6 +33172,9 @@
 				[
 					"fisherman",
 					"2"
+				],
+				[
+					"fish"
 				]
 			],
 			"names": [],
@@ -32542,6 +33196,9 @@
 				[
 					"fisherman",
 					"3"
+				],
+				[
+					"fish"
 				]
 			],
 			"names": [],
@@ -32563,6 +33220,9 @@
 				[
 					"fisherman",
 					"3"
+				],
+				[
+					"fish"
 				]
 			],
 			"names": [],
@@ -32584,6 +33244,9 @@
 				[
 					"fisherman",
 					"3"
+				],
+				[
+					"fish"
 				]
 			],
 			"names": [],
@@ -32605,6 +33268,9 @@
 				[
 					"fisherman",
 					"3"
+				],
+				[
+					"fish"
 				]
 			],
 			"names": [],
@@ -32626,6 +33292,9 @@
 				[
 					"fisherman",
 					"3"
+				],
+				[
+					"fish"
 				]
 			],
 			"names": [],
@@ -32647,6 +33316,9 @@
 				[
 					"fisherman",
 					"3"
+				],
+				[
+					"fish"
 				]
 			],
 			"names": [],
@@ -32668,6 +33340,9 @@
 				[
 					"fisherman",
 					"3"
+				],
+				[
+					"fish"
 				]
 			],
 			"names": [],
@@ -32689,6 +33364,9 @@
 				[
 					"fisherman",
 					"3"
+				],
+				[
+					"fish"
 				]
 			],
 			"names": [],
@@ -32710,6 +33388,9 @@
 				[
 					"fisherman",
 					"3"
+				],
+				[
+					"fish"
 				]
 			],
 			"names": [],
@@ -32731,6 +33412,9 @@
 				[
 					"fisherman",
 					"3"
+				],
+				[
+					"fish"
 				]
 			],
 			"names": [],
@@ -32752,6 +33436,9 @@
 				[
 					"fisherman",
 					"4"
+				],
+				[
+					"fish"
 				]
 			],
 			"names": [],
@@ -32773,6 +33460,9 @@
 				[
 					"fisherman",
 					"4"
+				],
+				[
+					"fish"
 				]
 			],
 			"names": [],
@@ -32794,6 +33484,9 @@
 				[
 					"fisherman",
 					"4"
+				],
+				[
+					"fish"
 				]
 			],
 			"names": [],
@@ -32815,6 +33508,9 @@
 				[
 					"fisherman",
 					"4"
+				],
+				[
+					"fish"
 				]
 			],
 			"names": [],
@@ -32836,6 +33532,9 @@
 				[
 					"fisherman",
 					"4"
+				],
+				[
+					"fish"
 				]
 			],
 			"names": [],
@@ -32857,6 +33556,9 @@
 				[
 					"fisherman",
 					"4"
+				],
+				[
+					"fish"
 				]
 			],
 			"names": [],
@@ -32878,6 +33580,9 @@
 				[
 					"fisherman",
 					"4"
+				],
+				[
+					"fish"
 				]
 			],
 			"names": [],
@@ -32899,6 +33604,9 @@
 				[
 					"fisherman",
 					"4"
+				],
+				[
+					"fish"
 				]
 			],
 			"names": [],
@@ -32920,6 +33628,9 @@
 				[
 					"fisherman",
 					"4"
+				],
+				[
+					"fish"
 				]
 			],
 			"names": [],
@@ -32941,6 +33652,9 @@
 				[
 					"fisherman",
 					"4"
+				],
+				[
+					"fish"
 				]
 			],
 			"names": [],
@@ -32962,6 +33676,9 @@
 				[
 					"fisherman",
 					"5"
+				],
+				[
+					"fish"
 				]
 			],
 			"names": [],
@@ -32983,6 +33700,9 @@
 				[
 					"fisherman",
 					"5"
+				],
+				[
+					"fish"
 				]
 			],
 			"names": [],
@@ -33004,6 +33724,9 @@
 				[
 					"fisherman",
 					"5"
+				],
+				[
+					"fish"
 				]
 			],
 			"names": [],
@@ -33025,6 +33748,9 @@
 				[
 					"fisherman",
 					"5"
+				],
+				[
+					"fish"
 				]
 			],
 			"names": [],
@@ -33046,6 +33772,9 @@
 				[
 					"fisherman",
 					"5"
+				],
+				[
+					"fish"
 				]
 			],
 			"names": [],
@@ -33067,6 +33796,9 @@
 				[
 					"fisherman",
 					"5"
+				],
+				[
+					"fish"
 				]
 			],
 			"names": [],
@@ -33088,6 +33820,9 @@
 				[
 					"fisherman",
 					"5"
+				],
+				[
+					"fish"
 				]
 			],
 			"names": [],
@@ -33109,6 +33844,9 @@
 				[
 					"fisherman",
 					"5"
+				],
+				[
+					"fish"
 				]
 			],
 			"names": [],
@@ -33130,6 +33868,9 @@
 				[
 					"fisherman",
 					"5"
+				],
+				[
+					"fish"
 				]
 			],
 			"names": [],
@@ -33151,6 +33892,9 @@
 				[
 					"fisherman",
 					"5"
+				],
+				[
+					"fish"
 				]
 			],
 			"names": [],
@@ -33172,6 +33916,9 @@
 				[
 					"fisherman",
 					"5"
+				],
+				[
+					"fish"
 				]
 			],
 			"names": [],
@@ -33232,7 +33979,7 @@
 				true
 			],
 			"type": "generic",
-			"processed": false,
+			"processed": true,
 			"components": {
 				"minecraft:item_model": "matcha:exotic_seed_bundle",
 				"minecraft:item_name": {
@@ -33286,7 +34033,7 @@
 				true
 			],
 			"type": "generic",
-			"processed": false,
+			"processed": true,
 			"components": {
 				"minecraft:item_model": "matcha:floral_bundle",
 				"minecraft:item_name": {
@@ -33372,7 +34119,7 @@
 				true
 			],
 			"type": "generic",
-			"processed": false,
+			"processed": true,
 			"components": {
 				"minecraft:item_model": "matcha:mushy_bundle",
 				"minecraft:item_name": {
@@ -33422,7 +34169,7 @@
 				true
 			],
 			"type": "generic",
-			"processed": false,
+			"processed": true,
 			"components": {
 				"minecraft:item_model": "matcha:seed_bundle",
 				"minecraft:item_name": {
@@ -33476,7 +34223,7 @@
 				true
 			],
 			"type": "generic",
-			"processed": false,
+			"processed": true,
 			"components": {
 				"minecraft:item_model": "minecraft:blue_egg",
 				"minecraft:entity_data": {
@@ -33517,7 +34264,7 @@
 				true
 			],
 			"type": "generic",
-			"processed": false,
+			"processed": true,
 			"components": {
 				"minecraft:item_model": "minecraft:brown_egg",
 				"minecraft:entity_data": {
@@ -33558,7 +34305,7 @@
 				true
 			],
 			"type": "generic",
-			"processed": false,
+			"processed": true,
 			"components": {
 				"minecraft:item_model": "minecraft:egg",
 				"minecraft:entity_data": {
@@ -33599,7 +34346,7 @@
 				true
 			],
 			"type": "generic",
-			"processed": false,
+			"processed": true,
 			"components": {
 				"minecraft:entity_data": {
 					"id": "minecraft:cow",
@@ -33641,7 +34388,7 @@
 				true
 			],
 			"type": "generic",
-			"processed": false,
+			"processed": true,
 			"components": {
 				"minecraft:entity_data": {
 					"id": "minecraft:pig",
@@ -33683,7 +34430,7 @@
 				true
 			],
 			"type": "generic",
-			"processed": false,
+			"processed": true,
 			"components": {
 				"minecraft:entity_data": {
 					"id": "minecraft:cow",
@@ -33725,7 +34472,7 @@
 				true
 			],
 			"type": "generic",
-			"processed": false,
+			"processed": true,
 			"components": {
 				"minecraft:entity_data": {
 					"id": "minecraft:pig",
@@ -33767,7 +34514,7 @@
 				true
 			],
 			"type": "generic",
-			"processed": false,
+			"processed": true,
 			"components": {
 				"minecraft:entity_data": {
 					"id": "minecraft:cow",
@@ -33809,7 +34556,7 @@
 				true
 			],
 			"type": "generic",
-			"processed": false,
+			"processed": true,
 			"components": {
 				"minecraft:entity_data": {
 					"id": "minecraft:pig",
@@ -33844,7 +34591,7 @@
 				false
 			],
 			"type": "generic",
-			"processed": false,
+			"processed": true,
 			"components": {
 				"minecraft:max_stack_size": 64,
 				"minecraft:potion_contents": {
@@ -33898,7 +34645,7 @@
 				false
 			],
 			"type": "generic",
-			"processed": false,
+			"processed": true,
 			"components": {
 				"minecraft:max_stack_size": 64,
 				"minecraft:potion_contents": {
@@ -33952,7 +34699,7 @@
 				false
 			],
 			"type": "generic",
-			"processed": false,
+			"processed": true,
 			"components": {
 				"minecraft:max_stack_size": 64,
 				"minecraft:potion_contents": {
@@ -34019,7 +34766,7 @@
 				false
 			],
 			"type": "generic",
-			"processed": false,
+			"processed": true,
 			"components": {
 				"minecraft:max_stack_size": 64,
 				"minecraft:potion_contents": {
@@ -34074,7 +34821,7 @@
 				false
 			],
 			"type": "generic",
-			"processed": false,
+			"processed": true,
 			"components": {
 				"minecraft:max_stack_size": 64,
 				"minecraft:potion_contents": {
@@ -34128,7 +34875,7 @@
 				false
 			],
 			"type": "generic",
-			"processed": false,
+			"processed": true,
 			"components": {
 				"minecraft:max_stack_size": 64,
 				"minecraft:potion_contents": {
@@ -34182,7 +34929,7 @@
 				false
 			],
 			"type": "generic",
-			"processed": false,
+			"processed": true,
 			"components": {
 				"minecraft:max_stack_size": 64,
 				"minecraft:potion_contents": {
@@ -34435,7 +35182,7 @@
 				true
 			],
 			"type": "generic",
-			"processed": false,
+			"processed": true,
 			"components": {
 				"minecraft:unbreakable": {},
 				"minecraft:item_model": "matcha:archaeologists_brush",
@@ -34664,6 +35411,9 @@
 				[
 					"cartographer",
 					"5"
+				],
+				[
+					"treasure"
 				]
 			],
 			"names": [
@@ -34682,7 +35432,7 @@
 				true
 			],
 			"type": "generic",
-			"processed": false,
+			"processed": true,
 			"components": {
 				"minecraft:item_model": "matcha:heart_container",
 				"minecraft:item_name": {
@@ -34729,6 +35479,9 @@
 				[
 					"cartographer",
 					"5"
+				],
+				[
+					"treasure"
 				]
 			],
 			"names": [
@@ -34747,7 +35500,7 @@
 				true
 			],
 			"type": "generic",
-			"processed": false,
+			"processed": true,
 			"components": {
 				"minecraft:item_model": "matcha:heart_container",
 				"minecraft:item_name": {
@@ -34812,7 +35565,7 @@
 				true
 			],
 			"type": "generic",
-			"processed": false,
+			"processed": true,
 			"components": {
 				"minecraft:item_model": "matcha:sweet_berry_toast_recipe",
 				"minecraft:item_name": {
@@ -34855,7 +35608,7 @@
 				true
 			],
 			"type": "generic",
-			"processed": false,
+			"processed": true,
 			"components": {
 				"minecraft:item_model": "matcha:warped_stroganoff_recipe",
 				"minecraft:item_name": {
@@ -34898,7 +35651,7 @@
 				true
 			],
 			"type": "generic",
-			"processed": false,
+			"processed": true,
 			"components": {
 				"minecraft:item_model": "matcha:chorus_mochi_recipe",
 				"minecraft:item_name": {
@@ -34923,6 +35676,10 @@
 				[
 					"cook",
 					"4"
+				],
+				[
+					"equipment",
+					"misc"
 				]
 			],
 			"names": [
@@ -34941,7 +35698,7 @@
 				true
 			],
 			"type": "enchanted",
-			"processed": false,
+			"processed": true,
 			"components": {
 				"minecraft:item_model": "matcha:butcher_knife",
 				"minecraft:item_name": {
@@ -35296,7 +36053,7 @@
 				false
 			],
 			"type": "generic",
-			"processed": false,
+			"processed": true,
 			"components": {
 				"minecraft:bundle_contents": [
 					{
@@ -35615,7 +36372,7 @@
 				true
 			],
 			"type": "generic",
-			"processed": false,
+			"processed": true,
 			"components": {
 				"minecraft:item_model": "matcha:application",
 				"minecraft:item_name": {
@@ -35630,6 +36387,1662 @@
 				],
 				"minecraft:custom_data": {
 					"version": 1
+				}
+			},
+			"ignore": null
+		},
+		"raw_diamond": {
+			"version": 1,
+			"folder": [
+				[
+					"materials"
+				]
+			],
+			"names": [],
+			"models": [],
+			"id": "minecraft:vindicator_spawn_egg",
+			"use": [
+				true,
+				true,
+				false
+			],
+			"type": "generic",
+			"processed": true,
+			"components": {
+				"!minecraft:entity_data": {}
+			},
+			"ignore": null
+		},
+		"fish_bones": {
+			"version": 1,
+			"folder": [
+				[
+					"materials"
+				]
+			],
+			"names": [
+				{
+					"translate": "item.kleispack.fish.fish_bones"
+				},
+				"Fish Bones"
+			],
+			"models": [
+				"matcha:fish_bones"
+			],
+			"id": "minecraft:bone",
+			"use": [
+				true,
+				false,
+				true
+			],
+			"type": "generic",
+			"processed": true,
+			"components": {
+				"minecraft:item_model": "matcha:fish_bones",
+				"minecraft:item_name": {
+					"translate": "item.kleispack.fish.fish_bones"
+				}
+			},
+			"ignore": null
+		},
+		"abbey": {
+			"version": 1,
+			"folder": [
+				[
+					"music_disc"
+				]
+			],
+			"names": [],
+			"models": [
+				"matcha:music_disc_abbey"
+			],
+			"id": "minecraft:music_disc_11",
+			"use": [
+				false,
+				true,
+				true
+			],
+			"type": "generic",
+			"processed": true,
+			"components": {
+				"minecraft:jukebox_playable": "matcha:abbey",
+				"minecraft:item_model": "matcha:music_disc_abbey"
+			},
+			"ignore": null
+		},
+		"elegy_of_the_abbey": {
+			"version": 1,
+			"folder": [
+				[
+					"music_disc"
+				]
+			],
+			"names": [],
+			"models": [
+				"matcha:music_disc_elegy_of_the_abbey"
+			],
+			"id": "minecraft:music_disc_11",
+			"use": [
+				false,
+				true,
+				true
+			],
+			"type": "generic",
+			"processed": true,
+			"components": {
+				"minecraft:jukebox_playable": "matcha:elegy_of_the_abbey",
+				"minecraft:item_model": "matcha:music_disc_elegy_of_the_abbey"
+			},
+			"ignore": null
+		},
+		"golden": {
+			"version": 1,
+			"folder": [
+				[
+					"music_disc"
+				]
+			],
+			"names": [],
+			"models": [
+				"matcha:music_disc_golden"
+			],
+			"id": "minecraft:music_disc_11",
+			"use": [
+				false,
+				true,
+				true
+			],
+			"type": "generic",
+			"processed": true,
+			"components": {
+				"minecraft:jukebox_playable": "matcha:golden",
+				"minecraft:item_model": "matcha:music_disc_golden"
+			},
+			"ignore": null
+		},
+		"labyrinthine": {
+			"version": 1,
+			"folder": [
+				[
+					"music_disc"
+				]
+			],
+			"names": [],
+			"models": [
+				"matcha:music_disc_labyrinthine"
+			],
+			"id": "minecraft:music_disc_11",
+			"use": [
+				false,
+				true,
+				true
+			],
+			"type": "generic",
+			"processed": true,
+			"components": {
+				"minecraft:jukebox_playable": "matcha:labyrinthine",
+				"minecraft:item_model": "matcha:music_disc_labyrinthine"
+			},
+			"ignore": null
+		},
+		"amber": {
+			"version": 1,
+			"folder": [
+				[
+					"treasure"
+				]
+			],
+			"names": [
+				{
+					"translate": "item.kleispack.amber",
+					"color": "gold"
+				},
+				"Amber"
+			],
+			"models": [
+				"matcha:amber"
+			],
+			"id": "minecraft:poisonous_potato",
+			"use": [
+				false,
+				false,
+				true
+			],
+			"type": "generic",
+			"processed": true,
+			"components": {
+				"minecraft:item_model": "matcha:amber",
+				"minecraft:item_name": {
+					"translate": "item.kleispack.amber",
+					"color": "gold"
+				},
+				"!minecraft:consumable": {}
+			},
+			"ignore": null
+		},
+		"cyan_rose_classic": {
+			"version": 1,
+			"folder": [
+				[
+					"treasure"
+				]
+			],
+			"names": [
+				{
+					"translate": "item.kleispack.cyan_rose_classic"
+				},
+				"Cyan Rose"
+			],
+			"models": [
+				"matcha:cyan_rose_classic"
+			],
+			"id": "minecraft:poisonous_potato",
+			"use": [
+				false,
+				false,
+				true
+			],
+			"type": "generic",
+			"processed": true,
+			"components": {
+				"minecraft:item_model": "matcha:cyan_rose_classic",
+				"minecraft:item_name": {
+					"translate": "item.kleispack.cyan_rose_classic"
+				},
+				"!minecraft:consumable": {}
+			},
+			"ignore": null
+		},
+		"opal": {
+			"version": 1,
+			"folder": [
+				[
+					"treasure"
+				]
+			],
+			"names": [
+				{
+					"translate": "item.kleispack.opal",
+					"color": "#ab85ad"
+				},
+				"Opal"
+			],
+			"models": [
+				"matcha:opal"
+			],
+			"id": "minecraft:poisonous_potato",
+			"use": [
+				false,
+				false,
+				true
+			],
+			"type": "generic",
+			"processed": true,
+			"components": {
+				"minecraft:item_model": "matcha:opal",
+				"minecraft:item_name": {
+					"translate": "item.kleispack.opal",
+					"color": "#ab85ad"
+				},
+				"!minecraft:consumable": {}
+			},
+			"ignore": null
+		},
+		"porkchop_classic": {
+			"version": 1,
+			"folder": [
+				[
+					"treasure"
+				]
+			],
+			"names": [
+				{
+					"translate": "item.kleispack.porkchop_classic"
+				},
+				"Porkchop"
+			],
+			"models": [
+				"matcha:porkchop_classic"
+			],
+			"id": "minecraft:porkchop",
+			"use": [
+				true,
+				false,
+				true
+			],
+			"type": "generic",
+			"processed": true,
+			"components": {
+				"minecraft:item_model": "matcha:porkchop_classic",
+				"minecraft:item_name": {
+					"translate": "item.kleispack.porkchop_classic"
+				},
+				"minecraft:consumable": {
+					"consume_seconds": 0,
+					"animation": "none",
+					"sound": {
+						"sound_id": ""
+					},
+					"has_consume_particles": false,
+					"on_consume_effects": [
+						{
+							"type": "minecraft:apply_effects",
+							"effects": [
+								{
+									"id": "minecraft:instant_health"
+								}
+							]
+						}
+					]
+				}
+			},
+			"ignore": null
+		},
+		"rose_classic": {
+			"version": 1,
+			"folder": [
+				[
+					"treasure"
+				]
+			],
+			"names": [
+				{
+					"translate": "item.kleispack.rose_classic"
+				},
+				"Rose"
+			],
+			"models": [
+				"matcha:rose_classic"
+			],
+			"id": "minecraft:poisonous_potato",
+			"use": [
+				false,
+				false,
+				true
+			],
+			"type": "generic",
+			"processed": true,
+			"components": {
+				"minecraft:item_model": "matcha:rose_classic",
+				"minecraft:item_name": {
+					"translate": "item.kleispack.rose_classic"
+				},
+				"!minecraft:consumable": {}
+			},
+			"ignore": null
+		},
+		"ruby": {
+			"version": 1,
+			"folder": [
+				[
+					"treasure"
+				]
+			],
+			"names": [
+				{
+					"translate": "item.kleispack.ruby",
+					"color": "red"
+				},
+				"Ruby"
+			],
+			"models": [
+				"matcha:ruby"
+			],
+			"id": "minecraft:poisonous_potato",
+			"use": [
+				false,
+				false,
+				true
+			],
+			"type": "generic",
+			"processed": true,
+			"components": {
+				"minecraft:item_model": "matcha:ruby",
+				"minecraft:item_name": {
+					"translate": "item.kleispack.ruby",
+					"color": "red"
+				},
+				"!minecraft:consumable": {}
+			},
+			"ignore": null
+		},
+		"topaz": {
+			"version": 1,
+			"folder": [
+				[
+					"treasure"
+				]
+			],
+			"names": [
+				{
+					"translate": "item.kleispack.topaz",
+					"color": "yellow"
+				},
+				"Topaz"
+			],
+			"models": [
+				"matcha:topaz"
+			],
+			"id": "minecraft:poisonous_potato",
+			"use": [
+				false,
+				false,
+				true
+			],
+			"type": "generic",
+			"processed": true,
+			"components": {
+				"minecraft:item_model": "matcha:topaz",
+				"minecraft:item_name": {
+					"translate": "item.kleispack.topaz",
+					"color": "yellow"
+				},
+				"!minecraft:consumable": {}
+			},
+			"ignore": null
+		},
+		"gold_axe": {
+			"version": 1,
+			"folder": [
+				[
+					"equipment",
+					"gold"
+				]
+			],
+			"names": [
+				{
+					"translate": "item.minecraft.golden_axe",
+					"color": "white"
+				}
+			],
+			"models": [],
+			"id": "minecraft:golden_axe",
+			"use": [
+				false,
+				false,
+				false
+			],
+			"type": "enchanted",
+			"processed": true,
+			"components": {
+				"minecraft:max_damage": 350,
+				"minecraft:enchantments": {
+					"minecraft:fortune": 1,
+					"minecraft:looting": 1
+				},
+				"minecraft:lore": [
+					{
+						"translate": "desc.kleispack.mining_speed",
+						"with": [
+							"12"
+						],
+						"color": "blue",
+						"italic": false
+					},
+					{
+						"translate": "desc.kleispack.attack_damage",
+						"with": [
+							"7"
+						],
+						"color": "dark_green",
+						"italic": false
+					},
+					{
+						"translate": "desc.kleispack.cooldown",
+						"with": [
+							"1"
+						],
+						"color": "dark_green",
+						"italic": false
+					}
+				],
+				"minecraft:tooltip_display": {
+					"hidden_components": [
+						"minecraft:attribute_modifiers"
+					]
+				},
+				"minecraft:enchantment_glint_override": false,
+				"minecraft:item_name": {
+					"translate": "item.minecraft.golden_axe",
+					"color": "white"
+				}
+			},
+			"ignore": null
+		},
+		"gold_boots": {
+			"version": 1,
+			"folder": [
+				[
+					"equipment",
+					"gold"
+				]
+			],
+			"names": [
+				{
+					"translate": "item.minecraft.golden_boots",
+					"color": "white"
+				}
+			],
+			"models": [],
+			"id": "minecraft:golden_boots",
+			"use": [
+				false,
+				false,
+				false
+			],
+			"type": "enchanted_boots",
+			"processed": true,
+			"components": {
+				"minecraft:enchantments": {
+					"minecraft:fire_protection": 2
+				},
+				"minecraft:enchantment_glint_override": false,
+				"minecraft:max_damage": 200,
+				"minecraft:lore": [
+					{
+						"translate": "desc.kleispack.armour",
+						"with": [
+							"2"
+						],
+						"color": "dark_green",
+						"italic": false
+					}
+				],
+				"minecraft:tooltip_display": {
+					"hidden_components": [
+						"minecraft:attribute_modifiers"
+					]
+				},
+				"minecraft:attribute_modifiers": [
+					{
+						"type": "minecraft:armor",
+						"id": "minecraft:armor.boots",
+						"amount": 2,
+						"operation": "add_value",
+						"slot": "feet"
+					}
+				],
+				"minecraft:item_name": {
+					"translate": "item.minecraft.golden_boots",
+					"color": "white"
+				}
+			},
+			"ignore": null
+		},
+		"gold_chestplate": {
+			"version": 1,
+			"folder": [
+				[
+					"equipment",
+					"gold"
+				]
+			],
+			"names": [
+				{
+					"translate": "item.minecraft.golden_chestplate",
+					"color": "white"
+				}
+			],
+			"models": [],
+			"id": "minecraft:golden_chestplate",
+			"use": [
+				false,
+				false,
+				false
+			],
+			"type": "enchanted_chestplate",
+			"processed": true,
+			"components": {
+				"minecraft:enchantments": {
+					"minecraft:fire_protection": 3
+				},
+				"minecraft:enchantment_glint_override": false,
+				"minecraft:max_damage": 200,
+				"minecraft:lore": [
+					{
+						"translate": "desc.kleispack.armour",
+						"with": [
+							"5"
+						],
+						"color": "dark_green",
+						"italic": false
+					}
+				],
+				"minecraft:tooltip_display": {
+					"hidden_components": [
+						"minecraft:attribute_modifiers"
+					]
+				},
+				"minecraft:item_name": {
+					"translate": "item.minecraft.golden_chestplate",
+					"color": "white"
+				}
+			},
+			"ignore": null
+		},
+		"gold_helmet": {
+			"version": 1,
+			"folder": [
+				[
+					"equipment",
+					"gold"
+				]
+			],
+			"names": [
+				{
+					"translate": "item.minecraft.golden_helmet",
+					"color": "white"
+				},
+				"Golden Crown"
+			],
+			"models": [],
+			"id": "minecraft:golden_helmet",
+			"use": [
+				false,
+				false,
+				false
+			],
+			"type": "enchanted_helmet",
+			"processed": true,
+			"components": {
+				"minecraft:enchantments": {
+					"minecraft:fire_protection": 2
+				},
+				"minecraft:enchantment_glint_override": false,
+				"minecraft:max_damage": 200,
+				"minecraft:lore": [
+					{
+						"translate": "desc.kleispack.armour",
+						"with": [
+							"2"
+						],
+						"color": "dark_green",
+						"italic": false
+					}
+				],
+				"minecraft:tooltip_display": {
+					"hidden_components": [
+						"minecraft:attribute_modifiers"
+					]
+				},
+				"minecraft:item_name": {
+					"translate": "item.minecraft.golden_helmet",
+					"color": "white"
+				}
+			},
+			"ignore": null
+		},
+		"gold_hoe": {
+			"version": 1,
+			"folder": [
+				[
+					"equipment",
+					"gold"
+				]
+			],
+			"names": [
+				{
+					"translate": "item.minecraft.golden_hoe",
+					"color": "white"
+				}
+			],
+			"models": [],
+			"id": "minecraft:golden_hoe",
+			"use": [
+				false,
+				false,
+				false
+			],
+			"type": "enchanted",
+			"processed": true,
+			"components": {
+				"minecraft:max_damage": 350,
+				"minecraft:enchantments": {
+					"minecraft:fortune": 1
+				},
+				"minecraft:lore": [
+					{
+						"translate": "desc.kleispack.mining_speed",
+						"with": [
+							"12"
+						],
+						"color": "blue",
+						"italic": false
+					},
+					{
+						"translate": "desc.kleispack.attack_damage",
+						"with": [
+							"1"
+						],
+						"color": "dark_green",
+						"italic": false
+					},
+					{
+						"translate": "desc.kleispack.cooldown",
+						"with": [
+							"1"
+						],
+						"color": "dark_green",
+						"italic": false
+					}
+				],
+				"minecraft:tooltip_display": {
+					"hidden_components": [
+						"minecraft:attribute_modifiers"
+					]
+				},
+				"minecraft:enchantment_glint_override": false,
+				"minecraft:item_name": {
+					"translate": "item.minecraft.golden_hoe",
+					"color": "white"
+				}
+			},
+			"ignore": null
+		},
+		"gold_leggings": {
+			"version": 1,
+			"folder": [
+				[
+					"equipment",
+					"gold"
+				]
+			],
+			"names": [
+				{
+					"translate": "item.minecraft.golden_leggings",
+					"color": "white"
+				}
+			],
+			"models": [],
+			"id": "minecraft:golden_leggings",
+			"use": [
+				false,
+				false,
+				false
+			],
+			"type": "enchanted_leggings",
+			"processed": true,
+			"components": {
+				"minecraft:enchantments": {
+					"minecraft:fire_protection": 2
+				},
+				"minecraft:enchantment_glint_override": false,
+				"minecraft:max_damage": 200,
+				"minecraft:lore": [
+					{
+						"translate": "desc.kleispack.armour",
+						"with": [
+							"3"
+						],
+						"color": "dark_green",
+						"italic": false
+					}
+				],
+				"minecraft:tooltip_display": {
+					"hidden_components": [
+						"minecraft:attribute_modifiers"
+					]
+				},
+				"minecraft:item_name": {
+					"translate": "item.minecraft.golden_leggings",
+					"color": "white"
+				}
+			},
+			"ignore": null
+		},
+		"gold_pickaxe": {
+			"version": 1,
+			"folder": [
+				[
+					"equipment",
+					"gold"
+				]
+			],
+			"names": [
+				{
+					"translate": "item.minecraft.golden_pickaxe",
+					"color": "white"
+				}
+			],
+			"models": [],
+			"id": "minecraft:golden_pickaxe",
+			"use": [
+				false,
+				false,
+				false
+			],
+			"type": "enchanted",
+			"processed": true,
+			"components": {
+				"minecraft:max_damage": 350,
+				"minecraft:enchantments": {
+					"minecraft:fortune": 1
+				},
+				"minecraft:lore": [
+					{
+						"translate": "desc.kleispack.mining_speed",
+						"with": [
+							"12"
+						],
+						"color": "blue",
+						"italic": false
+					},
+					{
+						"translate": "desc.kleispack.attack_damage",
+						"with": [
+							"2"
+						],
+						"color": "dark_green",
+						"italic": false
+					},
+					{
+						"translate": "desc.kleispack.cooldown",
+						"with": [
+							"1.2"
+						],
+						"color": "dark_green",
+						"italic": false
+					}
+				],
+				"minecraft:tooltip_display": {
+					"hidden_components": [
+						"minecraft:attribute_modifiers"
+					]
+				},
+				"minecraft:enchantment_glint_override": false,
+				"minecraft:tool": {
+					"rules": [
+						{
+							"blocks": "#matcha:obsidian_based",
+							"speed": 3,
+							"correct_for_drops": false
+						},
+						{
+							"blocks": "#minecraft:mineable/pickaxe",
+							"speed": 12,
+							"correct_for_drops": true
+						}
+					],
+					"default_mining_speed": 1,
+					"damage_per_block": 1
+				},
+				"minecraft:item_name": {
+					"translate": "item.minecraft.golden_pickaxe",
+					"color": "white"
+				}
+			},
+			"ignore": null
+		},
+		"gold_shovel": {
+			"version": 1,
+			"folder": [
+				[
+					"equipment",
+					"gold"
+				]
+			],
+			"names": [
+				{
+					"translate": "item.minecraft.golden_shovel",
+					"color": "white"
+				}
+			],
+			"models": [],
+			"id": "minecraft:golden_shovel",
+			"use": [
+				false,
+				false,
+				false
+			],
+			"type": "enchanted",
+			"processed": true,
+			"components": {
+				"minecraft:max_damage": 350,
+				"minecraft:enchantments": {
+					"minecraft:fortune": 1
+				},
+				"minecraft:lore": [
+					{
+						"translate": "desc.kleispack.mining_speed",
+						"with": [
+							"12"
+						],
+						"color": "blue",
+						"italic": false
+					},
+					{
+						"translate": "desc.kleispack.attack_damage",
+						"with": [
+							"2.5"
+						],
+						"color": "dark_green",
+						"italic": false
+					},
+					{
+						"translate": "desc.kleispack.cooldown",
+						"with": [
+							"1"
+						],
+						"color": "dark_green",
+						"italic": false
+					}
+				],
+				"minecraft:tooltip_display": {
+					"hidden_components": [
+						"minecraft:attribute_modifiers"
+					]
+				},
+				"minecraft:enchantment_glint_override": false,
+				"minecraft:tool": {
+					"rules": [
+						{
+							"blocks": "#minecraft:mineable/shovel",
+							"speed": 15,
+							"correct_for_drops": true
+						}
+					],
+					"default_mining_speed": 1,
+					"damage_per_block": 1
+				},
+				"minecraft:item_name": {
+					"translate": "item.minecraft.golden_shovel",
+					"color": "white"
+				}
+			},
+			"ignore": null
+		},
+		"gold_spear": {
+			"version": 1,
+			"folder": [
+				[
+					"equipment",
+					"gold"
+				]
+			],
+			"names": [
+				{
+					"translate": "item.minecraft.golden_spear",
+					"color": "white"
+				}
+			],
+			"models": [],
+			"id": "minecraft:golden_spear",
+			"use": [
+				false,
+				false,
+				false
+			],
+			"type": "enchanted",
+			"processed": true,
+			"components": {
+				"minecraft:lore": [
+					{
+						"translate": "desc.kleispack.attack_damage",
+						"with": [
+							"1"
+						],
+						"color": "dark_green",
+						"italic": false
+					},
+					{
+						"translate": "desc.kleispack.cooldown",
+						"with": [
+							"1.05"
+						],
+						"color": "dark_green",
+						"italic": false
+					}
+				],
+				"minecraft:tooltip_display": {
+					"hidden_components": [
+						"minecraft:attribute_modifiers"
+					]
+				},
+				"minecraft:enchantment_glint_override": false,
+				"minecraft:enchantments": {
+					"minecraft:looting": 2
+				},
+				"minecraft:max_damage": 350,
+				"minecraft:item_name": {
+					"translate": "item.minecraft.golden_spear",
+					"color": "white"
+				}
+			},
+			"ignore": null
+		},
+		"gold_sword": {
+			"version": 1,
+			"folder": [
+				[
+					"equipment",
+					"gold"
+				]
+			],
+			"names": [
+				{
+					"translate": "item.minecraft.golden_sword",
+					"color": "white"
+				}
+			],
+			"models": [],
+			"id": "minecraft:golden_sword",
+			"use": [
+				false,
+				false,
+				false
+			],
+			"type": "enchanted",
+			"processed": true,
+			"components": {
+				"minecraft:max_damage": 350,
+				"minecraft:enchantments": {
+					"minecraft:looting": 1
+				},
+				"minecraft:lore": [
+					{
+						"translate": "desc.kleispack.attack_damage",
+						"with": [
+							"4"
+						],
+						"color": "dark_green",
+						"italic": false
+					},
+					{
+						"translate": "desc.kleispack.cooldown",
+						"with": [
+							"1.6"
+						],
+						"color": "dark_green",
+						"italic": false
+					}
+				],
+				"minecraft:tooltip_display": {
+					"hidden_components": [
+						"minecraft:attribute_modifiers"
+					]
+				},
+				"minecraft:enchantment_glint_override": false,
+				"minecraft:item_name": {
+					"translate": "item.minecraft.golden_sword",
+					"color": "white"
+				}
+			},
+			"ignore": null
+		},
+		"trident": {
+			"version": 1,
+			"folder": [
+				[
+					"equipment",
+					"misc"
+				]
+			],
+			"names": [],
+			"models": [],
+			"id": "minecraft:trident",
+			"use": [
+				true,
+				true,
+				false
+			],
+			"type": "generic",
+			"processed": true,
+			"components": {
+				"minecraft:lore": [
+					{
+						"text": "\ud83d\udde1 9",
+						"color": "dark_green",
+						"italic": false
+					},
+					{
+						"text": "\ud83d\udd52 1.1",
+						"color": "dark_green",
+						"italic": false
+					},
+					{
+						"translate": "desc.kleispack.repaired_with",
+						"color": "gray",
+						"italic": false
+					},
+					{
+						"translate": "item.minecraft.diamond",
+						"color": "dark_gray",
+						"italic": false
+					}
+				],
+				"minecraft:max_damage": 500,
+				"minecraft:tooltip_display": {
+					"hidden_components": [
+						"minecraft:attribute_modifiers"
+					]
+				},
+				"minecraft:repairable": {
+					"items": "minecraft:diamond"
+				}
+			},
+			"ignore": null
+		},
+		"rusty_axe": {
+			"version": 1,
+			"folder": [
+				[
+					"equipment",
+					"misc"
+				]
+			],
+			"names": [
+				"Rusty Axe"
+			],
+			"models": [
+				"matcha:rusty_axe"
+			],
+			"id": "minecraft:iron_axe",
+			"use": [
+				false,
+				true,
+				true
+			],
+			"type": "generic",
+			"processed": true,
+			"components": {
+				"minecraft:damage": 140,
+				"minecraft:item_model": "matcha:rusty_axe",
+				"minecraft:item_name": "Rusty Axe",
+				"minecraft:lore": [
+					{
+						"text": "\u26cf 6",
+						"color": "blue",
+						"italic": false
+					},
+					{
+						"text": "\ud83d\udde1 9",
+						"color": "dark_green",
+						"italic": false
+					},
+					{
+						"text": "\ud83d\udd52 0.9",
+						"color": "dark_green",
+						"italic": false
+					}
+				],
+				"minecraft:tooltip_display": {
+					"hidden_components": [
+						"minecraft:attribute_modifiers"
+					]
+				}
+			},
+			"ignore": null
+		},
+		"sturdy_leather_leggings": {
+			"version": 1,
+			"folder": [
+				[
+					"equipment",
+					"sturdy_leather"
+				]
+			],
+			"names": [
+				{
+					"translate": "item.kleispack.sturdy_leather_leggings",
+					"color": "white"
+				},
+				"Sturdy Leather Leggings"
+			],
+			"models": [
+				"matcha:sturdy_leather_leggings"
+			],
+			"id": "minecraft:leather_leggings",
+			"use": [
+				false,
+				false,
+				true
+			],
+			"type": "enchanted_leggings",
+			"processed": true,
+			"components": {
+				"minecraft:max_damage": 350,
+				"minecraft:lore": [
+					{
+						"translate": "desc.kleispack.armour",
+						"with": [
+							{
+								"text": "3"
+							}
+						],
+						"color": "dark_green",
+						"italic": false
+					},
+					{
+						"translate": "desc.kleispack.fall_height_attribute",
+						"with": [
+							{
+								"text": "2"
+							}
+						],
+						"color": "dark_green",
+						"italic": false
+					},
+					{
+						"translate": "desc.kleispack.repaired_with",
+						"color": "gray",
+						"italic": false
+					},
+					{
+						"translate": "item.minecraft.rabbit_hide",
+						"color": "dark_gray",
+						"italic": false
+					}
+				],
+				"minecraft:tooltip_display": {
+					"hidden_components": [
+						"minecraft:attribute_modifiers"
+					]
+				},
+				"minecraft:enchantment_glint_override": false,
+				"minecraft:attribute_modifiers": [
+					{
+						"type": "minecraft:safe_fall_distance",
+						"id": "leather_legs",
+						"amount": 2,
+						"operation": "add_value",
+						"slot": "legs"
+					},
+					{
+						"type": "minecraft:armor",
+						"id": "minecraft:armor.leggings",
+						"amount": 3,
+						"operation": "add_value",
+						"slot": "legs"
+					}
+				],
+				"minecraft:enchantments": {
+					"minecraft:projectile_protection": 3
+				},
+				"minecraft:item_model": "matcha:sturdy_leather_leggings",
+				"minecraft:equippable": {
+					"slot": "legs",
+					"asset_id": "matcha:sturdy_leather"
+				},
+				"minecraft:item_name": {
+					"translate": "item.kleispack.sturdy_leather_leggings",
+					"color": "white"
+				},
+				"minecraft:repairable": {
+					"items": "minecraft:rabbit_hide"
+				}
+			},
+			"ignore": null
+		},
+		"wood_axe": {
+			"version": 1,
+			"folder": [
+				[
+					"equipment",
+					"wood"
+				]
+			],
+			"names": [],
+			"models": [],
+			"id": "minecraft:wooden_axe",
+			"use": [
+				false,
+				true,
+				false
+			],
+			"type": "generic",
+			"processed": true,
+			"components": {
+				"minecraft:max_damage": 200,
+				"minecraft:lore": [
+					{
+						"text": "\u26cf 2",
+						"color": "blue",
+						"italic": false
+					},
+					{
+						"text": "\ud83d\udde1 7",
+						"color": "dark_green",
+						"italic": false
+					},
+					{
+						"text": "\ud83d\udd52 0.8",
+						"color": "dark_green",
+						"italic": false
+					}
+				],
+				"minecraft:tooltip_display": {
+					"hidden_components": [
+						"minecraft:attribute_modifiers"
+					]
+				}
+			},
+			"ignore": null
+		},
+		"wood_hoe": {
+			"version": 1,
+			"folder": [
+				[
+					"equipment",
+					"wood"
+				]
+			],
+			"names": [],
+			"models": [],
+			"id": "minecraft:wooden_hoe",
+			"use": [
+				false,
+				true,
+				false
+			],
+			"type": "generic",
+			"processed": true,
+			"components": {
+				"minecraft:max_damage": 200,
+				"minecraft:lore": [
+					{
+						"text": "\u26cf 2",
+						"color": "blue",
+						"italic": false
+					},
+					{
+						"text": "\ud83d\udde1 1",
+						"color": "dark_green",
+						"italic": false
+					},
+					{
+						"text": "\ud83d\udd52 1",
+						"color": "dark_green",
+						"italic": false
+					}
+				],
+				"minecraft:tooltip_display": {
+					"hidden_components": [
+						"minecraft:attribute_modifiers"
+					]
+				}
+			},
+			"ignore": null
+		},
+		"wood_pickaxe": {
+			"version": 1,
+			"folder": [
+				[
+					"equipment",
+					"wood"
+				]
+			],
+			"names": [],
+			"models": [],
+			"id": "minecraft:wooden_pickaxe",
+			"use": [
+				false,
+				true,
+				false
+			],
+			"type": "generic",
+			"processed": true,
+			"components": {
+				"minecraft:tool": {
+					"rules": [
+						{
+							"blocks": "#matcha:non_mineable/wood",
+							"speed": 3,
+							"correct_for_drops": false
+						},
+						{
+							"blocks": "#minecraft:mineable/pickaxe",
+							"speed": 3,
+							"correct_for_drops": true
+						}
+					],
+					"default_mining_speed": 1,
+					"damage_per_block": 1
+				},
+				"minecraft:lore": [
+					{
+						"translate": "desc.kleispack.mining_speed",
+						"with": [
+							"3"
+						],
+						"color": "blue",
+						"italic": false
+					},
+					{
+						"translate": "desc.kleispack.attack_damage",
+						"with": [
+							"2"
+						],
+						"color": "dark_green",
+						"italic": false
+					},
+					{
+						"translate": "desc.kleispack.cooldown",
+						"with": [
+							"1.2"
+						],
+						"color": "dark_green",
+						"italic": false
+					}
+				],
+				"minecraft:max_damage": 200,
+				"minecraft:tooltip_display": {
+					"hidden_components": [
+						"minecraft:attribute_modifiers"
+					]
+				}
+			},
+			"ignore": null
+		},
+		"wood_shovel": {
+			"version": 1,
+			"folder": [
+				[
+					"equipment",
+					"wood"
+				]
+			],
+			"names": [],
+			"models": [],
+			"id": "minecraft:wooden_shovel",
+			"use": [
+				false,
+				true,
+				false
+			],
+			"type": "generic",
+			"processed": true,
+			"components": {
+				"minecraft:max_damage": 200,
+				"minecraft:lore": [
+					{
+						"text": "\u26cf 2",
+						"color": "blue",
+						"italic": false
+					},
+					{
+						"text": "\ud83d\udde1 2.5",
+						"color": "dark_green",
+						"italic": false
+					},
+					{
+						"text": "\ud83d\udd52 1",
+						"color": "dark_green",
+						"italic": false
+					}
+				],
+				"minecraft:tooltip_display": {
+					"hidden_components": [
+						"minecraft:attribute_modifiers"
+					]
+				}
+			},
+			"ignore": null
+		},
+		"compass_copper": {
+			"version": 1,
+			"folder": [
+				[
+					"equipment",
+					"compass"
+				]
+			],
+			"names": [
+				{
+					"translate": "item.kleispack.copper_compass"
+				},
+				"Copper Compass"
+			],
+			"models": [
+				"matcha:copper_compass"
+			],
+			"id": "minecraft:compass",
+			"use": [
+				false,
+				false,
+				true
+			],
+			"type": "generic",
+			"processed": true,
+			"components": {
+				"minecraft:item_model": "matcha:copper_compass",
+				"minecraft:item_name": {
+					"translate": "item.kleispack.copper_compass"
+				}
+			},
+			"ignore": null
+		},
+		"compass_gold": {
+			"version": 1,
+			"folder": [
+				[
+					"equipment",
+					"compass"
+				]
+			],
+			"names": [
+				{
+					"translate": "item.kleispack.golden_compass"
+				},
+				"Golden Compass"
+			],
+			"models": [
+				"matcha:golden_compass"
+			],
+			"id": "minecraft:compass",
+			"use": [
+				false,
+				false,
+				true
+			],
+			"type": "generic",
+			"processed": true,
+			"components": {
+				"minecraft:item_model": "matcha:golden_compass",
+				"minecraft:item_name": {
+					"translate": "item.kleispack.golden_compass"
+				}
+			},
+			"ignore": null
+		},
+		"compass_titanium": {
+			"version": 1,
+			"folder": [
+				[
+					"equipment",
+					"compass"
+				]
+			],
+			"names": [
+				{
+					"translate": "item.kleispack.titanium_compass"
+				},
+				"Titanium Compass"
+			],
+			"models": [
+				"matcha:titanium_compass"
+			],
+			"id": "minecraft:compass",
+			"use": [
+				false,
+				false,
+				true
+			],
+			"type": "generic",
+			"processed": true,
+			"components": {
+				"minecraft:item_model": "matcha:titanium_compass",
+				"minecraft:item_name": {
+					"translate": "item.kleispack.titanium_compass"
+				}
+			},
+			"ignore": null
+		},
+		"leather_leggings": {
+			"version": 1,
+			"folder": [
+				[
+					"equipment",
+					"leather"
+				]
+			],
+			"names": [
+				{
+					"translate": "item.minecraft.leather_leggings",
+					"color": "white"
+				}
+			],
+			"models": [],
+			"id": "minecraft:leather_leggings",
+			"use": [
+				false,
+				false,
+				false
+			],
+			"type": "leggings",
+			"processed": true,
+			"components": {
+				"minecraft:max_damage": 200,
+				"minecraft:lore": [
+					{
+						"translate": "desc.kleispack.armour",
+						"with": [
+							{
+								"text": "2"
+							}
+						],
+						"color": "dark_green",
+						"italic": false
+					},
+					{
+						"translate": "desc.kleispack.fall_height_attribute",
+						"with": [
+							{
+								"text": "1"
+							}
+						],
+						"color": "dark_green",
+						"italic": false
+					}
+				],
+				"minecraft:tooltip_display": {
+					"hidden_components": [
+						"minecraft:attribute_modifiers"
+					]
+				},
+				"minecraft:enchantment_glint_override": false,
+				"minecraft:attribute_modifiers": [
+					{
+						"type": "minecraft:safe_fall_distance",
+						"id": "leather_pants",
+						"amount": 1,
+						"operation": "add_value",
+						"slot": "legs"
+					},
+					{
+						"type": "minecraft:armor",
+						"id": "minecraft:armor.leggings",
+						"amount": 2,
+						"operation": "add_value",
+						"slot": "legs"
+					}
+				],
+				"minecraft:item_name": {
+					"translate": "item.minecraft.leather_leggings",
+					"color": "white"
+				}
+			},
+			"ignore": null
+		},
+		"axolotl": {
+			"version": 1,
+			"folder": [
+				[
+					"fish"
+				]
+			],
+			"names": [
+				{
+					"translate": "item.kleispack.fish.axolotl"
+				}
+			],
+			"models": [
+				"matcha:axolotl"
+			],
+			"id": "minecraft:chicken_spawn_egg",
+			"use": [
+				false,
+				true,
+				true
+			],
+			"type": "generic",
+			"processed": true,
+			"components": {
+				"minecraft:item_name": {
+					"translate": "item.kleispack.fish.axolotl"
+				},
+				"minecraft:item_model": "matcha:axolotl",
+				"minecraft:entity_data": {
+					"id": "minecraft:axolotl"
 				}
 			},
 			"ignore": null

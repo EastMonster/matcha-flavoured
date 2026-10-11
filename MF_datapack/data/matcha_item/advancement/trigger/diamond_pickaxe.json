@@ -70,6 +70,19 @@
 													"minecraft:slots": {
 														"weapon.mainhand": {
 															"components": {
+																"minecraft:item_name": "Electrum Pickaxe"
+															}
+														}
+													}
+												}
+											},
+											{
+												"type": "minecraft:entity_properties",
+												"entity": "this",
+												"predicate": {
+													"minecraft:slots": {
+														"weapon.mainhand": {
+															"components": {
 																"minecraft:item_model": "matcha:electrum_pickaxe"
 															}
 														}
@@ -134,6 +147,19 @@
 																	"translate": "item.kleispack.electrum_pickaxe",
 																	"color": "yellow"
 																}
+															}
+														}
+													}
+												}
+											},
+											{
+												"type": "minecraft:entity_properties",
+												"entity": "this",
+												"predicate": {
+													"minecraft:slots": {
+														"weapon.offhand": {
+															"components": {
+																"minecraft:item_name": "Electrum Pickaxe"
 															}
 														}
 													}

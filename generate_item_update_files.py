@@ -143,10 +143,12 @@ def genericItemProcessor(override,name,id_,components,folder_list):
                 if item_name not in names:
                     names.append(item_name)
                 else: pass
-                translate = item_name.get("translate")
-                if translate != None:
-                    if Lang.get(translate) != None and Lang.get(translate) not in names:
-                        names.append(Lang.get(translate))
+                if isinstance(item_name, dict):
+                    translate = item_name.get("translate")
+                    if translate != None:
+                        if Lang.get(translate) != None and Lang.get(translate) not in names:
+                            names.append(Lang.get(translate))
+                        else: pass
                     else: pass
                 else: pass
             else: pass
@@ -154,23 +156,6 @@ def genericItemProcessor(override,name,id_,components,folder_list):
             type_ = "generic"
             ignore = True
             components = {}
-        # try:
-        #     names = DB["files"][name]["names"]
-        #     if components["minecraft:item_name"] in names:
-        #         pass
-        #     else:
-        #         names.append(components["minecraft:item_name"])
-        #     if Lang.get(components["minecraft:item_name"]) in names:
-        #         pass
-        #     else:
-        #         names.append(Lang.get(components["minecraft:item_name"]))
-        # except:
-        #     if components.get("minecraft:item_name") != None:
-        #         names = [components.get("minecraft:item_name")]
-        #         if names[0]
-        #     else:
-        #         names = []
-        #         usenames = False
         try:
             models = DB["files"][name]["models"]
             if components["minecraft:item_model"] in models:
@@ -200,33 +185,36 @@ def genericItemProcessor(override,name,id_,components,folder_list):
 
 def ltItemProcessor(override,pools,entries,json_,name,folder_list):
     has_set_components_function = False
-    set_components_function = 0
     functions = []
+    components = {}
     directory_msg = ""
     try:
         directory_msg = " in loot_table folder "+folder_list[1]
     except:
         pass
     try:
-        functions = json_["pools"][0]["entries"][0]["functions"]
-        for i in range(len(functions)):
-            if functions[i].get("function") == "minecraft:set_components":
-                has_set_components_function = True
-                set_components_function = i
-            else:
-                continue
+        function = json_["pools"][0]["entries"][0]["modifier"]["type"]
+        id_ = json_["pools"][0]["entries"][0]["name"]
+        if function == "minecraft:set_components":
+            components = json_["pools"][0]["entries"][0]["modifier"]["components"]
+            has_set_components_function = True
+        elif function == "minecraft:sequence":
+            functions = function["functions"]
+            for i in range(len(functions)):
+                if functions[i].get("type") == "minecraft:set_components":
+                    has_set_components_function = True
+                    components = json_["pools"][0]["entries"][0]["modifier"]["functions"][i]["components"]
+                else:
+                    continue
     except:
         pass
-    if pools > 1 or entries > 1:
-        print("Skipping file "+name+directory_msg+" due to excessive pool/entry count; don't panic!")
+    if len(json_["pools"]) > 1 or len(json_["pools"][0]["entries"]) > 1:
+        print("Skipping file "+name+directory_msg+" due to having too many pools/entries; don't panic!'") if debug else None
         return False
     elif has_set_components_function == False:
         print("[D] Skipping file "+name+directory_msg+" due to lack of components") if debug else None
         return False
     else:
-        entry = json_["pools"][0]["entries"][0]
-        id_ = entry["name"]
-        components = entry["functions"][set_components_function]["components"]
         return genericItemProcessor(override,name,id_,components,folder_list)
 
 # discover mode: go through recipe(/lt?) folders and add files to db (non-destructive)
@@ -329,6 +317,19 @@ def discover(override):
                             pools = len(json_["pools"])
                             entries = len(json_["pools"][0]["entries"])
                         ltItemProcessor(override,pools,entries,json_,name,folder_list)
+                elif os.path.isfile(item_path):
+                    file_ = item_
+                    name = filename.match(file_).group(1)
+                    json_ = {}
+                    folder_list = [folder]
+                    pools = 0
+                    entries = 0
+                    functions = []
+                    with open(os.path.join(path,file_),'r') as f:
+                        json_ = json.load(f)
+                        pools = len(json_["pools"])
+                        entries = len(json_["pools"][0]["entries"])
+                    ltItemProcessor(override,pools,entries,json_,name,folder_list)
                 else: pass
         else:
             print("Skipping folder <"+folder+"> due to unprocessable folder type")
@@ -420,25 +421,34 @@ def destructive():
                     read = open(path, 'r')
                     json_ = json.load(read)
                     entry = json_["pools"][0]["entries"][0]
-                    functions = entry["functions"]
                     has_set_components_function = False
-                    set_components_function = 0
-                    for i in range(len(functions)):
-                        if functions[i].get("type") == "minecraft:set_components":
+                    try:
+                        function = entry["modifier"]["type"]
+                        if function == "minecraft:set_components":
+                            components = entry["modifier"]["components"]
                             has_set_components_function = True
-                            set_components_function = i
-                        else:
-                            continue
-                    if has_set_components_function == True:
-                        components = functions[set_components_function]["components"]
-                    else:
+                        elif function == "minecraft:sequence":
+                            functions = function["functions"]
+                            for i in range(len(functions)):
+                                if functions[i].get("type") == "minecraft:set_components":
+                                    has_set_components_function = True
+                                    components = entry["modifier"]["functions"][i]["components"]
+                                else:
+                                    continue
+                    except:
+                        pass
+                    if has_set_components_function == False:
                         files[item]["ignore"] = True
+                    else: pass
                 elif folders[i[0]][1] == "quirk_lt":
                     path = ""
-                    if i[1] == "misc":
+                    try:
+                        if i[1] == "misc":
+                            item_pathable = item
+                        else:
+                            item_pathable = item.replace(i[1]+"_","")
+                    except:
                         item_pathable = item
-                    else:
-                        item_pathable = item.replace(i[1]+"_","")
                     try:
                         path = os.path.join(Matcha,folders[i[0]][0],i[1],item_pathable+".json")
                     except:
@@ -446,16 +456,26 @@ def destructive():
                     read = open(path, 'r')
                     json_ = json.load(read)
                     entry = json_["pools"][0]["entries"][0]
-                    functions = entry["functions"]
                     has_set_components_function = False
-                    set_components_function = 0
-                    for i in range(len(functions)):
-                        if functions[i].get("type") == "minecraft:set_components":
+                    try:
+                        function = json_["pools"][0]["entries"][0]["modifier"]["type"]
+                        if function == "minecraft:set_components":
+                            components = entry["modifier"]["components"]
                             has_set_components_function = True
-                            set_components_function = i
-                        else:
-                            continue
-                    components = functions[set_components_function]["components"]
+                        elif function == "minecraft:sequence":
+                            functions = function["functions"]
+                            for i in range(len(functions)):
+                                if functions[i].get("type") == "minecraft:set_components":
+                                    has_set_components_function = True
+                                    components = entry["modifier"]["functions"][i]["components"]
+                                else:
+                                    continue
+                    except:
+                        pass
+                    if has_set_components_function == False:
+                        files[item]["ignore"] = True
+                    else: pass
+                else: pass
                 if components != None:
                     if "minecraft:custom_data" in components:
                         components["minecraft:custom_data"].update({"version": 1})
@@ -524,25 +544,34 @@ def update(item):
                     read = open(path, 'r')
                     json_ = json.load(read)
                     entry = json_["pools"][0]["entries"][0]
-                    functions = entry["functions"]
                     has_set_components_function = False
-                    set_components_function = 0
-                    for i in range(len(functions)):
-                        if functions[i].get("type") == "minecraft:set_components":
+                    try:
+                        function = json_["pools"][0]["entries"][0]["modifier"]["type"]
+                        if function == "minecraft:set_components":
+                            new_component = entry["modifier"]["components"]
                             has_set_components_function = True
-                            set_components_function = i
-                        else:
-                            continue
-                    if has_set_components_function == True:
-                        new_component = functions[set_components_function]["components"]
-                    else:
+                        elif function == "minecraft:sequence":
+                            functions = function["functions"]
+                            for i in range(len(functions)):
+                                if functions[i].get("type") == "minecraft:set_components":
+                                    has_set_components_function = True
+                                    new_component = entry["modifier"]["functions"][i]["components"]
+                                else:
+                                    continue
+                    except:
+                        pass
+                    if has_set_components_function == False:
                         files[item]["ignore"] = True
+                    else: pass
                 elif folders[i[0]][1] == "quirk_lt":
                     path = ""
-                    if i[1] == "misc":
+                    try:
+                        if i[1] == "misc":
+                            item_pathable = item
+                        else:
+                            item_pathable = item.replace(i[1]+"_","")
+                    except:
                         item_pathable = item
-                    else:
-                        item_pathable = item.replace(i[1]+"_","")
                     try:
                         path = os.path.join(Matcha,folders[i[0]][0],i[1],item_pathable+".json")
                     except:
@@ -550,16 +579,26 @@ def update(item):
                     read = open(path, 'r')
                     json_ = json.load(read)
                     entry = json_["pools"][0]["entries"][0]
-                    functions = entry["functions"]
                     has_set_components_function = False
-                    set_components_function = 0
-                    for i in range(len(functions)):
-                        if functions[i].get("type") == "minecraft:set_components":
+                    try:
+                        function = json_["pools"][0]["entries"][0]["modifier"]["type"]
+                        if function == "minecraft:set_components":
+                            new_component = entry["modifier"]["components"]
                             has_set_components_function = True
-                            set_components_function = i
-                        else:
-                            continue
-                    new_component = functions[set_components_function]["components"]
+                        elif function == "minecraft:sequence":
+                            functions = function["functions"]
+                            for i in range(len(functions)):
+                                if functions[i].get("type") == "minecraft:set_components":
+                                    has_set_components_function = True
+                                    new_component = entry["modifier"]["functions"][i]["components"]
+                                else:
+                                    continue
+                    except:
+                        pass
+                    if has_set_components_function == False:
+                        files[item]["ignore"] = True
+                    else: pass
+                else: pass
                 if new_component == original_components or new_component == None: pass
                 else:
                     new_components.append(new_component)
@@ -611,25 +650,34 @@ def update(item):
                         read = open(path, 'r')
                         json_ = json.load(read)
                         entry = json_["pools"][0]["entries"][0]
-                        functions = entry["functions"]
                         has_set_components_function = False
-                        set_components_function = 0
-                        for i in range(len(functions)):
-                            if functions[i].get("type") == "minecraft:set_components":
+                        try:
+                            function = json_["pools"][0]["entries"][0]["modifier"]["type"]
+                            if function == "minecraft:set_components":
+                                component = entry["modifier"]["components"]
                                 has_set_components_function = True
-                                set_components_function = i
-                            else:
-                                continue
-                        if has_set_components_function == True:
-                            component = functions[set_components_function]["components"]
-                        else:
+                            elif function == "minecraft:sequence":
+                                functions = function["functions"]
+                                for i in range(len(functions)):
+                                    if functions[i].get("type") == "minecraft:set_components":
+                                        has_set_components_function = True
+                                        component = entry["modifier"]["functions"][i]["components"]
+                                    else:
+                                        continue
+                        except:
+                            pass
+                        if has_set_components_function == False:
                             files[item]["ignore"] = True
+                        else: pass
                     elif folders[i[0]][1] == "quirk_lt":
                         path = ""
-                        if i[1] == "misc":
+                        try:
+                            if i[1] == "misc":
+                                item_pathable = item
+                            else:
+                                item_pathable = item.replace(i[1]+"_","")
+                        except:
                             item_pathable = item
-                        else:
-                            item_pathable = item.replace(i[1]+"_","")
                         try:
                             path = os.path.join(Matcha,folders[i[0]][0],i[1],item_pathable+".json")
                         except:
@@ -637,16 +685,25 @@ def update(item):
                         read = open(path, 'r')
                         json_ = json.load(read)
                         entry = json_["pools"][0]["entries"][0]
-                        functions = entry["functions"]
                         has_set_components_function = False
-                        set_components_function = 0
-                        for i in range(len(functions)):
-                            if functions[i].get("type") == "minecraft:set_components":
+                        try:
+                            function = json_["pools"][0]["entries"][0]["modifier"]["type"]
+                            if function == "minecraft:set_components":
+                                component = entry["modifier"]["components"]
                                 has_set_components_function = True
-                                set_components_function = i
-                            else:
-                                continue
-                        component = functions[set_components_function]["components"]
+                            elif function == "minecraft:sequence":
+                                functions = function["functions"]
+                                for i in range(len(functions)):
+                                    if functions[i].get("type") == "minecraft:set_components":
+                                        has_set_components_function = True
+                                        component = entry["modifier"]["functions"][i]["components"]
+                                    else:
+                                        continue
+                        except:
+                            pass
+                        if has_set_components_function == False:
+                            files[item]["ignore"] = True
+                        else: pass
                     component.update(components)
                     if debug and DB["options"]["askForConfirmation"] == "True":
                         print(json.dumps(json_, indent=1))

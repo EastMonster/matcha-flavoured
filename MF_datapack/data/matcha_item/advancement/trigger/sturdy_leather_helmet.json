@@ -15,22 +15,6 @@
 										"minecraft:slots": {
 											"armor.head": {
 												"components": {
-													"minecraft:item_name": {
-														"translate": "item.kleispack.sturdy_leather_helmet",
-														"color": "white"
-													}
-												}
-											}
-										}
-									}
-								},
-								{
-									"type": "minecraft:entity_properties",
-									"entity": "this",
-									"predicate": {
-										"minecraft:slots": {
-											"armor.head": {
-												"components": {
 													"minecraft:item_name": "matcha:sturdy_leather_helmet"
 												}
 											}

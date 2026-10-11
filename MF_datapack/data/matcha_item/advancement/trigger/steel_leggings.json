@@ -15,22 +15,6 @@
 										"minecraft:slots": {
 											"armor.legs": {
 												"components": {
-													"minecraft:item_name": {
-														"translate": "item.kleispack.steel_leggings",
-														"color": "white"
-													}
-												}
-											}
-										}
-									}
-								},
-								{
-									"type": "minecraft:entity_properties",
-									"entity": "this",
-									"predicate": {
-										"minecraft:slots": {
-											"armor.legs": {
-												"components": {
 													"minecraft:item_name": "matcha:steel_leggings"
 												}
 											}

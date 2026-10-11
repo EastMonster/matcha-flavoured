@@ -7,24 +7,7 @@
 					"terms": [
 						{
 							"type": "minecraft:any_of",
-							"terms": [
-								{
-									"type": "minecraft:entity_properties",
-									"entity": "this",
-									"predicate": {
-										"minecraft:slots": {
-											"armor.chest": {
-												"components": {
-													"minecraft:item_name": {
-														"translate": "item.minecraft.netherite_chestplate",
-														"color": "gold"
-													}
-												}
-											}
-										}
-									}
-								}
-							]
+							"terms": []
 						},
 						{
 							"type": "minecraft:inverted",

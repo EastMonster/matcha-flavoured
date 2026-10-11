@@ -11,22 +11,6 @@
 						"minecraft:slots": {
 							"weapon.offhand": {
 								"components": {
-									"minecraft:item_name": {
-										"translate": "item.kleispack.hepatizon_laurel",
-										"color": "#ac7b5c"
-									}
-								}
-							}
-						}
-					}
-				},
-				{
-					"type": "minecraft:entity_properties",
-					"entity": "this",
-					"predicate": {
-						"minecraft:slots": {
-							"weapon.offhand": {
-								"components": {
 									"minecraft:item_name": "matcha:hepatizon_laurel"
 								}
 							}

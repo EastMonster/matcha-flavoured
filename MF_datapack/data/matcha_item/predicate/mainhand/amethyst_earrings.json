@@ -11,22 +11,6 @@
 						"minecraft:slots": {
 							"weapon.mainhand": {
 								"components": {
-									"minecraft:item_name": {
-										"translate": "item.kleispack.amethyst_earrings",
-										"color": "#b38ef3"
-									}
-								}
-							}
-						}
-					}
-				},
-				{
-					"type": "minecraft:entity_properties",
-					"entity": "this",
-					"predicate": {
-						"minecraft:slots": {
-							"weapon.mainhand": {
-								"components": {
 									"minecraft:item_name": "matcha:amethyst_earrings"
 								}
 							}

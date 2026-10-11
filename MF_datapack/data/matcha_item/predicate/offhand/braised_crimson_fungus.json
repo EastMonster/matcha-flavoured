@@ -11,22 +11,6 @@
 						"minecraft:slots": {
 							"weapon.offhand": {
 								"components": {
-									"minecraft:item_name": {
-										"translate": "item.kleispack.braised_crimson_fungus",
-										"color": "#c54457"
-									}
-								}
-							}
-						}
-					}
-				},
-				{
-					"type": "minecraft:entity_properties",
-					"entity": "this",
-					"predicate": {
-						"minecraft:slots": {
-							"weapon.offhand": {
-								"components": {
 									"minecraft:item_name": "matcha:braised_crimson_fungus"
 								}
 							}

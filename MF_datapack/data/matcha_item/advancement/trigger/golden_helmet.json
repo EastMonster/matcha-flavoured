@@ -14,22 +14,6 @@
 									"predicate": {
 										"minecraft:slots": {
 											"armor.head": {
-												"components": {
-													"minecraft:item_name": {
-														"translate": "item.minecraft.golden_helmet",
-														"color": "white"
-													}
-												}
-											}
-										}
-									}
-								},
-								{
-									"type": "minecraft:entity_properties",
-									"entity": "this",
-									"predicate": {
-										"minecraft:slots": {
-											"armor.head": {
 												"items": "minecraft:golden_helmet"
 											}
 										}

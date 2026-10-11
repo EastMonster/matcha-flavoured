@@ -10,21 +10,6 @@
 					"predicate": {
 						"minecraft:slots": {
 							"weapon.offhand": {
-								"components": {
-									"minecraft:item_name": {
-										"translate": "item.kleispack.bundle.lava_kit"
-									}
-								}
-							}
-						}
-					}
-				},
-				{
-					"type": "minecraft:entity_properties",
-					"entity": "this",
-					"predicate": {
-						"minecraft:slots": {
-							"weapon.offhand": {
 								"items": "minecraft:red_bundle"
 							}
 						}

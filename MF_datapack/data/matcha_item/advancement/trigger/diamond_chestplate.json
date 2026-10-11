@@ -67,6 +67,19 @@
 											"minecraft:slots": {
 												"armor.chest": {
 													"components": {
+														"minecraft:item_name": "Electrum Chestplate"
+													}
+												}
+											}
+										}
+									},
+									{
+										"type": "minecraft:entity_properties",
+										"entity": "this",
+										"predicate": {
+											"minecraft:slots": {
+												"armor.chest": {
+													"components": {
 														"minecraft:item_model": "matcha:electrum_chestplate"
 													}
 												}

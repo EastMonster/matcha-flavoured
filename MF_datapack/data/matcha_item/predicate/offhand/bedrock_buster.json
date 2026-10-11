@@ -11,21 +11,6 @@
 						"minecraft:slots": {
 							"weapon.offhand": {
 								"components": {
-									"minecraft:item_name": {
-										"translate": "item.kleispack.bedrock_buster"
-									}
-								}
-							}
-						}
-					}
-				},
-				{
-					"type": "minecraft:entity_properties",
-					"entity": "this",
-					"predicate": {
-						"minecraft:slots": {
-							"weapon.offhand": {
-								"components": {
 									"minecraft:item_name": "matcha:bedrock_buster"
 								}
 							}

@@ -15,22 +15,6 @@
 										"minecraft:slots": {
 											"armor.feet": {
 												"components": {
-													"minecraft:item_name": {
-														"translate": "item.kleispack.electrum_boots",
-														"color": "yellow"
-													}
-												}
-											}
-										}
-									}
-								},
-								{
-									"type": "minecraft:entity_properties",
-									"entity": "this",
-									"predicate": {
-										"minecraft:slots": {
-											"armor.feet": {
-												"components": {
 													"minecraft:item_name": "matcha:electrum_boots"
 												}
 											}

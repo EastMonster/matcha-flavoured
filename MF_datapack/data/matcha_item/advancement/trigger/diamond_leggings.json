@@ -67,6 +67,19 @@
 											"minecraft:slots": {
 												"armor.legs": {
 													"components": {
+														"minecraft:item_name": "Electrum Leggings"
+													}
+												}
+											}
+										}
+									},
+									{
+										"type": "minecraft:entity_properties",
+										"entity": "this",
+										"predicate": {
+											"minecraft:slots": {
+												"armor.legs": {
+													"components": {
 														"minecraft:item_model": "matcha:electrum_leggings"
 													}
 												}

@@ -18,21 +18,6 @@
 												"minecraft:slots": {
 													"weapon.mainhand": {
 														"components": {
-															"minecraft:item_name": {
-																"translate": "item.kleispack.honey_ginger_tea"
-															}
-														}
-													}
-												}
-											}
-										},
-										{
-											"type": "minecraft:entity_properties",
-											"entity": "this",
-											"predicate": {
-												"minecraft:slots": {
-													"weapon.mainhand": {
-														"components": {
 															"minecraft:item_name": "matcha:honey_ginger_tea"
 														}
 													}
@@ -67,21 +52,6 @@
 								{
 									"type": "minecraft:any_of",
 									"terms": [
-										{
-											"type": "minecraft:entity_properties",
-											"entity": "this",
-											"predicate": {
-												"minecraft:slots": {
-													"weapon.offhand": {
-														"components": {
-															"minecraft:item_name": {
-																"translate": "item.kleispack.honey_ginger_tea"
-															}
-														}
-													}
-												}
-											}
-										},
 										{
 											"type": "minecraft:entity_properties",
 											"entity": "this",

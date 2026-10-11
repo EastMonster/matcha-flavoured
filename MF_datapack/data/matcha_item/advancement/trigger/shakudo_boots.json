@@ -15,22 +15,6 @@
 										"minecraft:slots": {
 											"armor.feet": {
 												"components": {
-													"minecraft:item_name": {
-														"translate": "item.kleispack.shakudo_boots",
-														"color": "#c96691"
-													}
-												}
-											}
-										}
-									}
-								},
-								{
-									"type": "minecraft:entity_properties",
-									"entity": "this",
-									"predicate": {
-										"minecraft:slots": {
-											"armor.feet": {
-												"components": {
 													"minecraft:item_name": "matcha:shakudo_boots"
 												}
 											}
