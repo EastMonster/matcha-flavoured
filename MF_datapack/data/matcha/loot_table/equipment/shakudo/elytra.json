@@ -13,6 +13,12 @@
 							"minecraft:max_damage": 800,
 							"minecraft:lore": [
 								{
+									"translate": "enchantment.kleispack.shakudo_wither_resistance",
+									"with": ["Max"],
+									"color": "gray",
+									"italic": false
+								},
+								{
 									"translate": "desc.kleispack.armour",
 									"with": ["1"],
 									"color": "dark_green",
