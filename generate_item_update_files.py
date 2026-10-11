@@ -3,6 +3,7 @@ import json, os, sys, re
 
 # self explanatory
 DBpath = os.path.join("item_updater_db.json")
+LangPath = os.path.join("MF_resourcepack","assets","minecraft","lang","en_us.json")
 debug = False
 # the datapack folder
 Matcha = os.path.join("MF_datapack", "data")
@@ -12,6 +13,9 @@ Updater = os.path.join(Matcha, "matcha_item")
 # read and parse database
 DBread = open(DBpath, 'r')
 DB = json.load(DBread)
+# read and parse lang files
+LangRead = open(LangPath, 'r')
+Lang = json.load(LangRead)
 
 # cache for temporary stuff
 cache = {}
@@ -54,7 +58,6 @@ def genericItemProcessor(override,name,id_,components,folder_list):
     except:
         cache[name] = {"overriden": False}
     print("[D] file processing now: "+name) if debug else None
-    print("[D] components: "+str(components))
     head = re.compile("helmet")
     chest = re.compile("chestplate")
     legs = re.compile("leggings")
@@ -129,22 +132,45 @@ def genericItemProcessor(override,name,id_,components,folder_list):
                     type_ = "boots"
                 else:
                     type_ = "generic"
+            if DB["files"].get(name) != None:
+                names = DB["files"][name].get("names")
+                if names == None:
+                    names = []
+                else: pass
+            else: pass
+            item_name = components.get("minecraft:item_name")
+            if item_name != None:
+                if item_name not in names:
+                    names.append(item_name)
+                else: pass
+                translate = item_name.get("translate")
+                if translate != None:
+                    if Lang.get(translate) != None and Lang.get(translate) not in names:
+                        names.append(Lang.get(translate))
+                    else: pass
+                else: pass
+            else: pass
         else:
             type_ = "generic"
             ignore = True
             components = {}
-        try:
-            names = DB["files"][name]["names"]
-            if components["minecraft:item_name"] in names:
-                pass
-            else:
-                names.append(components["minecraft:item_name"])
-        except:
-            if components.get("minecraft:item_name") != None:
-                names = [components.get("minecraft:item_name")]
-            else:
-                names = []
-                usenames = False
+        # try:
+        #     names = DB["files"][name]["names"]
+        #     if components["minecraft:item_name"] in names:
+        #         pass
+        #     else:
+        #         names.append(components["minecraft:item_name"])
+        #     if Lang.get(components["minecraft:item_name"]) in names:
+        #         pass
+        #     else:
+        #         names.append(Lang.get(components["minecraft:item_name"]))
+        # except:
+        #     if components.get("minecraft:item_name") != None:
+        #         names = [components.get("minecraft:item_name")]
+        #         if names[0]
+        #     else:
+        #         names = []
+        #         usenames = False
         try:
             models = DB["files"][name]["models"]
             if components["minecraft:item_model"] in models:
@@ -234,7 +260,6 @@ def discover(override):
                     folder_list = [folder,directory]
                     with open(os.path.join(directory_path,file_),'r') as f:
                         json_ = json.load(f)
-                        print("[D] "+str(json_))
                         components = json_["gives"].get("components")
                         id_ = json_["gives"]["id"]
                     genericItemProcessor(override,name,id_,components,folder_list)
