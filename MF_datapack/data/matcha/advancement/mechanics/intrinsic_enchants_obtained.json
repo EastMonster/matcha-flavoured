@@ -6,9 +6,9 @@
 			"conditions": {
 				"items": [
 					{
-						"components": {
+						"predicates": {
 							"minecraft:custom_data": {
-								"has_intrinsic_enchants": true
+								"has_intrinsic_enchants": 1
 							}
 						}
 					}
