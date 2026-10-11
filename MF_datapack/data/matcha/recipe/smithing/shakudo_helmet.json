@@ -9,7 +9,9 @@
 			"minecraft:lore": [
 				{
 					"translate": "enchantment.kleispack.shakudo_wither_resistance",
-					"with": ["1"],
+					"with": [
+						"1"
+					],
 					"color": "gray",
 					"italic": false
 				},

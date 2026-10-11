@@ -12569,6 +12569,14 @@
 				"minecraft:max_damage": 500,
 				"minecraft:lore": [
 					{
+						"translate": "enchantment.kleispack.shakudo_wither_resistance",
+						"with": [
+							"1"
+						],
+						"color": "gray",
+						"italic": false
+					},
+					{
 						"translate": "desc.kleispack.armour",
 						"with": [
 							"3"
@@ -12675,6 +12683,14 @@
 			"components": {
 				"minecraft:max_damage": 500,
 				"minecraft:lore": [
+					{
+						"translate": "enchantment.kleispack.shakudo_wither_resistance",
+						"with": [
+							"1"
+						],
+						"color": "gray",
+						"italic": false
+					},
 					{
 						"translate": "desc.kleispack.armour",
 						"with": [
@@ -12911,6 +12927,14 @@
 				"minecraft:max_damage": 800,
 				"minecraft:lore": [
 					{
+						"translate": "enchantment.kleispack.shakudo_wither_resistance",
+						"with": [
+							"Max"
+						],
+						"color": "gray",
+						"italic": false
+					},
+					{
 						"translate": "desc.kleispack.armour",
 						"with": [
 							"1"
@@ -13023,6 +13047,14 @@
 			"components": {
 				"minecraft:max_damage": 500,
 				"minecraft:lore": [
+					{
+						"translate": "enchantment.kleispack.shakudo_wither_resistance",
+						"with": [
+							"1"
+						],
+						"color": "gray",
+						"italic": false
+					},
 					{
 						"translate": "desc.kleispack.armour",
 						"with": [
@@ -13248,6 +13280,14 @@
 			"components": {
 				"minecraft:max_damage": 500,
 				"minecraft:lore": [
+					{
+						"translate": "enchantment.kleispack.shakudo_wither_resistance",
+						"with": [
+							"1"
+						],
+						"color": "gray",
+						"italic": false
+					},
 					{
 						"translate": "desc.kleispack.armour",
 						"with": [
@@ -25651,8 +25691,8 @@
 			"models": [],
 			"id": "minecraft:golden_axe",
 			"use": [
-				true,
-				true,
+				false,
+				false,
 				false
 			],
 			"type": "enchanted",
@@ -25721,8 +25761,8 @@
 			"models": [],
 			"id": "minecraft:golden_boots",
 			"use": [
-				true,
-				true,
+				false,
+				false,
 				false
 			],
 			"type": "enchanted_boots",
@@ -25783,8 +25823,8 @@
 			"models": [],
 			"id": "minecraft:golden_chestplate",
 			"use": [
-				true,
-				true,
+				false,
+				false,
 				false
 			],
 			"type": "enchanted_chestplate",
@@ -25872,7 +25912,7 @@
 			"models": [],
 			"id": "minecraft:golden_helmet",
 			"use": [
-				true,
+				false,
 				false,
 				false
 			],
@@ -25925,8 +25965,8 @@
 			"models": [],
 			"id": "minecraft:golden_hoe",
 			"use": [
-				true,
-				true,
+				false,
+				false,
 				false
 			],
 			"type": "enchanted",
@@ -25994,8 +26034,8 @@
 			"models": [],
 			"id": "minecraft:golden_leggings",
 			"use": [
-				true,
-				true,
+				false,
+				false,
 				false
 			],
 			"type": "enchanted_leggings",
@@ -26047,8 +26087,8 @@
 			"models": [],
 			"id": "minecraft:golden_pickaxe",
 			"use": [
-				true,
-				true,
+				false,
+				false,
 				false
 			],
 			"type": "enchanted",
@@ -26132,8 +26172,8 @@
 			"models": [],
 			"id": "minecraft:golden_shovel",
 			"use": [
-				true,
-				true,
+				false,
+				false,
 				false
 			],
 			"type": "enchanted",
@@ -26212,8 +26252,8 @@
 			"models": [],
 			"id": "minecraft:golden_spear",
 			"use": [
-				true,
-				true,
+				false,
+				false,
 				false
 			],
 			"type": "enchanted",
@@ -26273,8 +26313,8 @@
 			"models": [],
 			"id": "minecraft:golden_sword",
 			"use": [
-				true,
-				true,
+				false,
+				false,
 				false
 			],
 			"type": "enchanted",
@@ -27430,7 +27470,7 @@
 			"id": "minecraft:leather_leggings",
 			"use": [
 				false,
-				true,
+				false,
 				false
 			],
 			"type": "leggings",
@@ -29271,7 +29311,7 @@
 			"models": [],
 			"id": "minecraft:wooden_axe",
 			"use": [
-				true,
+				false,
 				true,
 				false
 			],
@@ -29364,7 +29404,7 @@
 			"models": [],
 			"id": "minecraft:wooden_hoe",
 			"use": [
-				true,
+				false,
 				true,
 				false
 			],
@@ -29411,7 +29451,7 @@
 			"models": [],
 			"id": "minecraft:wooden_pickaxe",
 			"use": [
-				true,
+				false,
 				true,
 				false
 			],
@@ -29483,7 +29523,7 @@
 			"models": [],
 			"id": "minecraft:wooden_shovel",
 			"use": [
-				true,
+				false,
 				true,
 				false
 			],
@@ -36409,7 +36449,10 @@
 			"type": "generic",
 			"processed": true,
 			"components": {
-				"!minecraft:entity_data": {}
+				"!minecraft:entity_data": {},
+				"minecraft:custom_data": {
+					"version": 1
+				}
 			},
 			"ignore": null
 		},
@@ -36441,6 +36484,9 @@
 				"minecraft:item_model": "matcha:fish_bones",
 				"minecraft:item_name": {
 					"translate": "item.kleispack.fish.fish_bones"
+				},
+				"minecraft:custom_data": {
+					"version": 1
 				}
 			},
 			"ignore": null
@@ -36466,7 +36512,10 @@
 			"processed": true,
 			"components": {
 				"minecraft:jukebox_playable": "matcha:abbey",
-				"minecraft:item_model": "matcha:music_disc_abbey"
+				"minecraft:item_model": "matcha:music_disc_abbey",
+				"minecraft:custom_data": {
+					"version": 1
+				}
 			},
 			"ignore": null
 		},
@@ -36491,7 +36540,10 @@
 			"processed": true,
 			"components": {
 				"minecraft:jukebox_playable": "matcha:elegy_of_the_abbey",
-				"minecraft:item_model": "matcha:music_disc_elegy_of_the_abbey"
+				"minecraft:item_model": "matcha:music_disc_elegy_of_the_abbey",
+				"minecraft:custom_data": {
+					"version": 1
+				}
 			},
 			"ignore": null
 		},
@@ -36516,7 +36568,10 @@
 			"processed": true,
 			"components": {
 				"minecraft:jukebox_playable": "matcha:golden",
-				"minecraft:item_model": "matcha:music_disc_golden"
+				"minecraft:item_model": "matcha:music_disc_golden",
+				"minecraft:custom_data": {
+					"version": 1
+				}
 			},
 			"ignore": null
 		},
@@ -36541,7 +36596,10 @@
 			"processed": true,
 			"components": {
 				"minecraft:jukebox_playable": "matcha:labyrinthine",
-				"minecraft:item_model": "matcha:music_disc_labyrinthine"
+				"minecraft:item_model": "matcha:music_disc_labyrinthine",
+				"minecraft:custom_data": {
+					"version": 1
+				}
 			},
 			"ignore": null
 		},
@@ -36576,7 +36634,10 @@
 					"translate": "item.kleispack.amber",
 					"color": "gold"
 				},
-				"!minecraft:consumable": {}
+				"!minecraft:consumable": {},
+				"minecraft:custom_data": {
+					"version": 1
+				}
 			},
 			"ignore": null
 		},
@@ -36609,7 +36670,10 @@
 				"minecraft:item_name": {
 					"translate": "item.kleispack.cyan_rose_classic"
 				},
-				"!minecraft:consumable": {}
+				"!minecraft:consumable": {},
+				"minecraft:custom_data": {
+					"version": 1
+				}
 			},
 			"ignore": null
 		},
@@ -36644,7 +36708,10 @@
 					"translate": "item.kleispack.opal",
 					"color": "#ab85ad"
 				},
-				"!minecraft:consumable": {}
+				"!minecraft:consumable": {},
+				"minecraft:custom_data": {
+					"version": 1
+				}
 			},
 			"ignore": null
 		},
@@ -36694,6 +36761,9 @@
 							]
 						}
 					]
+				},
+				"minecraft:custom_data": {
+					"version": 1
 				}
 			},
 			"ignore": null
@@ -36727,7 +36797,10 @@
 				"minecraft:item_name": {
 					"translate": "item.kleispack.rose_classic"
 				},
-				"!minecraft:consumable": {}
+				"!minecraft:consumable": {},
+				"minecraft:custom_data": {
+					"version": 1
+				}
 			},
 			"ignore": null
 		},
@@ -36762,7 +36835,10 @@
 					"translate": "item.kleispack.ruby",
 					"color": "red"
 				},
-				"!minecraft:consumable": {}
+				"!minecraft:consumable": {},
+				"minecraft:custom_data": {
+					"version": 1
+				}
 			},
 			"ignore": null
 		},
@@ -36797,7 +36873,10 @@
 					"translate": "item.kleispack.topaz",
 					"color": "yellow"
 				},
-				"!minecraft:consumable": {}
+				"!minecraft:consumable": {},
+				"minecraft:custom_data": {
+					"version": 1
+				}
 			},
 			"ignore": null
 		},
@@ -36865,6 +36944,9 @@
 				"minecraft:item_name": {
 					"translate": "item.minecraft.golden_axe",
 					"color": "white"
+				},
+				"minecraft:custom_data": {
+					"version": 1
 				}
 			},
 			"ignore": null
@@ -36925,6 +37007,9 @@
 				"minecraft:item_name": {
 					"translate": "item.minecraft.golden_boots",
 					"color": "white"
+				},
+				"minecraft:custom_data": {
+					"version": 1
 				}
 			},
 			"ignore": null
@@ -36976,6 +37061,9 @@
 				"minecraft:item_name": {
 					"translate": "item.minecraft.golden_chestplate",
 					"color": "white"
+				},
+				"minecraft:custom_data": {
+					"version": 1
 				}
 			},
 			"ignore": null
@@ -37028,6 +37116,9 @@
 				"minecraft:item_name": {
 					"translate": "item.minecraft.golden_helmet",
 					"color": "white"
+				},
+				"minecraft:custom_data": {
+					"version": 1
 				}
 			},
 			"ignore": null
@@ -37095,6 +37186,9 @@
 				"minecraft:item_name": {
 					"translate": "item.minecraft.golden_hoe",
 					"color": "white"
+				},
+				"minecraft:custom_data": {
+					"version": 1
 				}
 			},
 			"ignore": null
@@ -37146,6 +37240,9 @@
 				"minecraft:item_name": {
 					"translate": "item.minecraft.golden_leggings",
 					"color": "white"
+				},
+				"minecraft:custom_data": {
+					"version": 1
 				}
 			},
 			"ignore": null
@@ -37229,6 +37326,9 @@
 				"minecraft:item_name": {
 					"translate": "item.minecraft.golden_pickaxe",
 					"color": "white"
+				},
+				"minecraft:custom_data": {
+					"version": 1
 				}
 			},
 			"ignore": null
@@ -37307,6 +37407,9 @@
 				"minecraft:item_name": {
 					"translate": "item.minecraft.golden_shovel",
 					"color": "white"
+				},
+				"minecraft:custom_data": {
+					"version": 1
 				}
 			},
 			"ignore": null
@@ -37366,6 +37469,9 @@
 				"minecraft:item_name": {
 					"translate": "item.minecraft.golden_spear",
 					"color": "white"
+				},
+				"minecraft:custom_data": {
+					"version": 1
 				}
 			},
 			"ignore": null
@@ -37425,6 +37531,9 @@
 				"minecraft:item_name": {
 					"translate": "item.minecraft.golden_sword",
 					"color": "white"
+				},
+				"minecraft:custom_data": {
+					"version": 1
 				}
 			},
 			"ignore": null
@@ -37478,6 +37587,9 @@
 				},
 				"minecraft:repairable": {
 					"items": "minecraft:diamond"
+				},
+				"minecraft:custom_data": {
+					"version": 1
 				}
 			},
 			"ignore": null
@@ -37529,6 +37641,9 @@
 					"hidden_components": [
 						"minecraft:attribute_modifiers"
 					]
+				},
+				"minecraft:custom_data": {
+					"version": 1
 				}
 			},
 			"ignore": null
@@ -37629,6 +37744,9 @@
 				},
 				"minecraft:repairable": {
 					"items": "minecraft:rabbit_hide"
+				},
+				"minecraft:custom_data": {
+					"version": 1
 				}
 			},
 			"ignore": null
@@ -37674,6 +37792,9 @@
 					"hidden_components": [
 						"minecraft:attribute_modifiers"
 					]
+				},
+				"minecraft:custom_data": {
+					"version": 1
 				}
 			},
 			"ignore": null
@@ -37719,6 +37840,9 @@
 					"hidden_components": [
 						"minecraft:attribute_modifiers"
 					]
+				},
+				"minecraft:custom_data": {
+					"version": 1
 				}
 			},
 			"ignore": null
@@ -37789,6 +37913,9 @@
 					"hidden_components": [
 						"minecraft:attribute_modifiers"
 					]
+				},
+				"minecraft:custom_data": {
+					"version": 1
 				}
 			},
 			"ignore": null
@@ -37834,6 +37961,9 @@
 					"hidden_components": [
 						"minecraft:attribute_modifiers"
 					]
+				},
+				"minecraft:custom_data": {
+					"version": 1
 				}
 			},
 			"ignore": null
@@ -37867,6 +37997,9 @@
 				"minecraft:item_model": "matcha:copper_compass",
 				"minecraft:item_name": {
 					"translate": "item.kleispack.copper_compass"
+				},
+				"minecraft:custom_data": {
+					"version": 1
 				}
 			},
 			"ignore": null
@@ -37900,6 +38033,9 @@
 				"minecraft:item_model": "matcha:golden_compass",
 				"minecraft:item_name": {
 					"translate": "item.kleispack.golden_compass"
+				},
+				"minecraft:custom_data": {
+					"version": 1
 				}
 			},
 			"ignore": null
@@ -37933,6 +38069,9 @@
 				"minecraft:item_model": "matcha:titanium_compass",
 				"minecraft:item_name": {
 					"translate": "item.kleispack.titanium_compass"
+				},
+				"minecraft:custom_data": {
+					"version": 1
 				}
 			},
 			"ignore": null
@@ -38009,6 +38148,9 @@
 				"minecraft:item_name": {
 					"translate": "item.minecraft.leather_leggings",
 					"color": "white"
+				},
+				"minecraft:custom_data": {
+					"version": 1
 				}
 			},
 			"ignore": null
@@ -38043,6 +38185,9 @@
 				"minecraft:item_model": "matcha:axolotl",
 				"minecraft:entity_data": {
 					"id": "minecraft:axolotl"
+				},
+				"minecraft:custom_data": {
+					"version": 1
 				}
 			},
 			"ignore": null

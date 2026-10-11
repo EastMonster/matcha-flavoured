@@ -53,6 +53,9 @@
 		"minecraft:item_name": {
 			"translate": "item.minecraft.golden_pickaxe",
 			"color": "white"
+		},
+		"minecraft:custom_data": {
+			"version": 1
 		}
 	}
 }

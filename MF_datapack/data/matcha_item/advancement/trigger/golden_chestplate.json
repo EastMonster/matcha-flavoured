@@ -7,35 +7,7 @@
 					"terms": [
 						{
 							"type": "minecraft:any_of",
-							"terms": [
-								{
-									"type": "minecraft:entity_properties",
-									"entity": "this",
-									"predicate": {
-										"minecraft:slots": {
-											"armor.chest": {
-												"components": {
-													"minecraft:item_name": {
-														"translate": "item.minecraft.golden_chestplate",
-														"color": "white"
-													}
-												}
-											}
-										}
-									}
-								},
-								{
-									"type": "minecraft:entity_properties",
-									"entity": "this",
-									"predicate": {
-										"minecraft:slots": {
-											"armor.chest": {
-												"items": "minecraft:golden_chestplate"
-											}
-										}
-									}
-								}
-							]
+							"terms": []
 						},
 						{
 							"type": "minecraft:inverted",

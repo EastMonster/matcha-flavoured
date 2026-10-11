@@ -3,35 +3,7 @@
 	"terms": [
 		{
 			"type": "minecraft:any_of",
-			"terms": [
-				{
-					"type": "minecraft:entity_properties",
-					"entity": "this",
-					"predicate": {
-						"minecraft:slots": {
-							"weapon.offhand": {
-								"components": {
-									"minecraft:item_name": {
-										"translate": "item.minecraft.golden_axe",
-										"color": "white"
-									}
-								}
-							}
-						}
-					}
-				},
-				{
-					"type": "minecraft:entity_properties",
-					"entity": "this",
-					"predicate": {
-						"minecraft:slots": {
-							"weapon.offhand": {
-								"items": "minecraft:golden_axe"
-							}
-						}
-					}
-				}
-			]
+			"terms": []
 		},
 		{
 			"type": "minecraft:inverted",

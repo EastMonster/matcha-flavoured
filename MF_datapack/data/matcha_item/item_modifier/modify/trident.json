@@ -31,6 +31,9 @@
 		},
 		"minecraft:repairable": {
 			"items": "minecraft:diamond"
+		},
+		"minecraft:custom_data": {
+			"version": 1
 		}
 	}
 }

@@ -37,6 +37,9 @@
 		"minecraft:item_name": {
 			"translate": "item.minecraft.golden_hoe",
 			"color": "white"
+		},
+		"minecraft:custom_data": {
+			"version": 1
 		}
 	}
 }

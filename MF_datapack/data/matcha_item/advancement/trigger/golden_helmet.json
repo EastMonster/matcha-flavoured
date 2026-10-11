@@ -7,19 +7,7 @@
 					"terms": [
 						{
 							"type": "minecraft:any_of",
-							"terms": [
-								{
-									"type": "minecraft:entity_properties",
-									"entity": "this",
-									"predicate": {
-										"minecraft:slots": {
-											"armor.head": {
-												"items": "minecraft:golden_helmet"
-											}
-										}
-									}
-								}
-							]
+							"terms": []
 						},
 						{
 							"type": "minecraft:inverted",

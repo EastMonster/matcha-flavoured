@@ -7,35 +7,7 @@
 					"terms": [
 						{
 							"type": "minecraft:any_of",
-							"terms": [
-								{
-									"type": "minecraft:entity_properties",
-									"entity": "this",
-									"predicate": {
-										"minecraft:slots": {
-											"armor.legs": {
-												"components": {
-													"minecraft:item_name": {
-														"translate": "item.minecraft.golden_leggings",
-														"color": "white"
-													}
-												}
-											}
-										}
-									}
-								},
-								{
-									"type": "minecraft:entity_properties",
-									"entity": "this",
-									"predicate": {
-										"minecraft:slots": {
-											"armor.legs": {
-												"items": "minecraft:golden_leggings"
-											}
-										}
-									}
-								}
-							]
+							"terms": []
 						},
 						{
 							"type": "minecraft:inverted",

@@ -5,6 +5,9 @@
 		"minecraft:item_name": {
 			"translate": "item.kleispack.rose_classic"
 		},
-		"!minecraft:consumable": {}
+		"!minecraft:consumable": {},
+		"minecraft:custom_data": {
+			"version": 1
+		}
 	}
 }

@@ -29,6 +29,9 @@
 		"minecraft:item_name": {
 			"translate": "item.minecraft.golden_sword",
 			"color": "white"
+		},
+		"minecraft:custom_data": {
+			"version": 1
 		}
 	}
 }

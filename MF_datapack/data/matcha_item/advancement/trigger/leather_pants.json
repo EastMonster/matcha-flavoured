@@ -7,24 +7,7 @@
 					"terms": [
 						{
 							"type": "minecraft:any_of",
-							"terms": [
-								{
-									"type": "minecraft:entity_properties",
-									"entity": "this",
-									"predicate": {
-										"minecraft:slots": {
-											"armor.legs": {
-												"components": {
-													"minecraft:item_name": {
-														"translate": "item.minecraft.leather_leggings",
-														"color": "white"
-													}
-												}
-											}
-										}
-									}
-								}
-							]
+							"terms": []
 						},
 						{
 							"type": "minecraft:inverted",

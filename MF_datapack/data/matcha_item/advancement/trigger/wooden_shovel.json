@@ -10,19 +10,7 @@
 							"terms": [
 								{
 									"type": "minecraft:any_of",
-									"terms": [
-										{
-											"type": "minecraft:entity_properties",
-											"entity": "this",
-											"predicate": {
-												"minecraft:slots": {
-													"weapon.mainhand": {
-														"items": "minecraft:wooden_shovel"
-													}
-												}
-											}
-										}
-									]
+									"terms": []
 								},
 								{
 									"type": "minecraft:inverted",
@@ -49,19 +37,7 @@
 							"terms": [
 								{
 									"type": "minecraft:any_of",
-									"terms": [
-										{
-											"type": "minecraft:entity_properties",
-											"entity": "this",
-											"predicate": {
-												"minecraft:slots": {
-													"weapon.offhand": {
-														"items": "minecraft:wooden_shovel"
-													}
-												}
-											}
-										}
-									]
+									"terms": []
 								},
 								{
 									"type": "minecraft:inverted",
