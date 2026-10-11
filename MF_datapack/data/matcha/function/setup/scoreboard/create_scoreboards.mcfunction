@@ -54,10 +54,6 @@ scoreboard objectives add warding_equipment dummy
 scoreboard players set $Max warding_equipment 3
 
 
-# Traversal Enchant (Bool0s, I added the scoreboard so it should be good here!)
-scoreboard objectives add traversal dummy
-scoreboard players set 0 traversal 0
-
 # Adamant Armour
 scoreboard objectives add adamant_armour dummy
 
@@ -71,6 +67,9 @@ scoreboard objectives add DivinityCooldown dummy
 
 # Anemos enchantment
 scoreboard objectives add AnemosCooldown dummy
+
+# Traversal enchantment
+scoreboard objectives add TraversalBuffer dummy
 
 # Zephyr enchantment
 scoreboard objectives add ZephyrCharge dummy
