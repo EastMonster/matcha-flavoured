@@ -11,23 +11,21 @@
 						},
 						{
 							"type": "minecraft:inverted",
-							"term": [
-								{
-									"type": "minecraft:entity_properties",
-									"entity": "this",
-									"predicate": {
-										"minecraft:slots": {
-											"armor.chest": {
-												"predicates": {
-													"minecraft:custom_data": {
-														"version": 1
-													}
+							"term": {
+								"type": "minecraft:entity_properties",
+								"entity": "this",
+								"predicate": {
+									"minecraft:slots": {
+										"armor.chest": {
+											"predicates": {
+												"minecraft:custom_data": {
+													"version": 1
 												}
 											}
 										}
 									}
 								}
-							]
+							}
 						}
 					]
 				}

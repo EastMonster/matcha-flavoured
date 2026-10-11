@@ -25,23 +25,21 @@
 						},
 						{
 							"type": "minecraft:inverted",
-							"term": [
-								{
-									"type": "minecraft:entity_properties",
-									"entity": "this",
-									"predicate": {
-										"minecraft:slots": {
-											"weapon.mainhand": {
-												"predicates": {
-													"minecraft:custom_data": {
-														"version": 1
-													}
+							"term": {
+								"type": "minecraft:entity_properties",
+								"entity": "this",
+								"predicate": {
+									"minecraft:slots": {
+										"weapon.mainhand": {
+											"predicates": {
+												"minecraft:custom_data": {
+													"version": 1
 												}
 											}
 										}
 									}
 								}
-							]
+							}
 						}
 					]
 				}

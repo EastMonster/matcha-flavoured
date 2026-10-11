@@ -851,7 +851,7 @@ def creationHelper(obj, item):
             trigger_advancement["criteria"][item]["conditions"]["player"]["terms"].append(mainhand_predicate)
             trigger_advancement["criteria"][item]["conditions"]["player"]["terms"].append(offhand_predicate)
         case _:
-            trigger_advancement = {"criteria": {item: {"conditions": {"player": {"type": "minecraft:all_of", "terms": [{"type": "minecraft:any_of", "terms": []}, {"type": "minecraft:inverted", "term": []}]}}, "trigger": "minecraft:inventory_changed"}}, "requirements": [[item]],"rewards": {"function": "matcha_item:update/"+item}}
+            trigger_advancement = {"criteria": {item: {"conditions": {"player": {"type": "minecraft:all_of", "terms": [{"type": "minecraft:any_of", "terms": []}, {"type": "minecraft:inverted", "term": {}}]}}, "trigger": "minecraft:inventory_changed"}}, "requirements": [[item]],"rewards": {"function": "matcha_item:update/"+item}}
             if usenames:
                 for i in range(len(names_predicates)):
                     trigger_advancement["criteria"][item]["conditions"]["player"]["terms"][0]["terms"].append(names_predicates[i])
@@ -865,7 +865,7 @@ def creationHelper(obj, item):
                 trigger_advancement["criteria"][item]["conditions"]["player"]["terms"][0]["terms"].append(id_predicates[0])
             else:
                 pass
-            trigger_advancement["criteria"][item]["conditions"]["player"]["terms"][1]["term"].append(version_predicates[0])
+            trigger_advancement["criteria"][item]["conditions"]["player"]["terms"][1]["term"] = version_predicates[0]
             if (type_ == "diamond_helmet") | (type_ == "diamond_chestplate") | (type_ == "diamond_leggings") | (type_ == "diamond_boots"):
                 trigger_advancement["criteria"][item]["conditions"]["player"]["terms"].append(working_diamond_predicates[0])
             elif type_ == "baked_apple":
