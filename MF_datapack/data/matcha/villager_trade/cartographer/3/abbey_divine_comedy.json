@@ -32,15 +32,6 @@
 		}
 	],
 	"gives": {
-		"id": "minecraft:map",
-		"components": {
-			"minecraft:item_model": "matcha:abbey_map",
-			"minecraft:custom_data": {
-				"version": 1
-			}
-		}
-	},
-	"gives": {
 		"id": "minecraft:buried_treasure_map"
 	},
 	"max_uses": 999,

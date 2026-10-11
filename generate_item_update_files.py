@@ -54,6 +54,7 @@ def genericItemProcessor(override,name,id_,components,folder_list):
     except:
         cache[name] = {"overriden": False}
     print("[D] file processing now: "+name) if debug else None
+    print("[D] components: "+str(components))
     head = re.compile("helmet")
     chest = re.compile("chestplate")
     legs = re.compile("leggings")
@@ -233,6 +234,7 @@ def discover(override):
                     folder_list = [folder,directory]
                     with open(os.path.join(directory_path,file_),'r') as f:
                         json_ = json.load(f)
+                        print("[D] "+str(json_))
                         components = json_["gives"].get("components")
                         id_ = json_["gives"]["id"]
                     genericItemProcessor(override,name,id_,components,folder_list)
