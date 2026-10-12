@@ -36626,7 +36626,7 @@
 				false,
 				true
 			],
-			"type": "generic",
+			"type": "mineral",
 			"processed": true,
 			"components": {
 				"minecraft:item_model": "matcha:amber",
@@ -36700,7 +36700,7 @@
 				false,
 				true
 			],
-			"type": "generic",
+			"type": "mineral",
 			"processed": true,
 			"components": {
 				"minecraft:item_model": "matcha:opal",
@@ -36827,7 +36827,7 @@
 				false,
 				true
 			],
-			"type": "generic",
+			"type": "mineral",
 			"processed": true,
 			"components": {
 				"minecraft:item_model": "matcha:ruby",
@@ -36865,7 +36865,7 @@
 				false,
 				true
 			],
-			"type": "generic",
+			"type": "mineral",
 			"processed": true,
 			"components": {
 				"minecraft:item_model": "matcha:topaz",
@@ -38201,6 +38201,12 @@
 			"minecraft:book",
 			"minecraft:bow",
 			"minecraft:shield"
-		]
+		],
+		"overrideType": {
+			"amber": "mineral",
+			"topaz": "mineral",
+			"opal": "mineral",
+			"ruby": "mineral"
+		}
 	}
 }
