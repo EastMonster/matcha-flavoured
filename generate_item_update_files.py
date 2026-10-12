@@ -156,6 +156,9 @@ def genericItemProcessor(override,name,id_,components,folder_list):
             type_ = "generic"
             ignore = True
             components = {}
+        if DB["options"]["overrideType"].get(name) != None:
+            type_ = DB["options"]["overrideType"].get(name)
+        else: pass
         try:
             models = DB["files"][name]["models"]
             if components["minecraft:item_model"] in models:
