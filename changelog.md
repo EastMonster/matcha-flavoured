@@ -10,6 +10,7 @@
     * Full shakudo is almost required in Hard now
     * Shakudo Elytra provides full wither resistance
 - Textures for Shipwreck, Trail ruin, papal outpost, and Abbey maps all updated
+- Leaf textures changed for optimisation reasons (Let me know what you think)
 #### Small Tweaks
 - Removed Advancment revokations on update, this was only needed for 1.12.3+4 so it has been removed
 
