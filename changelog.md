@@ -1,3 +1,9 @@
+### EXPECTED BUGS AND ISSUES
+- Old foods may sometimes be inedible (Maybe)
+- If you use vanilla foods (Ie. from the creative menu) they will be inedible (unless they update automatically)
+- Raw meats will be inedible
+- If you make a NEW food, and find it to sometimes be inedible, please report this to the github
+
 ### Major Additions and Changes
 - Husks
     * Damage reduced from 5 hearts to 3 (In normal)
@@ -19,6 +25,9 @@
 - Ramen and curries can no longer be cooked on campfires
 - Treasure maps now work
 - Chocolate now stacks
+- Ice Cream no longer gives bowls
+- Campfire Cooking times fixed
+- Removed Curries from campfire cooking
 
 
 
