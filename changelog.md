@@ -1,8 +1,13 @@
+I deleted the old version off of modrinth, I had a major bug reported--game breaking--I feaked out, deleted it, and scrambled to fix it. Turns out actually it wasn't real. My bad
+But since it was down I took the time to squash a few other bugs
+
 ### EXPECTED BUGS AND ISSUES
 - Old foods may sometimes be inedible (Maybe)
 - If you use vanilla foods (Ie. from the creative menu) they will be inedible (unless they update automatically)
 - Raw meats will be inedible
 - If you make a NEW food, and find it to sometimes be inedible, please report this to the github
+    * NEWLY crafted, NEWLY cooked food
+- Modded foods will be inedible sometimes, I can't do anything about this because DPs can't modifier player data
 
 ### Major Additions and Changes
 - Husks
@@ -10,7 +15,7 @@
     * Hunger does something now (Not in easy)
     * Cleanse Maleffect now removes hunger
 - Wither
-    * Normal Hearbreaker timer is much longer than in hard now
+    * Normal Hearbreaker timer is much longer than in hard now (Hard is very short)
     * Shakudo provides wither resistance, but not cleansing
     * One piece of shakudo is now enough to prevent heatbreaker from a wither skeleton hit (in normal), but if you are hit more than once while withered, it will not save you
     * Full shakudo is almost required in Hard now
@@ -19,6 +24,7 @@
 - Leaf textures changed for optimisation reasons (Let me know what you think)
 #### Small Tweaks
 - Removed Advancment revokations on update, this was only needed for 1.12.3+4 so it has been removed
+- Milk Bottles are now fast to drink, good trade off for anti-wither prep
 
 ### Bugs
 - Straw Beds now work
@@ -28,6 +34,8 @@
 - Ice Cream no longer gives bowls
 - Campfire Cooking times fixed
 - Removed Curries from campfire cooking
+- Some Emojis were weird
+- Jungle Shelf texture had been added (I frogot)
 
 
 
