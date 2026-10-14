@@ -6,6 +6,6 @@
 		}
 	},
 	"rewards": {
-		"function": "matcha:mechanics/anvil_xp/check_anvil_interaction"
+		"function": "matcha:mechanics/xp_handling/check_anvil_interaction"
 	}
 }
