@@ -11,7 +11,7 @@
 							"type": "minecraft:location_check",
 							"predicate": {
 								"block": {
-									"blocks": "#minecraft:anvil"
+									"blocks": "#matcha:grants_temp_levels"
 								}
 							}
 						}
@@ -21,6 +21,6 @@
 		}
 	},
 	"rewards": {
-		"function": "matcha:mechanics/xp_handling/check_anvil_interaction"
+		"function": "matcha:mechanics/xp_handling/give_temp_levels"
 	}
 }
