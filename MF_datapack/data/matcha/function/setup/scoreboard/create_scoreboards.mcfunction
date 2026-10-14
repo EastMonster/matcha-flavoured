@@ -90,8 +90,7 @@ scoreboard objectives add boating minecraft.custom:minecraft.boat_one_cm
 scoreboard objectives add eat_cake_slice minecraft.custom:minecraft.eat_cake_slice
 scoreboard players set 1 eat_cake_slice 1
 
-# Used to give people xp when using an Anvil
-scoreboard objectives add anvil_interaction minecraft.custom:minecraft.interact_with_anvil
+# Used to temporarily allow people to have xp levels
 scoreboard objectives add XpDuration dummy
 
 scoreboard objectives add water_bucket_used minecraft.used:minecraft.water_bucket

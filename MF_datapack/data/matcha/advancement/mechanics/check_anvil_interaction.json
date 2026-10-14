@@ -1,8 +1,23 @@
 {
 	"parent": "matcha:imm_revoke",
 	"criteria": {
-		"inventory_changed": {
-			"trigger": "minecraft:inventory_changed"
+		"interact_with_anvil": {
+			"trigger": "minecraft:default_block_use",
+			"conditions": {
+				"location": {
+					"type": "minecraft:all_of",
+					"terms": [
+						{
+							"type": "minecraft:location_check",
+							"predicate": {
+								"block": {
+									"blocks": "#minecraft:anvil"
+								}
+							}
+						}
+					]
+				}
+			}
 		}
 	},
 	"rewards": {
