@@ -5,13 +5,7 @@
 			"trigger": "minecraft:inventory_changed"
 		}
 	},
-	"requirements": [
-		[
-			"inventory_changed"
-		]
-	],
 	"rewards": {
-		"recipes": [],
 		"function": "matcha:mechanics/anvil_xp/check_anvil_interaction"
 	}
 }
