@@ -1,4 +1,4 @@
-execute as @a[tag=!ExcludeFromXPRemoval] run xp set @s 0 levels
-execute as @a[tag=!ExcludeFromXPRemoval] run xp set @s 0 points
+# This function is run every tick for all players without any XpDuration score
 
-execute unless stopwatch xp_timer ..30.9 run tag @a remove ExcludeFromXPRemoval
+xp set @s 0 levels
+xp set @s 0 points

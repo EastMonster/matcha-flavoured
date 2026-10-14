@@ -92,6 +92,7 @@ scoreboard players set 1 eat_cake_slice 1
 
 # Used to give people xp when using an Anvil
 scoreboard objectives add anvil_interaction minecraft.custom:minecraft.interact_with_anvil
+scoreboard objectives add XpDuration dummy
 
 scoreboard objectives add water_bucket_used minecraft.used:minecraft.water_bucket
 scoreboard players set 1 water_bucket_used 1
