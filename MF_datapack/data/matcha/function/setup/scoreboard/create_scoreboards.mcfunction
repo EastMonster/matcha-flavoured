@@ -36,9 +36,6 @@ scoreboard objectives add sleepTimerScore dummy
 # players' amount of gametime to sleep before waking up
 scoreboard objectives add sleepDuration dummy
 
-scoreboard objectives add divinity dummy
-scoreboard players set 0 divinity 0
-
 
 # Aura Effect
 scoreboard objectives add AuraWindup dummy
@@ -93,8 +90,8 @@ scoreboard objectives add boating minecraft.custom:minecraft.boat_one_cm
 scoreboard objectives add eat_cake_slice minecraft.custom:minecraft.eat_cake_slice
 scoreboard players set 1 eat_cake_slice 1
 
-scoreboard objectives add anvil_interaction minecraft.custom:minecraft.interact_with_anvil
-scoreboard players set 0 anvil_interaction 0
+# Used to temporarily allow people to have xp levels
+scoreboard objectives add XpDuration dummy
 
 scoreboard objectives add water_bucket_used minecraft.used:minecraft.water_bucket
 scoreboard players set 1 water_bucket_used 1

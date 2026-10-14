@@ -8,7 +8,7 @@ function matcha:environmental/check_freezing_water_conditions
 function matcha:environmental/nether_water
 function matcha:environmental/village_eerie_sound
 
-function matcha:mechanics/anvil_xp/remove_xp
+execute as @a unless score @s XpDuration matches 1.. run function matcha:mechanics/xp_handling/remove_xp
 function matcha:mechanics/cake_eaten
 function matcha:mechanics/heart_container/detect_death
 function matcha:mechanics/manage_hunger
@@ -31,6 +31,7 @@ execute as @a if score @s AuraWindup matches 0.. run scoreboard players remove @
 execute as @a if score @s ShakudoRegenCooldown matches 0.. run scoreboard players remove @s ShakudoRegenCooldown 1
 execute as @a if score @s DivinityCooldown matches 0.. run scoreboard players remove @s DivinityCooldown 1
 execute as @a if score @s TraversalBuffer matches 1.. run scoreboard players remove @s TraversalBuffer 1
+execute as @a if score @s XpDuration matches 1.. run scoreboard players remove @s XpDuration 1
 
 # Reset counts
 # * empties the entire scoreboard
