@@ -12,7 +12,8 @@
 -
 
 ### Bugs
-- Anvil system reworked by Linkershim, this should fix some XP bugs esp on servers and make it so that you won't be timed out after 30s
+- Anvil system reworked, this should fix some XP bugs esp on servers and make it so that you won't be timed out after 30s (Linkershim)
+- Villager trade favourite foods had a bug that resulted in high restock rates (HapppySpud)
 
 
 
