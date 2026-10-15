@@ -7,7 +7,7 @@ execute if score @s wandering_trader_timer_score >= 10min wandering_trader_timer
 execute if block ~ ~ ~ minecraft:campfire run setblock ~ ~ ~ minecraft:campfire[lit=false]
 
 # Kill this Marker
-function matcha:mechanics/wandering_trader/kill_this_beacon
+kill @s
 
 # Tell nearby players that the Wandering Trader has lost sight of the Beacon
 execute as @a[distance=..128] run tellraw @s {"translate":"log.kleispack.wandering_trader.kill_early","color":"gray"}
