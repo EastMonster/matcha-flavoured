@@ -71,16 +71,13 @@ scoreboard objectives add TraversalBuffer dummy
 # Zephyr enchantment
 scoreboard objectives add ZephyrCharge dummy
 
-#Used mostly for particles
+# Used mostly for particles
 stopwatch create 3s
 stopwatch create 2s
 stopwatch create 1s
 stopwatch create 0.5s
 
-#Used to clear xp after a certain time after interacting with an anvil (cannot use schedule, as only the server can run schedule right now)
-stopwatch create xp_timer
-
-#Used for village sounds
+# Used for village sounds
 stopwatch create eerie
 scoreboard objectives add eerie dummy
 scoreboard players set 1 eerie 1
@@ -96,10 +93,10 @@ scoreboard objectives add XpDuration dummy
 scoreboard objectives add water_bucket_used minecraft.used:minecraft.water_bucket
 scoreboard players set 1 water_bucket_used 1
 
-#Used for Wither Effect (Heartbreaker)
+# Used for Wither Effect (Heartbreaker)
 scoreboard objectives add wither_timer dummy
 
-#Used for Hunger Effect
+# Used for Hunger Effect
 scoreboard objectives add hunger_timer dummy
 
 # On load, set the wandering trader timer, and reset ALL people who summoned him, because if we don't, functions that should be looping wont be
@@ -115,7 +112,7 @@ scoreboard players set 15min wandering_trader_timer_score 90
 scoreboard players set 0 wandering_trader_timer_score 0
 
 scoreboard objectives add version_number dummy
-#EX. 104 is 1.04, it represents the current version, 1211 1.12.1
+# EX. 104 is 1.04, it represents the current version, 1211 1.12.1
 scoreboard players set current_version version_number 1126
 scoreboard players set zero version_number 0
 
@@ -134,7 +131,7 @@ scoreboard players set normal difficulty_score 2
 scoreboard players set hard difficulty_score 3
 execute store result score current_world_settings_difficulty difficulty_score run difficulty
 
-#Used in main/function/mechanics/intrinsic_enchants/
+# Used in main/function/mechanics/intrinsic_enchants/
 scoreboard objectives add intrinsic_enchants_levels dummy
 
 # Add Trigger Scoreboard to update your old items

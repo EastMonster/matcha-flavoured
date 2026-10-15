@@ -15,11 +15,6 @@
 			}
 		}
 	},
-	"requirements": [
-		[
-			"use_item"
-		]
-	],
 	"rewards": {
 		"function": "matcha:mechanics/wandering_trader/beacon_kindling_placed"
 	}
