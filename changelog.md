@@ -5,15 +5,28 @@
 
 
 ### Major Additions and Changes
-- 
+- Buckets are now copper instead of Iron (Internet-Hyena + Me)
 
 
 #### Small Tweaks
--
+- Lanterns can now be crafted from Steel (Internet-Hyena)
 
-### Bugs
-- Anvil system reworked, this should fix some XP bugs esp on servers and make it so that you won't be timed out after 30s (Linkershim)
+### Bugs & Technical Improvements
+- Anvil system reworked, this should fix some XP bugs esp on servers and make it so that you won't be timed out after 30s (Linkershim, Code + HapppySpud, Shader)
+    * XP is no longer removed, since HapppySpud made a shader to block the XP number. This let linkershim remove the xp removal that happened ~30 seconds after you click on an anvil and change your inventory
+    * Instead XP is given on anvil interaction, and thats about it. The only difference _you_ the player will notice, is a smoother experience
 - Villager trade favourite foods had a bug that resulted in high restock rates (HapppySpud)
+- Beacon Kindling no longer breaks when reloading/relogging or going out of range (Linkershim)
+- Beacon Kindling needs no longer to be placed in the centre of the crafting grid to craft (Linkershim)
+- Various bug fixes for the automatic item updating system (ReinIsNOTaDev)
+- Traversal Enchantment reworked (Linkershim)
+    * The only difference you will notice, is that its more consistent
+- Zephyr Improvements (Linkershim)
+    - Zephyr can no longer be charged while not wearing Zephyr boots (this could lead to the "charged" indication ping and particles not playing the first time someone used Zephyr 3 after equipping the boots)
+    - Zephyr can no longer be pre-charged if sneaking is stopped without leaving the ground (Huge W! This will make building much better)
+    - Zephyr lvl 1 & 2 no longer play the "charged" indication ping and particles
+    - Spamming sneak after releasing a charged Zephyr no longer spams the wind burst particle and sound despite not doing anything mechanically
+- Luck of the Sea now affects the quality (Star rating) of fish caught (Internet-Hyena)
 
 
 
