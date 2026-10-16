@@ -6,6 +6,7 @@ schedule function matcha:timers/0.5s 0.5s replace
 schedule function matcha:timers/1s 1s replace
 schedule function matcha:timers/2s 2s replace
 schedule function matcha:timers/3s 3s replace
+schedule function matcha:timers/10s 10s replace
 schedule function matcha:timers/60s 60s replace
 
 # Print information to players
