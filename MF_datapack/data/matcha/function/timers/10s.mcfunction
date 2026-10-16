@@ -5,4 +5,4 @@ schedule function matcha:timers/10s 10s replace
 # say Clock 10s
 
 # Functions
-function matcha:mechanics/beacon_kindling/check_wandering_trader_timer_loop
+function matcha:mechanics/beacon_kindling/10s_loop
