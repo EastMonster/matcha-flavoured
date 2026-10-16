@@ -12,5 +12,5 @@ kill @s
 # Tell nearby players that the Wandering Trader has lost sight of the Beacon
 execute as @a[distance=..128] run tellraw @s {"translate":"log.kleispack.wandering_trader.kill_early","color":"gray"}
 
-# Untrack every player on the server
-scoreboard players reset @a wandering_trader_timer_score
+# Untrack nearby players
+execute as @a[distance=..128] run scoreboard players reset @s wandering_trader_timer_score
