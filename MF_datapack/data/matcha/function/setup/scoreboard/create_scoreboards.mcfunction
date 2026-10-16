@@ -90,9 +90,6 @@ scoreboard objectives add boating minecraft.custom:minecraft.boat_one_cm
 scoreboard objectives add eat_cake_slice minecraft.custom:minecraft.eat_cake_slice
 scoreboard players set 1 eat_cake_slice 1
 
-# Used to temporarily allow people to have xp levels
-scoreboard objectives add XpDuration dummy
-
 scoreboard objectives add water_bucket_used minecraft.used:minecraft.water_bucket
 scoreboard players set 1 water_bucket_used 1
 
