@@ -8,7 +8,5 @@ kill @e[type=minecraft:wandering_trader,tag=summoned_by_beacon]
 # Kill all Beacon Kindling
 execute as @e[type=marker,tag=beacon_kindling] at @s run function matcha:mechanics/wandering_trader/kill_wandering_trader_early
 
-# Stop tracking any (online) players
-# This will not work on Dedicated Server Restart!
-scoreboard players reset @a wandering_trader_timer_score
-tag @a remove SummonedTrader
+# Stop tracking all players
+scoreboard players reset * wandering_trader_timer_score

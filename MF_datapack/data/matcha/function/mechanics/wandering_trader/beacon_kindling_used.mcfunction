@@ -5,9 +5,9 @@ advancement revoke @s only matcha:mechanics/beacon_kindling
 execute at @n[type=marker,tag=beacon_kindling,tag=!beacon_kindling_init] run function matcha:mechanics/wandering_trader/place_beacon_kindling
 
 # If this player already has an active Beacon Kindling, cancel the one they just placed
-execute if entity @s[tag=SummonedTrader] run tellraw @s {"translate":"log.kleispack.wandering_trader.beacon_placed","color":"gray"}
-execute if entity @s[tag=SummonedTrader] at @n[type=marker,tag=beacon_kindling,tag=!beacon_kindling_init] run return run function matcha:mechanics/wandering_trader/kill_this_beacon
+execute if entity @s[scores={wandering_trader_timer_score=0..}] run tellraw @s {"translate":"log.kleispack.wandering_trader.beacon_placed","color":"gray"}
+execute if entity @s[scores={wandering_trader_timer_score=0..}] as @n[type=marker,tag=beacon_kindling,tag=!beacon_kindling_init] run return run kill @s
 
 # Mark the player and start summoning a wandering trader
+scoreboard players add @s wandering_trader_timer_score 0
 function matcha:mechanics/wandering_trader/initialise_wandering_trader_spawn
-tag @s add SummonedTrader

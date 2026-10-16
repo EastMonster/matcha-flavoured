@@ -101,8 +101,6 @@ scoreboard objectives add hunger_timer dummy
 
 # Used for Beacon Kindling
 scoreboard objectives add wandering_trader_timer_score dummy
-scoreboard players set 10min wandering_trader_timer_score 60
-scoreboard players set 15min wandering_trader_timer_score 90
 
 scoreboard objectives add version_number dummy
 # EX. 104 is 1.04, it represents the current version, 1211 1.12.1

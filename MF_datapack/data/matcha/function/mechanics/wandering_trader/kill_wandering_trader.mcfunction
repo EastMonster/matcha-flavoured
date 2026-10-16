@@ -14,6 +14,6 @@ kill @s
 # Tell nearby players that the Wandering Trader has left
 tellraw @a[distance=..128] {"translate":"log.kleispack.wandering_trader.kill","color":"gray"}
 
-# Stop tracking any players who summoned a Wandering Trader 15mins ago
-execute as @a if score @s wandering_trader_timer_score >= 15min wandering_trader_timer_score run tag @s remove SummonedTrader
-execute as @a if score @s wandering_trader_timer_score >= 15min wandering_trader_timer_score run scoreboard players reset @s wandering_trader_timer_score
+# Stop tracking any players who summoned a Wandering Trader 15mins ago (90)
+execute as @a if score @s wandering_trader_timer_score matches 90.. run tag @s remove SummonedTrader
+execute as @a if score @s wandering_trader_timer_score matches 90.. run scoreboard players reset @s wandering_trader_timer_score
