@@ -2,9 +2,9 @@
 	"type": "minecraft:crafting_shaped",
 	"category": "building",
 	"pattern": [
-		" o ",
-		" C ",
-		" X "
+		"o",
+		"C",
+		"X"
 	],
 	"key": {
 		"o": "minecraft:emerald",
