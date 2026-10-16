@@ -21,6 +21,6 @@
 		}
 	},
 	"rewards": {
-		"function": "matcha:mechanics/xp_handling/give_temp_levels"
+		"function": "matcha:mechanics/xp_handling/give_levels"
 	}
 }
