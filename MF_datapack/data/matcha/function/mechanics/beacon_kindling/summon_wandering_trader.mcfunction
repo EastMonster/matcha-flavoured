@@ -8,8 +8,8 @@ tag @s add summoned_trader
 # Summon a Wandering Trader with a tag to distinguish them from natural spawns
 summon wandering_trader ^1 ^ ^ {Invulnerable:1b,Tags:["summoned_by_beacon"]}
 
-# Find the Wandering Trader we just summoned, it should be the only one without a score, and add it to the scoreboard
-execute as @e[type=wandering_trader,tag=summoned_by_beacon] unless score @s wandering_trader_timer_score matches 0.. run scoreboard players add @s wandering_trader_timer_score 0
+# Find the Wandering Trader we just summoned, it should be the only one without a Lifetime score, and give it a 5min Lifetime (30)
+execute as @e[type=wandering_trader,tag=summoned_by_beacon] unless score @s Lifetime matches 0.. run scoreboard players add @s Lifetime 30
 
 
 tellraw @a[distance=..128] {"translate":"log.kleispack.wandering_trader.summoned","color":"gray"}

@@ -100,7 +100,10 @@ scoreboard objectives add wither_timer dummy
 scoreboard objectives add hunger_timer dummy
 
 # Used for Beacon Kindling
-scoreboard objectives add wandering_trader_timer_score dummy
+scoreboard objectives add BeaconKindlingCooldown dummy
+
+# Used for Non-Player Entities who only exist for a set duration
+scoreboard objectives add Lifetime dummy
 
 scoreboard objectives add version_number dummy
 # EX. 104 is 1.04, it represents the current version, 1211 1.12.1
