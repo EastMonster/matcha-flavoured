@@ -6,7 +6,7 @@
 kill @e[type=minecraft:wandering_trader,tag=summoned_by_beacon]
 
 # Kill all Beacon Kindling
-execute as @e[type=marker,tag=beacon_kindling] at @s run function matcha:mechanics/wandering_trader/kill_wandering_trader_early
+execute as @e[type=marker,tag=beacon_kindling] at @s run function matcha:mechanics/beacon_kindling/kill_wandering_trader_early
 
 # Stop tracking all players
 scoreboard players reset * wandering_trader_timer_score

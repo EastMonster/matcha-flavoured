@@ -26,4 +26,4 @@ advancement revoke @a from matcha:imm_revoke
 function matcha:favorite_food/favorite_food_setup
 
 # Remove existing Beacon Kindling and summoned Wandering Traders
-function matcha:mechanics/wandering_trader/on_load
+function matcha:mechanics/beacon_kindling/on_load

@@ -7,4 +7,4 @@ tellraw @a[distance=..128] {"translate":"log.kleispack.wandering_trader.initiali
 execute as @n[type=marker,tag=beacon_kindling,tag=!beacon_kindling_init] run tag @s add beacon_kindling_init
 
 # Initialise the loop
-function matcha:mechanics/wandering_trader/check_wandering_trader_timer_loop
+function matcha:mechanics/beacon_kindling/check_wandering_trader_timer_loop
