@@ -1,3 +1,5 @@
+# This function is run by the player who placed the Beacon
+
 # Reset the advancement trigger
 advancement revoke @s only matcha:mechanics/beacon_kindling
 
@@ -10,4 +12,9 @@ execute if entity @s[scores={BeaconKindlingCooldown=1..}] as @n[type=marker,tag=
 
 # Put the player on a 15min (90) Cooldown and start summoning a Wandering Trader
 scoreboard players add @s BeaconKindlingCooldown 90
-function matcha:mechanics/beacon_kindling/initialise_wandering_trader_spawn
+
+# Tell nearby players that a Wandering Trader is coming
+tellraw @a[distance=..128] {"translate":"log.kleispack.wandering_trader.initialise","color":"gray"}
+
+# Tag the beacon kindling marker as Initialised
+execute as @n[type=marker,tag=beacon_kindling,tag=!beacon_kindling_init] run tag @s add beacon_kindling_init
