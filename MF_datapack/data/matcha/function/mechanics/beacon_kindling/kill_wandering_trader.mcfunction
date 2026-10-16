@@ -7,5 +7,5 @@ tellraw @a[distance=..128] {"translate":"log.kleispack.wandering_trader.kill","c
 particle minecraft:poof ~ ~.5 ~ .2 1 .2 0 50
 tp @s ~ ~-1000 ~
 
-# Kill this Marker
+# Kill this entity
 kill @s

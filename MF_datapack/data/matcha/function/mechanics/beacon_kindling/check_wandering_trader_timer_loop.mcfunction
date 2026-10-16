@@ -1,10 +1,10 @@
 # This function is run once every 10s by the Server
 
+# If the campfire is broken, kill everything
+execute as @e[type=marker,tag=beacon_kindling] at @s unless block ~ ~ ~ minecraft:campfire[lit=true] run function matcha:mechanics/beacon_kindling/kill_wandering_trader_early
+
 # Check if the 10 min timer is up (60), and the beacon has NOT already summoned a trader, if true, summon him
 execute as @e[type=marker,tag=beacon_kindling,tag=!summoned_trader] if score @s wandering_trader_timer_score matches 60.. at @s run function matcha:mechanics/beacon_kindling/summon_wandering_trader
-
-# If the campfire is broken, kill everything (this check should probably happen first)
-execute as @e[type=marker,tag=beacon_kindling] at @s unless block ~ ~ ~ minecraft:campfire[lit=true] run function matcha:mechanics/beacon_kindling/kill_wandering_trader_early
 
 
 # Check if Beacon Kindling should be extinguished
