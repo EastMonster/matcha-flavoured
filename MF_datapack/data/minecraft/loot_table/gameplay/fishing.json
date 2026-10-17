@@ -190,12 +190,7 @@
 							"condition": {
 								"type": "minecraft:location_check",
 								"predicate": {
-									"biomes": [
-										"#minecraft:is_ocean",
-										"#minecraft:is_beach",
-										"#c:is_ocean",
-										"#c:is_beach"
-									]
+									"biomes": "#minecraft:fallback"
 								}
 							}
 						},
