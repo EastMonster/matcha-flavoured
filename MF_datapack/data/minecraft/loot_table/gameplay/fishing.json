@@ -201,7 +201,7 @@
 						},
 						{
 							"type": "minecraft:loot_table",
-							"value": "minecraft:gameplay/fishing/junk",
+							"value": "minecraft:gameplay/fishing/junk"
 						}
 					]
 				}
