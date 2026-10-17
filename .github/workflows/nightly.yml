@@ -10,6 +10,7 @@ permissions:
 
 jobs:
   nightly:
+    if: github.repository == 'kleiwright/matcha-flavoured'
     runs-on: ubuntu-latest
     steps:
       - name: Checkout repository
@@ -46,7 +47,6 @@ jobs:
         run: |
           echo -n "This is an experimental release with the latest features and bugfixes, updated every day. Last commit: " >> nightly.txt
           git log --format="%H" HEAD^..HEAD >> nightly.txt
-          echo -n "\n" >> nightly.txt
           cat changelog.md >> nightly.txt
 
       - name: Create Release
