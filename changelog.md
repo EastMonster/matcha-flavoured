@@ -1,6 +1,11 @@
 ### Major Additions and Changes
 - Buckets are now copper instead of Iron (Internet-Hyena + Me)
 
+<<<<<<< Updated upstream
+=======
+
+
+>>>>>>> Stashed changes
 #### Small Tweaks
 - Lanterns can now be crafted from Steel (Internet-Hyena)
 
@@ -20,6 +25,13 @@
     - Zephyr lvl 1 & 2 no longer play the "charged" indication ping and particles
     - Spamming sneak after releasing a charged Zephyr no longer spams the wind burst particle and sound despite not doing anything mechanically
 - Luck of the Sea now affects the quality (Star rating) of fish caught (Internet-Hyena)
+<<<<<<< Updated upstream
+=======
+- Straw beds can now be slept in during day (ReinIsNOTaDev)
+- Fishing LT bugs fixed (ReinIsNOTaDev)
+
+
+>>>>>>> Stashed changes
 
 #### Credits
 - Hashiru: Optimisations
