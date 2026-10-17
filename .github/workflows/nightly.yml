@@ -10,7 +10,6 @@ permissions:
 
 jobs:
   nightly:
-    if: github.repository == 'kleiwright/matcha-flavoured'
     runs-on: ubuntu-latest
     steps:
       - name: Checkout repository
