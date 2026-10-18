@@ -11,7 +11,7 @@ No new major bugs were reported, so if nothing else comes up, this beta will be 
 
 ### Bugs & Technical Improvements
 - Crystal Hearts no longer despawn in the Abbey (Madelinebug)
-
+- Traveler’s Backpacks (and other backpack mods) now do not delete its contents in Matcha (ReinIsNOTaDev)
 
 
 #### Credits
