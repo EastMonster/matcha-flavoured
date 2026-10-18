@@ -228,7 +228,7 @@
 							"type": "minecraft:loot_table",
 							"value": "minecraft:gameplay/fishing/junk",
 							"weight": 85,
-							"quality": -1,
+							"quality": -1
 						}
 					]
 				}
