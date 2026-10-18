@@ -35194,7 +35194,7 @@
 			],
 			"id": "minecraft:brush",
 			"use": [
-				false,
+				true,
 				false,
 				true
 			],
@@ -36451,7 +36451,7 @@
 			],
 			"id": "minecraft:bone",
 			"use": [
-				false,
+				true,
 				false,
 				true
 			],
@@ -38178,9 +38178,7 @@
 			"minecraft:book",
 			"minecraft:bow",
 			"minecraft:shield",
-			"minecraft:porkchop",
-			"minecraft:bone",
-			"minecraft:brush"
+			"minecraft:porkchop"
 		],
 		"overrideType": {
 			"amber": "mineral",
