@@ -28,12 +28,12 @@
 				},
 				{
 					"type": "minecraft:alternatives",
-					"weight": 85,
-					"quality": -1,
 					"children": [
 						{
 							"type": "minecraft:loot_table",
 							"value": "minecraft:gameplay/fishing/freshwater_cold",
+							"weight": 85,
+							"quality": -1,
 							"condition": {
 								"type": "minecraft:location_check",
 								"predicate": {
@@ -44,6 +44,8 @@
 						{
 							"type": "minecraft:loot_table",
 							"value": "minecraft:gameplay/fishing/freshwater_cool",
+							"weight": 85,
+							"quality": -1,
 							"condition": {
 								"type": "minecraft:location_check",
 								"predicate": {
@@ -54,6 +56,8 @@
 						{
 							"type": "minecraft:loot_table",
 							"value": "minecraft:gameplay/fishing/freshwater_temperate",
+							"weight": 85,
+							"quality": -1,
 							"condition": {
 								"type": "minecraft:location_check",
 								"predicate": {
@@ -64,6 +68,8 @@
 						{
 							"type": "minecraft:loot_table",
 							"value": "minecraft:gameplay/fishing/freshwater_hot_wet",
+							"weight": 85,
+							"quality": -1,
 							"condition": {
 								"type": "minecraft:location_check",
 								"predicate": {
@@ -74,6 +80,8 @@
 						{
 							"type": "minecraft:loot_table",
 							"value": "minecraft:gameplay/fishing/freshwater_hot_dry",
+							"weight": 85,
+							"quality": -1,
 							"condition": {
 								"type": "minecraft:location_check",
 								"predicate": {
@@ -84,6 +92,8 @@
 						{
 							"type": "minecraft:loot_table",
 							"value": "minecraft:gameplay/fishing/saltwater_cold",
+							"weight": 85,
+							"quality": -1,
 							"condition": {
 								"type": "minecraft:location_check",
 								"predicate": {
@@ -94,6 +104,8 @@
 						{
 							"type": "minecraft:loot_table",
 							"value": "minecraft:gameplay/fishing/saltwater_cool",
+							"weight": 85,
+							"quality": -1,
 							"condition": {
 								"type": "minecraft:location_check",
 								"predicate": {
@@ -104,6 +116,8 @@
 						{
 							"type": "minecraft:loot_table",
 							"value": "minecraft:gameplay/fishing/saltwater_temperate",
+							"weight": 85,
+							"quality": -1,
 							"condition": {
 								"type": "minecraft:location_check",
 								"predicate": {
@@ -114,6 +128,8 @@
 						{
 							"type": "minecraft:loot_table",
 							"value": "minecraft:gameplay/fishing/saltwater_warm",
+							"weight": 85,
+							"quality": -1,
 							"condition": {
 								"type": "minecraft:location_check",
 								"predicate": {
@@ -124,6 +140,8 @@
 						{
 							"type": "minecraft:loot_table",
 							"value": "minecraft:gameplay/fishing/saltwater_hot",
+							"weight": 85,
+							"quality": -1,
 							"condition": {
 								"type": "minecraft:location_check",
 								"predicate": {
@@ -134,6 +152,8 @@
 						{
 							"type": "minecraft:loot_table",
 							"value": "minecraft:gameplay/fishing/swamps",
+							"weight": 85,
+							"quality": -1,
 							"condition": {
 								"type": "minecraft:location_check",
 								"predicate": {
@@ -144,6 +164,8 @@
 						{
 							"type": "minecraft:loot_table",
 							"value": "minecraft:gameplay/fishing/deep_dark",
+							"weight": 85,
+							"quality": -1,
 							"condition": {
 								"type": "minecraft:location_check",
 								"predicate": {
@@ -154,6 +176,8 @@
 						{
 							"type": "minecraft:loot_table",
 							"value": "minecraft:gameplay/fishing/sulfur_caves",
+							"weight": 85,
+							"quality": -1,
 							"condition": {
 								"type": "minecraft:location_check",
 								"predicate": {
@@ -164,6 +188,8 @@
 						{
 							"type": "minecraft:loot_table",
 							"value": "minecraft:gameplay/fishing/freshwater_temperate",
+							"weight": 85,
+							"quality": -1,
 							"condition": {
 								"type": "minecraft:location_check",
 								"predicate": {
@@ -177,6 +203,8 @@
 						{
 							"type": "minecraft:loot_table",
 							"value": "minecraft:gameplay/fishing/pale_garden",
+							"weight": 85,
+							"quality": -1,
 							"condition": {
 								"type": "minecraft:location_check",
 								"predicate": {
@@ -187,6 +215,8 @@
 						{
 							"type": "minecraft:loot_table",
 							"value": "minecraft:gameplay/fishing/saltwater_temperate",
+							"weight": 85,
+							"quality": -1,
 							"condition": {
 								"type": "minecraft:location_check",
 								"predicate": {
@@ -196,7 +226,9 @@
 						},
 						{
 							"type": "minecraft:loot_table",
-							"value": "minecraft:gameplay/fishing/junk"
+							"value": "minecraft:gameplay/fishing/junk",
+							"weight": 85,
+							"quality": -1
 						}
 					]
 				}
