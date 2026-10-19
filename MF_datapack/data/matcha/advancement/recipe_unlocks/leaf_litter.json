@@ -2,22 +2,16 @@
 	"parent": "minecraft:recipes/root",
 	"criteria": {
 		"has_primary_material": {
+			"trigger": "minecraft:inventory_changed",
 			"conditions": {
 				"items": [
 					{
 						"items": "minecraft:leaf_litter"
 					}
 				]
-			},
-			"trigger": "minecraft:inventory_changed"
+			}
 		}
 	},
-	"requirements": [
-		[
-			"has_the_recipe",
-			"has_primary_material"
-		]
-	],
 	"rewards": {
 		"recipes": [
 			"matcha:crafting/podzol"
