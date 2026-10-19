@@ -1,14 +1,3 @@
-# This function is ran every tick by Players that are in Villages
-
-# Activate the Entity
-execute as @n[type=minecraft:mannequin,tag=haunted] at @s run function matcha:environmental/village/entity
-
-# Activate the Jukebox
-execute as @n[type=marker,tag=jukebox] at @s run function matcha:environmental/village/jukebox
-
-# Kills any playing music
-stopsound @s music
-
 # This makes it kinda random because the tick and time doesn't always line up, the best I could do ig
 execute if stopwatch eerie 1..1.02 if block ~ ~-.5 ~ minecraft:coarse_dirt run playsound minecraft:block.wood.step player @s ~-2 ~4 ~ 0.5
 execute if stopwatch eerie 1.25..1.27 if block ~ ~-.5 ~ minecraft:coarse_dirt run playsound minecraft:block.wood.step player @s ~-1 ~4 ~ 0.5
