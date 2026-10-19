@@ -1,14 +1,10 @@
 # This function is ran every tick by Players that are in Villages
 
-# Turn the Entity to face them
-execute as @n[type=minecraft:mannequin,tag=haunted] at @s anchored eyes run tp @s ~ ~ ~ facing entity @p eyes
+# Activate the Entity
+execute as @n[type=minecraft:mannequin,tag=haunted] at @s run function matcha:environmental/village/entity
 
-# If the player is close to the Jukebox, play Dry Hands
-execute at @n[type=marker,tag=jukebox,tag=!music_played] if entity @s[,distance=..30,gamemode=survival] run function matcha:environmental/play_village_jukebox
-
-# If they get too close, and don't come through the door, kill everything
-execute at @n[type=marker,tag=jukebox] if entity @s[distance=..2,gamemode=survival] run function matcha:environmental/kill_village_entity
-execute at @n[type=minecraft:mannequin,tag=haunted] if entity @s[distance=..5,gamemode=survival] run function matcha:environmental/kill_village_entity
+# Activate the Jukebox
+execute as @n[type=marker,tag=jukebox] at @s run function matcha:environmental/village/jukebox
 
 # Kills any playing music
 stopsound @s music
