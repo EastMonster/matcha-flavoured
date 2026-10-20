@@ -79,8 +79,6 @@ stopwatch create 0.5s
 
 # Used for village sounds
 stopwatch create eerie
-scoreboard objectives add eerie dummy
-scoreboard players set 1 eerie 1
 
 scoreboard objectives add boating minecraft.custom:minecraft.boat_one_cm
 
