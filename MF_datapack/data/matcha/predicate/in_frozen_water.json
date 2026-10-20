@@ -9,8 +9,7 @@
 					"is_in_water": true
 				},
 				"minecraft:location": {
-					"biomes": "#minecraft:is_frozen",
-					"can_see_sky": true
+					"biomes": "#minecraft:is_frozen"
 				}
 			}
 		}
