@@ -6,3 +6,4 @@ schedule function matcha:timers/1s 1s replace
 
 # Functions
 execute as @a[scores={hunger_timer=0..}] at @s run function matcha:effects/hunger/effect
+execute as @a[scores={matcha.xp_timer=0..}] at @s run function matcha:mechanics/xp_handling/remove_xp
