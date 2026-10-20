@@ -6,13 +6,13 @@
 			"entity": "this",
 			"predicate": {
 				"minecraft:location": {
+					"dimension": "minecraft:the_nether",
 					"position": {
 						"y": {
 							"min": 0,
 							"max": 127
 						}
-					},
-					"dimension": "minecraft:the_nether"
+					}
 				}
 			}
 		}

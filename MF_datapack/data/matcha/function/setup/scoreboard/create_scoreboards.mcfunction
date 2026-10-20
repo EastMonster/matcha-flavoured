@@ -88,7 +88,6 @@ scoreboard objectives add eat_cake_slice minecraft.custom:minecraft.eat_cake_sli
 scoreboard players set 1 eat_cake_slice 1
 
 scoreboard objectives add water_bucket_used minecraft.used:minecraft.water_bucket
-scoreboard players set 1 water_bucket_used 1
 
 # Used for Wither Effect (Heartbreaker)
 scoreboard objectives add wither_timer dummy
