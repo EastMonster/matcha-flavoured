@@ -6,7 +6,7 @@ execute as @a[scores={shakudo_regen=1..}] run function matcha:enchantment_effect
 
 function matcha:environmental/check_freezing_water_conditions
 function matcha:environmental/nether_water
-function matcha:environmental/village_eerie_sound
+execute as @a[predicate=matcha:in_village] at @s run function matcha:environmental/village/tick
 
 function matcha:mechanics/cake_eaten
 function matcha:mechanics/heart_container/detect_death
