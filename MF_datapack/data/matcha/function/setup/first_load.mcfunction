@@ -6,3 +6,5 @@ execute unless score gamerules_setup gamerules matches 1 run function matcha:set
 
 # Confirm that gamerules have been set
 scoreboard players set gamerules_setup gamerules 1
+
+execute if score current_world_settings_difficulty difficulty_score matches 3 run function matcha:setup/disallow_hard_on_first_load
