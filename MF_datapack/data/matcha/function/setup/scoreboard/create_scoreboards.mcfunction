@@ -126,6 +126,3 @@ scoreboard players set #1000 update_item 1000
 
 # Used to detect when player joins the server
 scoreboard objectives add leave_game minecraft.custom:minecraft.leave_game
-
-# Used as a timer to remove XP
-scoreboard objectives add matcha.xp_timer dummy
