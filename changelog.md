@@ -20,6 +20,8 @@ This will be the full release if, over the weekend, no new major bugs are report
     - You can still change it if you really want to
     - Too many people started matcha by playing in hard and were like "WHA why is this so hard and unfair?!!?" But wouldn't change back to normal :|
 - Guardians now drop matcha fish
+- Sulfur Ore texture Changes
+- Both Hell Sulfur and Overworld Sulfur ore now emits sulfur particles when stepped on
 
 ### Bugs & Technical Improvements
 - Crystal Hearts no longer despawn in the Abbey (Madelinebug)
