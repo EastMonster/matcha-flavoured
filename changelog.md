@@ -5,7 +5,7 @@ I apologise for that, and I will try and do better next time. I know fishing was
 This will be the full release if, over the weekend, no new major bugs are reported
 
 ### EXPECTED ISSUES
-- Some map names will be messed up, just use the other RP and place it beneath the newest one
+- Some map names will be messed up, just use the other RP (prev version) and place it beneath the newest one if it bothers you
     - This was done to future-proof map changes in accordance with the Poplar Drop's changes
 
 ### Major Additions and Changes
@@ -28,4 +28,4 @@ This will be the full release if, over the weekend, no new major bugs are report
 - Enderman now spawn in the end
 - Signs and Books no longer appear blank (HapppySpud)
 - Fishing doesn't suck anymore (hopefully) (Madelinebug)
-- Some Maps were broken
+- Some Maps were broken (esp Wandering Trader) they're fixed now
