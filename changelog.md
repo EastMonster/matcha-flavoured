@@ -7,6 +7,7 @@ This will be the full release if, over the next week, no new major bugs are repo
 ### EXPECTED ISSUES
 - Some map names will be messed up, just use the other RP (prev version) and place it beneath the newest one if it bothers you
     - This was done to future-proof map changes in accordance with the Poplar Drop's changes
+- Chemistry Stand name is messed up, don't worry about it (Shh)
 
 ### Major Additions and Changes
 - Zephyr is now only Supported on Leather Boots
