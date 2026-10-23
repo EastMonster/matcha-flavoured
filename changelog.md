@@ -12,13 +12,15 @@ This will be the full release if, over the weekend, no new major bugs are report
 - Zephyr is now only Supported on Leather Boots
 - Fossil "Ore" can now be found (Peaceful bones!)
     - Yes I know fossils are actually mineralised bones and aren't really bones don't @ me
+- Husks
+    - Damage reduced from 15 to 10 in hard (still enough to one-shot in hard with no armour)
+- Hard is now disallowed on world start
+    - You can still change it if you really want to
+    - Too many people started matcha by playing in hard and were like "WHA why is this so hard and unfair?!!?" But wouldn't change back to normal :|
 
 #### Small Tweaks
 - Lanterns can now be crafted from Steel (Internet-Hyena)
 - Podzol can now be crafted from dirt and leaf litter
-- Hard is now disallowed on world start
-    - You can still change it if you really want to
-    - Too many people started matcha by playing in hard and were like "WHA why is this so hard and unfair?!!?" But wouldn't change back to normal :|
 - Guardians now drop matcha fish
 - Sulfur Ore texture Changes
 - Both Hell Sulfur and Overworld Sulfur ore now emits sulfur particles when stepped on
