@@ -1,8 +1,8 @@
-Last update I put out only 3 days after the alpha release. That was my mistake. Because I work nights, time can be hard for me to keep track of, and it felt like it had been a week since the last update...it had only been 3 days. I do not plan to release updates that close to each other, they should all have at least a week apart so that I have more time to catch any major bugs.
+Last update I put out only 3 days after the alpha release. That was my mistake. Because I work nights, time can be hard for me to keep track of, and it felt like it had been a week since the last update...it had only been 3 days. I do not plan to release updates that close to each other, they should all have about a week apart so that I have more time to catch any major bugs.
 
 I apologise for that, and I will try and do better next time. I know fishing was busted, which sucks. All of us are still working on things in the background, but im holding off on adding them to a release until I have a bunch of new stuff to bundle together. Im excited, but I think less frequent, bigger updates are better for QA and UX. Best to you. (And Ill probably make a video about the new stuff I add)
 
-This will be the full release if, over the weekend, no new major bugs are reported
+This will be the full release if, over the next week, no new major bugs are reported
 
 ### EXPECTED ISSUES
 - Some map names will be messed up, just use the other RP (prev version) and place it beneath the newest one if it bothers you
