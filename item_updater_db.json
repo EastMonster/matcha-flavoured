@@ -36065,8 +36065,8 @@
 			"models": [],
 			"id": "minecraft:red_bundle",
 			"use": [
-				true,
 				false,
+				true,
 				false
 			],
 			"type": "generic",
