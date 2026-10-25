@@ -38180,7 +38180,8 @@
 			"minecraft:shield",
 			"minecraft:porkchop",
 			"minecraft:bone",
-			"minecraft:brush"
+			"minecraft:brush",
+			"minecraft:red_bundle"
 		],
 		"overrideType": {
 			"amber": "mineral",
