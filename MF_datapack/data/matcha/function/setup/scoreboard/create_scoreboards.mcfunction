@@ -82,9 +82,6 @@ stopwatch create eerie
 
 scoreboard objectives add boating minecraft.custom:minecraft.boat_one_cm
 
-scoreboard objectives add eat_cake_slice minecraft.custom:minecraft.eat_cake_slice
-scoreboard players set 1 eat_cake_slice 1
-
 # Used for Wither Effect (Heartbreaker)
 scoreboard objectives add wither_timer dummy
 
