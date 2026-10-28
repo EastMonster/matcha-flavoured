@@ -11,7 +11,7 @@
 	"display": {
 		"description": [
 			{
-				"text": "\uE00F ",
+				"text": " ",
 				"color": "#ac7b5c"
 			},
 			{
@@ -37,6 +37,31 @@
 	"rewards": {
 		"loot": [
 			"matcha:advancement/obol_1"
+		],
+		"recipes": [
+			"matcha:blessing/aeolus",
+			"matcha:blessing/apollo",
+			"matcha:blessing/arachnae",
+			"matcha:blessing/ares",
+			"matcha:blessing/artemis",
+			"matcha:blessing/clement",
+			"matcha:blessing/cronus",
+			"matcha:blessing/daedalus",
+			"matcha:blessing/demeter",
+			"matcha:blessing/eros",
+			"matcha:blessing/glaucus",
+			"matcha:blessing/god_king",
+			"matcha:blessing/hyacinthus",
+			"matcha:blessing/icarus",
+			"matcha:blessing/lu_ban",
+			"matcha:blessing/man",
+			"matcha:blessing/midas",
+			"matcha:blessing/paris",
+			"matcha:blessing/prometheus",
+			"matcha:blessing/talos",
+			"matcha:blessing/will",
+			"matcha:blessing/yama",
+			"matcha:blessing/yamm"
 		]
 	}
 }

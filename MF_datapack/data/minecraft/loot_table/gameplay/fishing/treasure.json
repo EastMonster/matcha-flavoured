@@ -6,7 +6,7 @@
 			"entries": [
 				{
 					"type": "minecraft:item",
-					"weight": 14,
+					"weight": 42,
 					"modifier": {
 						"type": "minecraft:sequence",
 						"functions": [
@@ -30,7 +30,7 @@
 				},
 				{
 					"type": "minecraft:item",
-					"weight": 10,
+					"weight": 30,
 					"modifier": {
 						"type": "minecraft:enchant_with_levels",
 						"levels": 30,
@@ -41,7 +41,7 @@
 				{
 					"type": "minecraft:item",
 					"name": "minecraft:angler_pottery_sherd",
-					"weight": 5,
+					"weight": 15,
 					"quality": -1
 				},
 				{
@@ -57,7 +57,7 @@
 				{
 					"type": "minecraft:item",
 					"name": "minecraft:emerald",
-					"weight": 24,
+					"weight": 72,
 					"modifier": {
 						"type": "minecraft:set_count",
 						"count": {
@@ -86,7 +86,7 @@
 				{
 					"type": "minecraft:loot_table",
 					"value": "matcha:treasure/crystal_heart",
-					"weight": 2,
+					"weight": 6,
 					"quality": 2
 				}
 			],

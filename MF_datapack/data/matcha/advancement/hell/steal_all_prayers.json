@@ -1,103 +1,138 @@
 {
 	"parent": "matcha:hell/craft_blessing",
 	"criteria": {
-		"bane_of_arthopods": {
+		"talos": {
+			"trigger": "minecraft:recipe_crafted",
+			"conditions": {
+				"recipes": "matcha:blessing/talos"
+			}
+		},
+		"glaucus": {
+			"trigger": "minecraft:recipe_crafted",
+			"conditions": {
+				"recipes": "matcha:blessing/glaucus"
+			}
+		},
+		"cronus": {
+			"trigger": "minecraft:recipe_crafted",
+			"conditions": {
+				"recipes": "matcha:blessing/cronus"
+			}
+		},
+		"artemis": {
+			"trigger": "minecraft:recipe_crafted",
+			"conditions": {
+				"recipes": "matcha:blessing/artemis"
+			}
+		},
+		"ares": {
+			"trigger": "minecraft:recipe_crafted",
+			"conditions": {
+				"recipes": "matcha:blessing/ares"
+			}
+		},
+		"apollo": {
+			"trigger": "minecraft:recipe_crafted",
+			"conditions": {
+				"recipes": "matcha:blessing/apollo"
+			}
+		},"arachnae": {
 			"trigger": "minecraft:recipe_crafted",
 			"conditions": {
 				"recipes": "matcha:blessing/arachnae"
 			}
 		},
-		"channeling_smite": {
+		"god_king": {
 			"trigger": "minecraft:recipe_crafted",
 			"conditions": {
 				"recipes": "matcha:blessing/god_king"
 			}
 		},
-		"depth_strider_riptide_aqua_affinity_respiration": {
+		"yamm": {
 			"trigger": "minecraft:recipe_crafted",
 			"conditions": {
 				"recipes": "matcha:blessing/yamm"
 			}
 		},
-		"efficiency_unbreaking": {
+		"daedalus": {
 			"trigger": "minecraft:recipe_crafted",
 			"conditions": {
 				"recipes": "matcha:blessing/daedalus"
 			}
 		},
-		"feather_falling": {
+		"icarus": {
 			"trigger": "minecraft:recipe_crafted",
 			"conditions": {
 				"recipes": "matcha:blessing/icarus"
 			}
 		},
-		"flame_fire_aspect_fire_protection": {
+		"yama": {
 			"trigger": "minecraft:recipe_crafted",
 			"conditions": {
 				"recipes": "matcha:blessing/yama"
 			}
 		},
-		"infinity": {
+		"paris": {
 			"trigger": "minecraft:recipe_crafted",
 			"conditions": {
 				"recipes": "matcha:blessing/paris"
 			}
 		},
-		"mending": {
+		"lu_ban": {
 			"trigger": "minecraft:recipe_crafted",
 			"conditions": {
 				"recipes": "matcha:blessing/lu_ban"
 			}
 		},
-		"reach": {
+		"will": {
 			"trigger": "minecraft:recipe_crafted",
 			"conditions": {
 				"recipes": "matcha:blessing/will"
 			}
 		},
-		"silk_touch": {
+		"eros": {
 			"trigger": "minecraft:recipe_crafted",
 			"conditions": {
 				"recipes": "matcha:blessing/eros"
 			}
 		},
-		"traversal": {
+		"clement": {
 			"trigger": "minecraft:recipe_crafted",
 			"conditions": {
 				"recipes": "matcha:blessing/clement"
 			}
 		},
-		"unbreaking": {
+		"prometheus": {
 			"trigger": "minecraft:recipe_crafted",
 			"conditions": {
 				"recipes": "matcha:blessing/prometheus"
 			}
 		},
-		"warding": {
+		"man": {
 			"trigger": "minecraft:recipe_crafted",
 			"conditions": {
 				"recipes": "matcha:blessing/man"
 			}
 		},
-		"frost_walker_frost_protection": {
+		"demeter": {
 			"trigger": "minecraft:recipe_crafted",
 			"conditions": {
 				"recipes": "matcha:blessing/demeter"
 			}
 		},
-		"wind_burst_anemos": {
+		"aeolus": {
 			"trigger": "minecraft:recipe_crafted",
 			"conditions": {
 				"recipes": "matcha:blessing/aeolus"
 			}
 		},
-		"zephyr": {
+		"hyacinthus": {
 			"trigger": "minecraft:recipe_crafted",
 			"conditions": {
 				"recipes": "matcha:blessing/hyacinthus"
 			}
 		},
-		"looting_fortune": {
+		"midas": {
 			"trigger": "minecraft:recipe_crafted",
 			"conditions": {
 				"recipes": "matcha:blessing/midas"
