@@ -1,7 +1,8 @@
 X
 
 ### EXPECTED ISSUES
-X
+- Cake can sometimes not be eaten (A future fix will address this)
+
 ### Major Additions and Changes
 X
 #### Small Tweaks
@@ -15,3 +16,11 @@ X
 - Villagers can now replant tomatoes
 - Blessing are now unlocked on crafting hell-bound book
 - Blessing advs fixed
+- Cake eating reworked
+- XP shader removed replaced with a lang solution (HapppySpud)
+- Some crops are now shaded proper (EastMonster)
+- Villager Gifts updated (HapppySpud)
+- Red Bundles no longer converts into Geo Bundles (galact1cdev)
+- Updated Sweet Berries and Carrots in Farmer trade (HapppySpud)
+- Hard mode flipper no longer appears in hardcore (HapppySpud)
+- Invalid wither spawn updated a bit (HapppySpud)
